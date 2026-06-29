@@ -1,0 +1,1409 @@
+[
+  {
+    "id": "POLS 132",
+    "name": "Tư tưởng Hồ Chí Minh",
+    "english": "Ho Chi Minh's Ideology",
+    "objective": "Môn học Tư tưởng Hồ Chí Minh cung cấp cho sinh viên những kiến thức cơ bản về: Đối tượng, phương pháp, nghiên cứu và ý nghĩa học tập môn Tư tưởng Hồ Chí Minh; về cơ sở, quá trình hình thành và phát triển Tư tưởng Hồ Chí Minh; nội dung Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội; về Đảng Cộng sản và Nhà nước Việt Nam của nhân dân, do nhân dân, vì nhân dân; về đại đoàn kết dân tộc và đoàn kết quốc tế; về văn hóa, đạo đức, con người. Qua môn học này sinh viên được nâng cao bản lĩnh chính trị, yêu nước, trung thành với mục tiêu, lý tưởng của cách mạng Việt Nam; nâng cao được trách nhiệm của bản thân trong việc học tập, rèn luyện để góp phần xây dựng và bảo vệ Tổ quốc.",
+    "review": "Môn học giúp sinh viên hiểu tư tưởng Hồ Chí Minh và rèn luyện bản lĩnh chính trị."
+  },
+  {
+    "id": "POLS 133",
+    "name": "Triết học Mác-Lênin",
+    "english": "Philosophy of Marxism and Leninism",
+    "objective": "Môn học Triết học Mác – Lênin cung cấp cho sinh viên những kiến thức cơ bản về: Triết học và vai trò của triết học trong đời sống xã hội, những nét khái quát nhất triết học Mác – Lênin, và vai trò của triết học Mác – Lênin trong đời sống xã hội; về chủ nghĩa duy vật biện chứng, gồm những vấn đề: vật chất và ý thức, phép biện chứng duy vật, lý luận nhận thức của chủ nghĩa duy vật biện chứng; về chủ nghĩa duy vật lịch sử, gồm vấn đề: hình thái kinh tế - xã hội, giai cấp và dân tộc, nhà nước và cách mạng xã hội, ý thức xã hội, triết học về con người. Qua môn học này, sinh viên được nâng cao trình độ nhận thức, tự tin, chủ động, sáng tạo, có khả năng giải quyết được các vấn đề trong cuộc sống, trong học tập, trong công việc và thích nghi được với điều kiện thay đổi của nền kinh tế - xã hội.",
+    "review": "Môn học nâng cao nhận thức và kỹ năng giải quyết vấn đề qua triết học Mác-Lênin."
+  },
+  {
+    "id": "POLS 134",
+    "name": "Kinh tế chính trị Mác-Lênin",
+    "english": "Political Economics of Marxism and Leninism",
+    "objective": "Nội dung học phần được cấu trúc thành 6 chương. Trong đó, chương I giới thiệu về đối tượng, phương pháp nghiên cứu và chức năng của môn học; chương II, III, IV tập trung nghiên cứu những lý luận giá trị lao động, quá trình sản xuất giá trị thặng dư trong giai đoạn chủ nghĩa tư bản tự do canh tranh, giai đoạn độc quyền và độc quyền nhà nước; chương V,VI trình bày kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt nam, những quan điểm, giải pháp về công nghiệp hóa hiện đại hóa và vấn đề hội nhập kinh tế quốc tế của Việt nam. Môn Kinh tế chính trị Mác – Lênin có mối quan hệ mật thiết đối với môn Triết học Mác – Lênin, Chủ nghĩa xã hội khoa học.",
+    "review": "Môn học cung cấp lý luận kinh tế Mác-Lênin và ứng dụng vào Việt Nam."
+  },
+  {
+    "id": "POLS 135",
+    "name": "Chủ nghĩa xã hội khoa học",
+    "english": "Scientific socialism",
+    "objective": "Môn chủ nghĩa xã hội – khoa học cung cấp cho sinh viên những kiến thức cơ bản về: những vấn đề cơ bản có tính nhập môn của CNXHKH (quá trình hình thành, phát triển của CNXHKH); Sứ mệnh của lịch sử của giai cấp công nhân; Chủ nghĩa xã hội và thời kỳ quá độ lên chủ nghĩa xã hội ; Dân chủ xã hội chủ nghĩa và nhà nước xã hội chủ nghĩa ; Cơ cấu xã hội – giai cấp và liên minh giai cấp, tầng lớp trong thời kỳ quá độ lên chủ nghĩa xã hội; Vấn đề dân tộc trong thời kỳ quá độ lên chủ nghĩa xã hội; Vấn đề tôn giáo trong thời kỳ quá độ lên chủ nghĩa xã hội; Vấn đề gia đình trong thời kỳ quá độ lên chủ nghĩa xã hội. Qua môn học này, sinh viên nắm được các vấn đề chính trị - xã hội trong thời đại ngày nay, có khả năng giải quyết được các vấn đề trong cuộc sống, có niềm tin vào lý tưởng của Đảng và con đường quá độ lên CNXH của Việt Nam.",
+    "review": "Môn học giúp sinh viên hiểu chủ nghĩa xã hội và giải quyết vấn đề xã hội."
+  },
+  {
+    "id": "POLS 136",
+    "name": "Lịch sử Đảng Cộng sản Việt Nam",
+    "english": "History of Vietnamese Communist Party",
+    "objective": "Môn học trang bị cho người học hiểu rõ về đối tượng, mục đích, nhiệm vụ và phương pháp nghiên cứu, học tập học phần Lịch sử Đảng Cộng sản Việt Nam; Nắm vững kiến thức cơ bản và hệ thống về sự ra đời, quá trình lãnh đạo cuộc đấu tranh giành chính quyền (1930 - 1945), lãnh đạo hai cuộc kháng chiến chống thực dân Pháp và đế quốc Mỹ xâm lược, hoàn thành giải phóng dân tộc, thống nhất đất nước (1945 - 1975), lãnh đạo cả nước quá độ lên chủ nghĩa xã hội và tiến hành công cuộc đổi mới (từ năm 1975 đến nay); Qua đó nêu bật những thành công, hạn chế và tổng kết những kinh nghiệm về sự lãnh đạo cách mạng của Đảng Cộng sản Việt Nam để giúp người học nâng cao nhận thức, niềm tin đối với Đảng Cộng sản Việt Nam; Đồng thời nâng cao nhận thức, niềm tin đối với Đảng Cộng sản Việt Nam trong thực tiễn công tác, góp phần xây dựng và bảo vệ Tổ quốc Việt Nam xã hội chủ nghĩa trong bối cảnh hiện nay.",
+    "review": "Môn học nâng cao nhận thức và niềm tin vào lịch sử Đảng Cộng sản Việt Nam."
+  },
+  {
+    "id": "LAWS 122",
+    "name": "Lý luận nhà nước và pháp luật",
+    "english": "General Theory of Law and State",
+    "objective": "Môn học này cung cấp cho sinh viên khối kiến thức sau: Bản chất nhà nước và pháp luật; các hình thức nhà nước và pháp luật; Bộ máy nhà nước; Quan hệ pháp luật; Thực hiện pháp luật; Vi phạm pháp luật; Nội dung cơ bản của Hệ thống pháp luật Việt Nam. Sinh viên có cơ hội vận dụng pháp luật vào đời sống.",
+    "review": "Môn học cung cấp kiến thức về nhà nước, pháp luật và ứng dụng thực tiễn."
+  },
+  {
+    "id": "PSYC 154",
+    "name": "Tâm lý học",
+    "english": "Psychology",
+    "objective": "Cung cấp cho sinh viên kiến thức nền tảng về tâm lý học, bao gồm kiến thức về lĩnh vực tâm lý học nói chung cũng như kiến thức cơ bản cần thiết cho từng chuyên ngành. Sinh viên được học về cách con người tiếp thu kiến thức thông qua việc nghiên cứu các chủ đề về điều kiện hóa, hình mẫu hóa, phát triển nhận thức và tư duy bậc cao. Đánh giá các mô hình tâm lý học về thuyết hành vi, thuyết học tập xã hội, phát triển nhận thức, trí nhớ, động lực và thuyết quy kết.",
+    "review": "Môn học cung cấp kiến thức nền tảng về tâm lý học và tư duy con người."
+  },
+  {
+    "id": "SOC 144",
+    "name": "Xã hội học",
+    "english": "Sociology",
+    "objective": "Môn học được thiết kế dựa trên sự kết hợp đa dạng của các lĩnh vực nhân học, xã hội học, tâm lý học, kinh tế, lịch sử, địa lý và khoa học chính trị, v.v. nhằm trang bị cho sinh viên các kiến thức thuộc lĩnh vực khoa học xã hội và các chủ đề liên quan về kinh tế học cũng như xã hội hiện đại. Môn học được tiếp cận theo hướng liên ngành để nghiên cứu hành vi của con người và các vấn đề xã hội đương đại. Điều này tạo điều kiện để sinh viên phát triển nhận thức về phương pháp nghiên cứu khoa học xã hội nói chung và kinh tế học sau này",
+    "review": "Môn học nghiên cứu hành vi con người và vấn đề xã hội qua cách tiếp cận liên ngành."
+  },
+  {
+    "id": "ECO 110",
+    "name": "Nguyên lý kinh tế học",
+    "english": "Principles of Economics",
+    "objective": "Nghiên cứu việc ra quyết định trong điều kiện nguồn lực khan hiếm. Xem xét hành vi của người tiêu dùng cá nhân và doanh nghiệp cũng như sự tương tác với chính phủ. Nghiên cứu về các vấn đề kinh tế vĩ mô, tập trung vào tăng trưởng kinh tế, lạm phát, thất nghiệp, các chính sách tiền tệ và tài khóa…",
+    "review": "Môn học nghiên cứu quyết định kinh tế và các vấn đề vĩ mô như lạm phát, thất nghiệp."
+  },
+  {
+    "id": "BUS 101",
+    "name": "Quản trị kinh doanh căn bản",
+    "english": "Fundamentals of Business Administration",
+    "objective": "Cung cấp kiến thức giới thiệu về kinh doanh cho sinh viên năm thứ nhất thông qua cái nhìn tổng quan về môi trường kinh doanh bên ngoài và hoạt động bên trong doanh nghiệp. Cung cấp cho sinh viên cái nhìn tổng quan về toàn bộ các chuyên ngành tại BBS.",
+    "review": "Môn học giới thiệu tổng quan về kinh doanh và các chuyên ngành quản trị."
+  },
+  {
+    "id": "FIN 239",
+    "name": "Tài chính cá nhân",
+    "english": "Personal Finance",
+    "objective": "Hiểu rõ vai trò và quy trình lập kế hoạch tài chính cá nhân. Thực hiện và phân tích báo cáo tài chính và ngân sách. Hiểu rõ cách quản lý tài sản và tín dụng cơ bản. Hiểu rõ các sản phẩm tài chính khác nhau hiện có trên thị trường và những rủi ro tiềm ẩn vốn có trong mỗi sản phẩm. Đánh giá các lựa chọn dựa trên thời gian, rủi ro và giá trị. Xác định các kênh đầu tư khác nhau và xây dựng danh mục đầu tư.",
+    "review": "Môn học giúp sinh viên lập kế hoạch tài chính cá nhân và quản lý đầu tư."
+  },
+  {
+    "id": "MATH 103",
+    "name": "Đại số tuyến tính",
+    "english": "Linear Algebra",
+    "objective": "Môn học này cung cấp cho sinh viên kiến thức cơ bản về ma trận, định thức, hệ phương trình tuyến tính, không gian tuyến tính, ánh xạ tuyến tính, giá trị riêng, vector riêng, cách tính toán và vận dụng ma trận và ánh xạ trong các bài toán kỹ thuật đồ họa. Sinh viên có cơ hội tính toán ma trận trên phần mềm để giải các bài toán quốc tế.",
+    "review": "Môn học cung cấp kiến thức đại số tuyến tính và ứng dụng trong đồ họa."
+  },
+  {
+    "id": "MATH 111",
+    "name": "Giải tích I",
+    "english": "Calculus I",
+    "objective": "Môn học này cung cấp cho sinh viên một số kiến thức cơ bản về giải tích hàm một biến bao gồm các khái niệm cơ bản về các hàm một biến, giới hạn và liên tục, đạo hàm và vi phân, ứng dụng của đạo hàm, tích phân và ứng dụng của tích phân xác định. Sinh viên có cơ hội tự giải quyết các bài toán trong các vấn đề khoa học và kỹ thuật cụ thể bằng cách vận dụng các kiến thức được học.",
+    "review": "Môn học cung cấp kiến thức giải tích hàm một biến và ứng dụng thực tiễn."
+  },
+  {
+    "id": "MATH 112",
+    "name": "Giải tích II",
+    "english": "Calculus II",
+    "objective": "Môn học này cung cấp cho sinh viên các kiến thức cơ bản về đường cong tham số trong mặt phẳng, trong không gian và các đặc tính của đường cong , các phép toán về vector , dãy số và chuỗi số , hàm số biến phức. Sinh viên có cơ hội tự giải quyết các bài toán trong các vấn đề khoa học và kỹ thuật cụ thể bằng cách vận dụng kiến thức được học và có kỹ năng sử dụng phần mềm để tính toán.",
+    "review": "Môn học cung cấp kiến thức về đường cong, vector và giải bài toán kỹ thuật."
+  },
+  {
+    "id": "MATH 113",
+    "name": "Giải tích III",
+    "english": "Calculus III",
+    "objective": "Môn học này cung cấp cho sinh viên một số kiến thức cơ bản về chuỗi đan dấu, chuỗi Fourier, giải tích hàm nhiều biến bao gồm các kiến thức về tính liên tục và đạo hàm của hàm nhiều biến, cực trị của hàm nhiều biến. Sinh viên có cơ hội tự giải quyết các bài toán trong các vấn đề khoa học và kỹ thuật cụ thể bằng cách vận dụng kiến thức được học và có kỹ năng sử dụng phần mềm để tính toán.",
+    "review": "Môn học cung cấp kiến thức giải tích hàm nhiều biến và ứng dụng thực tiễn."
+  },
+  {
+    "id": "MATH 122",
+    "name": "Phương trình vi phân",
+    "english": "Differential Equations",
+    "objective": "Môn học này cung cấp cho sinh viên các kiến thức cơ bản về phương trình vi phân thường cấp 1, cấp 2, các loại phương trình đạo hàm riêng và cách giải các phương trình đó. Ngoài ra, môn học cho sinh viên biết một số quy luật tự nhiên được thể hiện dưới dạng phương trình vi phân. Sinh viên có cơ hội tự giải quyết các bài toán trong các vấn đề khoa học và kỹ thuật cụ thể bằng cách vận dụng kiến thức được học.",
+    "review": "Môn học cung cấp kiến thức phương trình vi phân và ứng dụng trong khoa học."
+  },
+  {
+    "id": "PHYS 101",
+    "name": "Vật lý I",
+    "english": "Physics I",
+    "objective": "Môn học này cung cấp cho sinh viên các khái niệm, định luật, và nguyên lý cơ bản của Cơ học cổ điển và Nhiệt học như động học chất điểm, động lực học chất điểm, cơ học hệ chất điểm và vật rắn, các định luật thực nghiệm của chất khí, và các nguyên lý nhiệt động học. Sinh viên có cơ hội giải thích các hiện tượng vật lý dựa trên những định luật đã học và mô hình hóa các định luật vật lý đã học để giải quyết các bài toán vật lý cơ bản. Sinh viên còn có cơ hội thực hiện các quy trình thí nghiệm, sử dụng các máy móc và thiết bị thí nghiệm liên quan trong thực hành để tăng cường kiến thức, phát triển các kỹ năng thực nghiệm, kỹ năng phân tích và xử lý số liệu để đưa ra kết luận khoa học, và kỹ năng làm việc nhóm.",
+    "review": "Môn học cung cấp kiến thức cơ học, nhiệt học và kỹ năng thực nghiệm vật lý."
+  },
+  {
+    "id": "PHYS 102",
+    "name": "Vật lý II",
+    "english": "Physics II",
+    "objective": "Môn học này cung cấp cho sinh viên các khái niệm, định luật, và nguyên lý cơ bản của Tĩnh điện, Từ, Cảm ứng điện từ và Điện từ trường. Sinh viên có cơ hội giải thích các hiện tượng vật lý dựa trên những định luật đã học và mô hình hóa các định luật vật lý đã học để giải quyết các bài toán vật lý cơ bản. Sinh viên còn có cơ hội thực hiện các quy trình thí nghiệm, sử dụng các máy móc và thiết bị thí nghiệm liên quan trong thực hành để tăng cường kiến thức, phát triển các kỹ năng thực nghiệm, kỹ năng phân tích và xử lý số liệu để đưa ra kết luận khoa học, và kỹ năng làm việc nhóm.",
+    "review": "Môn học cung cấp kiến thức điện từ và kỹ năng thực nghiệm vật lý cơ bản."
+  },
+  {
+    "id": "STAT 101",
+    "name": "Xác suất thống kê (I)",
+    "english": "Probability and Statistics (I)",
+    "objective": "Môn học này cung cấp cho sinh viên các kiến thức cơ bản của lý thuyết xác suất và thống kê bao gồm: Xác suất, xác suất có điều kiện, biến ngẫu nhiên, các số đặc trưng của biến ngẫu nhiên và các quy luật phân phối đặc biệt. Sinh viên có cơ hội vận dụng các kiến thức cơ bản của lý thuyết xác suất và thống kê trong môn học để tự giải quyết các bài toán cụ thể có liên quan.",
+    "review": "Môn học cung cấp kiến thức xác suất, thống kê và ứng dụng giải bài toán."
+  },
+  {
+    "id": "MATH 114",
+    "name": "Giải tích IV",
+    "english": "Calculus IV",
+    "objective": "Môn học này cung cấp cho sinh viên các kiến thức cơ bản về tích phân bội, trường vecto, các tính chất của trường vecto, tích phân đường, tích phân mặt. Sinh viên có cơ hội vận dụng tích phân bội, lý thuyết trường, tích phân đường, tích phân mặt để tự giải quyết các bài toán cơ học và kỹ thuật và có kỹ năng sử dụng phần mềm để tính toán.",
+    "review": "Môn học cung cấp kiến thức tích phân bội và ứng dụng trong cơ học, kỹ thuật."
+  },
+  {
+    "id": "MTH 171",
+    "name": "Toán ứng dụng trong kinh doanh",
+    "english": "Mathematics Applications for Business",
+    "objective": "Sinh viên học các lý thuyết và nguyên lý toán học cũng như các ứng dụng của chúng. Thảo luận các câu hỏi được chọn lọc liên quan đến bài giảng. Sử dụng toán học và phân tích định lượng để đưa ra các quyết định phù hợp.",
+    "review": "Môn học áp dụng toán học và phân tích định lượng trong quyết định kinh doanh."
+  },
+  {
+    "id": "MATH 104",
+    "name": "Giải tích đa biến",
+    "english": "Multivariate calculus",
+    "objective": "Môn học giới thiệu đến sinh viên về giới hạn hàm số và hàm liên tục, đạo hàm, đạo hàm riêng, cách tích hợp hàm nhiều biến và ứng dụng trong các mô hình kinh tế. Sinh viên sử dụng giải tích đa biến như một công cụ quan trọng trong kinh tế học, kinh tế lượng và máy học.",
+    "review": "Môn học cung cấp kiến thức giải tích đa biến và ứng dụng trong kinh tế."
+  },
+  {
+    "id": "CHEM 100",
+    "name": "Hóa đại cương",
+    "english": "General Chemistry",
+    "objective": "Môn học này cung cấp cho sinh viên các kiến thức cơ bản về cấu tạo nguyên tử, phân tử, hệ thống tuần hoàn các nguyên tố hóa học, liên kết hóa học, các lý thuyết về chất khí, dung dịch, động học, nhiệt động học của phản ứng hóa học và lý thuyết về các phản ứng hóa học như phản ứng oxi hóa khử, phản ứng trao đổi ion. Sinh viên có cơ hội kiểm tra bằng thực nghiệm các vấn đề lý thuyết đã học qua việc thực hiện các quy trình thí nghiệm, sử dụng các máy móc và thiết bị thí nghiệm liên quan trong thực hành nhằm tăng cường kiến thức, phát triển các kỹ năng thực nghiệm, kỹ năng phân tích và xử lý số liệu để đưa ra kết luận khoa học, và kỹ năng làm việc nhóm.",
+    "review": "Môn học cung cấp kiến thức hóa học cơ bản và kỹ năng thực nghiệm."
+  },
+  {
+    "id": "PHYS 103",
+    "name": "Vật lý III",
+    "english": "Physics III",
+    "objective": "Môn học này cung cấp cho sinh viên các kiến thức cơ bản của Vật lý hiện đại bao gồm lý thuyết tương đối hẹp, vật lý lượng tử, vật lý nguyên tử và vật lý bán dẫn, quang học sóng và lượng tử quang học. Sinh viên có cơ hội giải thích các hiện tượng vật lý dựa trên những định luật đã học và mô hình hóa các định luật vật lý đã học để giải quyết các bài toán vật lý cơ bản. Sinh viên còn có cơ hội thực hiện các quy trình thí nghiệm, sử dụng các máy móc và thiết bị thí nghiệm liên quan trong thực hành để tăng cường kiến thức, phát triển các kỹ năng thực nghiệm, kỹ năng phân tích và xử lý số liệu để đưa ra kết luận khoa học, và kỹ năng làm việc nhóm.",
+    "review": "Môn học cung cấp kiến thức vật lý hiện đại và kỹ năng thực nghiệm."
+  },
+  {
+    "id": "STAT 202",
+    "name": "Xác suất thống kê II",
+    "english": "Statistics and Probability II",
+    "objective": "Xác suất thống kê II là môn học thứ hai về thống kê, giúp cung cấp cho sinh viên nền tảng về xác suất thống kê để áp dụng cho các môn học về kinh tế lượng và khoa học dữ liệu. Môn học này tập trung vào thống kê và xác suất cho phân bố đa biến. Sinh viên hoàn thành môn học sẽ hiểu được các khái niệm cơ bản về xác suất và suy luận thống kê. Các chủ đề của môn học bao gồm khái niệm về tổng thể & mẫu, mẫu ngẫu nhiên và định lý giới hạn trung tâm; phân phối hai biến, phân phối cận biên, phân phối có điều kiện, ước lượng, xây dựng và giải thích khoảng tin cậy, kiểm định giả thuyết thống kê.",
+    "review": "Môn học cung cấp kiến thức xác suất đa biến và suy luận thống kê."
+  },
+  {
+    "id": "INFO 101",
+    "name": "Truyền thông, thông tin và xã hội",
+    "english": "Communication, Information and Society",
+    "objective": "Giới thiệu về công nghệ thông tin và truyền thông, bao gồm các công nghệ truyền thông và công nghệ liên quan đến máy tính. Phát triển các kỹ năng kỹ thuật và thông tin cơ bản, đồng thời thảo luận các khái niệm cơ bản về truyền thông qua trung gian trong bối cảnh thế kỷ 21.",
+    "review": "Môn học giới thiệu công nghệ thông tin và kỹ năng truyền thông hiện đại."
+  },
+  {
+    "id": "INFO 106",
+    "name": "Công nghệ số",
+    "english": "Focused Inquiry: Digital Literacy",
+    "objective": "Trang bị cho sinh viên những kỹ năng công nghệ số thiết yếu cần thiết để thành công trong thế giới hiện đại. Khám phá các khía cạnh khác nhau của công nghệ kỹ thuật số, bao gồm kiến thức cơ bản về máy tính, hiểu biết về thông tin, giao tiếp trực tuyến, bảo mật kỹ thuật số và các cân nhắc về đạo đức. Áp dụng phương pháp thực hành để trao quyền cho học sinh điều hướng bối cảnh kỹ thuật số một cách tự tin và có trách nhiệm.",
+    "review": "Môn học trang bị kỹ năng công nghệ số và bảo mật kỹ thuật số."
+  },
+  {
+    "id": "INFO 201",
+    "name": "Tư duy tính toán",
+    "english": "Computational Thinking",
+    "objective": "Tư duy tính toán là quá trình chuyển đổi các vấn đề thực tế thành các phương pháp dựa trên phần mềm để giải quyết chúng. Là một môn học trong chương trình cơ bản, mục tiêu chính là nâng cao kỹ năng giải quyết vấn đề và tư duy biện luận của sinh viên. Thông qua làm việc cá nhân và nhóm, sinh viên học cách giao tiếp hiệu quả khi họ khám phá các chủ đề, đề xuất giả thuyết, thu thập dữ liệu và sử dụng các kỹ thuật phần mềm để xử lý và biểu diễn thông tin. Trong các dự án, sinh viên đánh giá các kết quả, đưa ra kết luận, đưa ra dự đoán và đặt ra các câu hỏi mới được gợi ra bởi công việc của họ. Ngoài ra, họ xem xét cách công nghệ ảnh hưởng đến xã hội và cá nhân",
+    "review": "Môn học nâng cao kỹ năng tư duy tính toán và giải quyết vấn đề."
+  },
+  {
+    "id": "DSCI 130",
+    "name": "Quyền riêng tư dữ liệu và công nghệ",
+    "english": "Data Privacy and Technology",
+    "objective": "Khóa học này cung cấp một cái nhìn tổng quan về quyền riêng tư và công nghệ, từ lý thuyết đến thực hành. Sinh viên sẽ tìm hiểu về các vấn đề pháp lý, kỹ thuật và chính sách quan trọng trong việc bảo vệ dữ liệu cá nhân trong môi trường kỹ thuật số phức tạp ngày nay. Xem xét các cân nhắc về mặt pháp lý và đạo đức xung quanh dữ liệu cá nhân, phân tích các rủi ro và lợi ích tiềm ẩn liên quan đến việc thu thập và giám sát dữ liệu, đồng thời nhấn mạnh tầm quan trọng của việc vận động chính sách, tham gia giám sát quyền riêng tư và thúc đẩy các thực hành đạo đức.",
+    "review": "Môn học cung cấp kiến thức về quyền riêng tư dữ liệu và đạo đức công nghệ."
+  },
+  {
+    "id": "DSCI 261",
+    "name": "Nhập môn Khoa học dữ liệu sử dụng Python",
+    "english": "Introduction to Data Science using Python",
+    "objective": "Môn học này nhằm cung cấp cho sinh viên các kiến thức cơ bản về Khoa học dữ liệu, một lĩnh vực liên ngành về các phương pháp, các quá trình, và các hệ thống có khả năng học/phát hiện tri thức từ dữ liệu. Các phương pháp và mô hình trong Khoa học dữ liệu sẽ giúp con người/máy đưa ra các quyết định và phán đoán tốt trong thực tế. Môn học này còn trang bị cho sinh viên nắm được và vận dụng được các bước chính khi phân tích dữ liệu, bao gồm tạo giả thuyết, lấy dữ liệu, tiền xử lý, phân tích, đánh giá chất lượng, và đưa ra dự đoán. Ngoài ra, môn học sẽ giới thiệu các công cụ và thư viện khoa học dữ liệu thông dụng trong thực tiễn sử dụng ngôn ngữ lập trình Python.",
+    "review": "Môn học cung cấp kiến thức khoa học dữ liệu và phân tích dữ liệu với Python."
+  },
+  {
+    "id": "WRT 187",
+    "name": "Tiếng Anh học thuật",
+    "english": "Academic Reading & Writing",
+    "objective": "Cung cấp cho sinh viên các kỹ năng đọc và viết quan trọng. Rèn luyện cho các em khả năng tổng hợp thông tin từ nhiều nguồn vào bài viết của chính mình. Cung cấp các chiến lược phát triển và tổ chức cho các loại văn bản học thuật phổ biến. Cung cấp kỹ năng chỉnh sửa và biên tập. Nhấn mạnh vào nhu cầu của từng sinh viên liên quan đến các công việc đọc và viết học thuật.",
+    "review": "Môn học rèn luyện kỹ năng đọc, viết và biên tập văn bản học thuật."
+  },
+  {
+    "id": "WRT 122",
+    "name": "Viết luận tiếng anh",
+    "english": "English Composition",
+    "objective": "Giúp sinh viên nhận biết và áp dụng các thành phần của bài viết học thuật thành công bằng tiếng Anh. Xác định và đánh giá các loại/phong cách viết khác nhau và hoàn thành bài viết của chính các em dựa trên quá trình học tập của các em. Phân tích văn bản và đánh giá nghiêm túc nhiều loại tài liệu nguồn để tranh luận và hỗ trợ một quan điểm bằng văn bản, sử dụng các phong cách trích dẫn, tham khảo và định dạng phù hợp.",
+    "review": "Môn học giúp sinh viên viết luận tiếng Anh và phân tích văn bản."
+  },
+  {
+    "id": "COMS 101",
+    "name": "Kỹ năng giao tiếp",
+    "english": "Communication Skills",
+    "objective": "Nâng cao kỹ năng giao tiếp bằng lời nói, bằng văn bản và hình ảnh, nâng cao hiểu biết về cách tham gia vào kinh tế học thuật. Xem xét bối cảnh kinh tế và yêu cầu người học hiểu, phân tích và tạo ra các thông điệp nói và viết phù hợp. Cung cấp các khái niệm trong phân tích phản biện để nâng cao kỹ năng giao tiếp trong thuyết phục, đàm phán, quản lý xung đột cũng như tiến hành thuyết trình chuyên nghiệp.",
+    "review": "Môn học nâng cao kỹ năng giao tiếp và thuyết trình trong bối cảnh kinh tế."
+  },
+  {
+    "id": "PHL 255",
+    "name": "Tư duy phản biện và sáng tạo",
+    "english": "Critical and Creative Thinking",
+    "objective": "Cung cấp những kiến thức cần thiết về sự hình thành, cấu trúc cơ bản và các yếu tố của Tư duy phản biện, cũng như triết lý và đặc điểm của nó. Khám phá những đặc điểm trong mối quan hệ với hoạt động hàng ngày và môi trường kinh doanh. Phát triển chuyên môn trong việc suy nghĩ sáng tạo về các vấn đề và các mối quan tâm một cách linh hoạt, trực quan và đổi mới.",
+    "review": "Môn học phát triển tư duy phản biện và sáng tạo trong kinh doanh."
+  },
+  {
+    "id": "MUSI 110",
+    "name": "Lý thuyết Âm nhạc",
+    "english": "Music Theory",
+    "objective": "Cung cấp các nguyên tắc cơ bản về âm thanh và hình thái cơ bản của âm nhạc bao gồm quãng, thang âm, ký hiệu phím và nhịp, cấu trúc hợp âm, hòa âm cơ bản, viết giai điệu. Khóa học này được thiết kế dành cho các chuyên ngành không liên quan đến âm nhạc và các chuyên ngành cần các kỹ năng âm nhạc cơ bản.",
+    "review": "Môn học cung cấp kiến thức cơ bản về lý thuyết âm nhạc và hòa âm."
+  },
+  {
+    "id": "UNIV 111",
+    "name": "Phát triển bền vững",
+    "english": "Focused Inquiry: Sustainability",
+    "objective": "Hiểu một loạt các khái niệm, nguyên tắc và kỹ thuật căn bản về bền vững nhằm thúc đẩy sự thay đổi mang tính chuyển đổi và có thể áp dụng trong các hộ gia đình, cộng đồng và nơi làm việc. Khám phá sự tương tác giữa các khía cạnh địa phương và toàn cầu của những thách thức lớn về tính bền vững. Khám explores sự tương tác giữa các khía cạnh cá nhân và chuyên nghiệp của thực hành bền vững.",
+    "review": "Môn học cung cấp kiến thức về phát triển bền vững và ứng dụng thực tiễn."
+  },
+  {
+    "id": "UNIV 112",
+    "name": "Toàn cầu hóa",
+    "english": "Focused Inquiry: Globalization",
+    "objective": "Hiểu được quá trình toàn cầu hóa và có thêm kiến thức trong các lĩnh vực kinh tế, lịch sử, địa lý và xã hội học liên quan đến toàn cầu hóa, giúp sinh viên có cái nhìn tốt hơn về sự phát triển của thế giới xung quanh. Cải thiện kỹ năng viết của các em trong khi tiếp tục rèn luyện tư duy phê phán, lý luận đạo đức, hợp tác, giao tiếp bằng lời nói và kỹ năng truyền đạt thông tin lưu loát.",
+    "review": "Môn học cung cấp kiến thức về toàn cầu hóa và rèn luyện tư duy phê phán."
+  },
+  {
+    "id": "UNIV 226",
+    "name": "Thành phố và cộng đồng thông minh",
+    "english": "Focused Inquiry: Smart Cities and Communities",
+    "objective": "Hiểu điều gì làm cho một cộng đồng/thành phố trở nên thông minh. Xác định và diễn giải chính xác các khái niệm cơ bản về thành phố/cộng đồng thông minh. Giải thích mối liên hệ và sự khác biệt giữa các cộng đồng/thành phố thông minh trên thế giới. Phân tích và đánh giá các nghiên cứu điển hình liên quan đến việc tạo ra một cộng đồng thông minh. Vận dụng kiến thức đã học vào các đề xuất cho Thành phố thông minh Bình Dương.",
+    "review": "Môn học cung cấp kiến thức về thành phố thông minh và phân tích nghiên cứu."
+  },
+  {
+    "id": "MGMT 291",
+    "name": "Chuyên đề thời sự đương đại",
+    "english": "Seminar in Current Affairs",
+    "objective": "Cập nhật các vấn đề quan trọng đương thời. Học cách giải thích việc đưa tin về những vấn đề đó trên các loại phương tiện truyền thông khác nhau, từ thông cáo báo chí của chính phủ đến blog cá nhân và từ các diễn đàn thời sự hàn lâm đến các kênh truyền hình thuộc sở hữu của giới kinh doanh.",
+    "review": "Môn học cập nhật và phân tích các vấn đề thời sự qua truyền thông."
+  },
+  {
+    "id": "PED",
+    "name": "Giáo dục Thể chất",
+    "english": "Physical Education",
+    "objective": "Chương trình môn học Giáo dục thể chất nhằm cung cấp kiến thức, kỹ năng vận động cơ bản, hình thành thói quen luyện tập thể dục, thể thao để nâng cao sức khỏe, phát triển thể lực, tầm vóc, hoàn thiện nhân cách, nâng cao khả năng học tập, kỹ năng hoạt động xã hội với tinh thần, thái độ tích cực, góp phần thực hiện mục tiêu giáo dục toàn diện.",
+    "review": "Môn học rèn luyện thể chất, kỹ năng vận động và thói quen luyện tập."
+  },
+  {
+    "id": "MET 100",
+    "name": "Giáo dục Quốc phòng",
+    "english": "Military Education",
+    "objective": "Giáo dục tri thức trẻ về đường lối quốc phòng, an ninh của Đảng và công tác quản lý nhà nước về quốc phòng, an ninh; về truyền thống đấu tranh chống ngoại xâm của dân tộc, về nghệ thuật quân sự của Việt Nam; về chiến lược “diễn biến hòa bình”, bạo loạn lật độ của các thế lực thù địch. Trang bị kỹ năng quân sự, an ninh cần thiết đáp ứng yêu cầu xây dựng, củng cố nền quốc phòng toàn dân, an ninh nhân dân, sẵn sàng bảo vệ Tổ quốc.",
+    "review": "Môn học giáo dục quốc phòng và kỹ năng quân sự để bảo vệ Tổ quốc."
+  },
+  {
+    "id": "CSE 100",
+    "name": "Nhập môn Công Nghệ Thông Tin",
+    "english": "Introduction to Computing",
+    "objective": "Trong môn học này, sinh viên sẽ được tiếp cận các kiến thức liên quan định hướng, kỹ năng nghề nghiệp của công nghệ thông tin. Sinh viên sẽ tìm hiểu các kiến thức, kỹ năng cơ bản về phần cứng, mạng, phần mềm máy tính cũng như tiếp cận với tư duy lập trình.",
+    "review": "Môn học giới thiệu công nghệ thông tin và kỹ năng cơ bản lập trình."
+  },
+  {
+    "id": "CSE 106",
+    "name": "Toán rời rạc I",
+    "english": "Discrete Mathematics I",
+    "objective": "Môn học này cung cấp phần giới thiệu về logic toán học, kỹ thuật chứng minh, logic vị từ, lý thuyết tập hợp, kỹ thuật đếm, quan hệ và hàm. Ngoài ra, học sinh còn được làm quen với đại số Bool và lý thuyết số. Thông qua môn học này, học sinh được rèn luyện thêm các kỹ năng tư duy phản biện, lý luận, giải quyết các vấn đề logic, kỹ thuật đếm nâng cao thông qua thực hành phân tích, lập luận và giải quyết các vấn đề, bài toán trong thực tế.",
+    "review": "Môn học cung cấp kiến thức toán rời rạc và rèn luyện tư duy logic."
+  },
+  {
+    "id": "CSE 103",
+    "name": "Lập trình và giải quyết vấn đề I",
+    "english": "Programming and Problem Solving I",
+    "objective": "Môn học này trang bị cho sinh viên những nguyên tắc cơ bản về lập trình máy tính và giải quyết các bài toán trong thực tế. Sinh viên có cơ hội áp dụng kiến thức về lập trình có cấu trúc, cú pháp ngôn ngữ lập trình, cấu trúc điều khiển, phương pháp, mảng và kỹ thuật xử lý chuỗi vào các vấn đề khoa học, kỹ thuật và trong thực tế.",
+    "review": "Môn học cung cấp kiến thức lập trình cơ bản và giải quyết vấn đề."
+  },
+  {
+    "id": "CSE 104",
+    "name": "Lập trình và giải quyết vấn đề II",
+    "english": "Programming and problem solving II",
+    "objective": "Môn học sẽ trang bị cho sinh viên khả năng áp dụng các công cụ toán học để mô hình hóa vấn đề thực tiễn, làm cơ sở để giải quyết vấn đề bằng lập trình. Chú trọng đến các kỹ năng xây dựng chương trình hiệu quả, dễ hiểu, tin cậy cho nhiều vấn đề trong cuộc sống. Sinh viên sẽ rèn luyện sâu các kỹ năng giải quyết vấn đề, tuân thủ tiêu chuẩn của ngành phần mềm, và khai thác hiệu quả các công cụ hỗ trợ lập trình.",
+    "review": "Môn học nâng cao kỹ năng lập trình và giải quyết vấn đề thực tiễn."
+  },
+  {
+    "id": "CSE 201",
+    "name": "Cấu trúc dữ liệu và giải thuật",
+    "english": "Data Structures and Algorithms",
+    "objective": "Môn học trang bị cho sinh viên kiến thức về nguyên tắc cốt lõi của kỹ thuật phần mềm, tập trung vào cấu trúc dữ liệu và giải thuật, giúp cho sinh viên biết cách mô hình hóa bài toán thực tiễn, trang bị cho sinh viên kiến thức và công cụ để xây dựng các thuật toán hiệu quả cho bài toán. Môn học trang bị cho sinh viên kiến thức về các cấu trúc dữ liệu như stack, queue, list, hashtable, v.v., các giải thuật tìm kiếm và sắp xếp trên danh sách với trọng tâm đặt vào độ hiệu quả của các giải thuật và cách sử dụng thư viện, các công cụ lập trình một cách hiệu quả. Sinh viên luyện tập việc thiết kế, phân tích, và hiện thực các cấu trúc dữ liệu với ngôn ngữ lập trình được chọn.",
+    "review": "Môn học cung cấp kiến thức cấu trúc dữ liệu và giải thuật hiệu quả."
+  },
+  {
+    "id": "CSE 202",
+    "name": "Toán rời rạc II",
+    "english": "Discrete Mathematics II",
+    "objective": "Môn học này giúp sinh viên hiểu sâu các khái niệm và thuật toán trên đồ thị. Sinh viên sẽ tìm hiểu về các khái niệm cơ bản, tính chất và biểu diễn của đồ thị, cũng như ứng dụng của chúng trong các lĩnh vực khoa học và thực tế. Khóa học cũng bao gồm một số thuật toán giải quyết hoặc giải quyết một phần các vấn đề lý thuyết đồ thị. Sinh viên sẽ phát triển kỹ năng mô hình hóa, phân tích và giải quyết vấn đề bằng cách sử dụng cấu trúc và thuật toán dựa đồ thị và cây.",
+    "review": "Môn học cung cấp kiến thức về đồ thị và thuật toán ứng dụng thực tế."
+  },
+  {
+    "id": "CSW 315",
+    "name": "Lý thuyết tính toán",
+    "english": "Theory of Computation",
+    "objective": "Môn học này trang bị cho sinh viên kiến thức nền tảng về tính toán và khoa học máy tính. Các chủ đề bao gồm tổng quan ngắn gọn về toán rời rạc và các kỹ thuật chứng minh nâng cao, giới thiệu các khái niệm lý thuyết về ngôn ngữ và tính toán, ôtômát hữu hạn xác định, không xác định, ngôn ngữ chính quy, các tính chất của ngôn ngữ chính quy và giới thiệu về ngôn ngữ ngữ cảnh.",
+    "review": "Môn học cung cấp kiến thức nền tảng về lý thuyết tính toán và ngôn ngữ."
+  },
+  {
+    "id": "CSE 203",
+    "name": "Lập trình hướng đối tượng",
+    "english": "Object-Oriented Development",
+    "objective": "Môn học trang bị cho sinh viên những kiến thức về phương pháp lập trình hướng đối tượng đồng thời so sánh với phương pháp lập trình truyền thống, các khái niệm cơ sở như lớp đối tượng, thuộc tính, phương thức, kiểu dữ liệu trừu tượng, tính đóng gói, tính kế thừa, tính đa hình, khuôn mẫu (interface) và thiết kế lớp đối tượng, xử lý ngoại lệ, generic. Bên cạnh đó môn học cung cấp thêm các kiến thức về nguyên lý thiết kế phần mềm theo hướng đối tượng, các mẫu thiết kế hướng đối tượng.",
+    "review": "Môn học cung cấp kiến thức lập trình hướng đối tượng và thiết kế phần mềm."
+  },
+  {
+    "id": "CSE 204",
+    "name": "Mạng máy tính",
+    "english": "Computer Networks",
+    "objective": "Môn học cung cấp kiến thức chung về mạng máy tính như: mô hình OSI và TCP/IP. Môn học cũng cung cấp kiến thức về các thiết bị mạng như Router, Switch, Hub cùng với cách kết nối giữa các thiết bị với nhau. Thêm vào đó, môn học trang bị kiến thức về mạng ngang hàng, mô hình Client/Server, LAN, MAN, WAN, giao thức IP, cách chia subnet, cách định tuyến trong kết nối các subnet lại với nhau để thiết kế, triển khai một hệ thống mạng máy tính cơ bản.",
+    "review": "Môn học cung cấp kiến thức về mạng máy tính và thiết kế hệ thống mạng."
+  },
+  {
+    "id": "CSE 206",
+    "name": "Kiến trúc và cấu tạo máy tính",
+    "english": "Computer Architecture and Organization",
+    "objective": "Môn học này trang bị cho sinh viên kiến thức cơ bản về cấu tạo và hoạt động của hệ thống máy tính bao gồm thiết kế mạch kết hợp và tuần tự, cấu tạo và hoạt động bộ vi xử lý (CPU), tập lệnh CPU, các thanh ghi, tổ chức bộ nhớ, hệ thống bus, hợp ngữ và hệ thống vào/ra.",
+    "review": "Môn học cung cấp kiến thức về cấu trúc và hoạt động của máy tính."
+  },
+  {
+    "id": "CSE 301",
+    "name": "Cơ sở dữ liệu",
+    "english": "Introduction to Databases",
+    "objective": "Môn học trang bị cho sinh viên những kiến thức về cơ sở dữ liệu, khái niệm và kiến trúc hệ thống cơ sở dữ liệu, mô hình hóa dữ liệu bằng sơ đồ ER, mô hình quan hệ, chuyển đổi mô hình ER qua mô hình quan hệ, ngôn ngữ Structured Query Language (SQL), đại số quan hệ và phép tính, chuẩn hóa cơ sở dữ liệu.",
+    "review": "Môn học cung cấp kiến thức cơ bản về cơ sở dữ liệu và SQL."
+  },
+  {
+    "id": "CSE 302",
+    "name": "Hệ điều hành",
+    "english": "Operating System",
+    "objective": "Môn học này giới thiệu cho sinh viên các nguyên lý của hệ điều hành. Môn học cung cấp kiến thức và kỹ năng thực tế về quản lý tiến trình, tiểu trình, các giải thuật lập lịch cho các tiến trình, đồng bộ các tiến trình và deadlock, quản lý bộ nhớ (các giải thuật phân mảng, phân trang và thay thế), hệ thống tập tin và cấu trúc đĩa lưu trữ. Sinh viên sẽ hiểu rõ hệ điều hành hoạt động và sử dụng hiệu hệ điều hành để có thể giúp phát triển các phần mềm máy tính hiệu quả hơn.",
+    "review": "Môn học cung cấp kiến thức về nguyên lý hệ điều hành và quản lý tiến trình."
+  },
+  {
+    "id": "CSW 303",
+    "name": "Kỹ thuật phần mềm",
+    "english": "Software Engineering",
+    "objective": "Khóa học cung cấp kiến thức nền tảng và quy trình quản lý dự án bằng cách Agile và Scrum. Sinh viên sẽ được tìm hiểu và vận dụng quy trình phát triển phần mềm Scrum, bao gồm: khám phá các trụ cột (pillars) và giá trị của Scrum (values) cũng như so sánh các vai trò thiết yếu trong nhóm Scrum (Scrum team roles); khám phá cách xây dựng, quản lý và tinh chỉnh sản phẩm tồn đọng (backlog) , triển khai các chiến lược phân phối theo định hướng giá trị của Agile; xác định lộ trình giá trị.",
+    "review": "Môn học cung cấp kiến thức kỹ thuật phần mềm và quản lý dự án Agile."
+  },
+  {
+    "id": "CSW 304",
+    "name": "Lập trình Front-end",
+    "english": "Front-end Development",
+    "objective": "Môn học hướng dẫn sinh viên cách xây dựng giao diện cho ứng dụng Web vừa chuẩn Search Engine Optimization (SEO) vừa hiển thị tốt trên mọi thiết bị, sử dụng HTML/HTML5, CSS/CSS3 kết hợp với các thư viện thông dụng như Bootstrap, Google Fonts, Font Awesome,... Sinh viên cũng được học cách tạo ra những trang web có giao diện động với các hiệu ứng sinh động, có khả năng xác thực và xử lý dữ liệu phía client bằng ngôn ngữ Javascript, jQuery. Ngoài ra, môn học còn cung cấp kiến thức cơ bản cho việc sử dụng công cụ Web Developer Tools để phân tích trang web, debug JavaScript,...",
+    "review": "Môn học hướng dẫn xây dựng giao diện web và xử lý dữ liệu client."
+  },
+  {
+    "id": "CSW 306",
+    "name": "Lập trình Back-end",
+    "english": "Back-end Development",
+    "objective": "Môn học này giúp sinh viên hiểu về vai trò quan trọng của backend và cung cấp những nền tảng cơ bản quan trọng để xây dựng backend và APIs của một ứng dụng web. Môn học bao gồm các khía cạnh quan trọng như kiến trúc backend, web server, thao tác với cơ sở dữ liệu, xác thực và phân quyền, kiểm thử. Các vấn đề bảo mật sẽ được nhấn mạnh trong quá trình xây dựng backend",
+    "review": "Môn học cung cấp kiến thức xây dựng backend và bảo mật ứng dụng web."
+  },
+  {
+    "id": "CSW 307",
+    "name": "Kỹ thuật yêu cầu",
+    "english": "Requirement Engineering",
+    "objective": "Khóa học cung cấp lý thuyết, nguyên tắc và công cụ trong phân tích yêu cầu phần mềm, nội dung bao gồm các kiến thức và kỹ năng cần thiết để suy diễn và phân tích yêu cầu, chuyển đổi các yêu cầu thành thông số kỹ thuật, xác minh các yêu cầu đã phản ánh chính xác yêu cầu hệ thống, và đảm bảo việc quản lý các yêu cầu phần phần mềm trong suốt chu trình phát triển hệ thống. Sinh viên sẽ học các kỹ năng cần thiết cho phân tích yêu cầu phần mềm, và một nền tảng để có thể sử dụng trong thiết lập, xác định và quản lý các yêu cầu một cách có hệ thống đối với các hệ thống sử dụng nhiều phần mềm lớn, phức tạp và thay đổi thường xuyên, từ các khía cạnh kỹ thuật, tổ chức và quản lý.",
+    "review": "Môn học cung cấp kỹ năng phân tích và quản lý yêu cầu phần mềm."
+  },
+  {
+    "id": "CSW 309",
+    "name": "Phân tích và thiết kế hệ thống thông tin",
+    "english": "Information System Analysis and Design",
+    "objective": "Trong khóa học này, sinh viên sẽ phát triển nhận thức về các kỹ thuật, công cụ và phương pháp phân tích và thiết kế hệ thống thông tin trong môi trường kinh doanh. Khóa học bao gồm các chủ đề cơ bản về hai giai đoạn chính của vòng đời phát triển hệ thống thông tin: phân tích và thiết kế. Sinh viên sẽ thành thạo các kỹ thuật để điều tra, thu thập, tổ chức và cấu trúc hệ thống yêu cầu cho một hệ thống thông tin cũng như hiểu cách thiết kế các thành phần khác nhau của hệ thống thông tin để đáp ứng các yêu cầu đặt ra cho hệ thống.",
+    "review": "Môn học phát triển kỹ năng phân tích và thiết kế hệ thống thông tin."
+  },
+  {
+    "id": "CSW 405",
+    "name": "Kiểm thử và đảm bảo chất lượng phần mềm",
+    "english": "Software Testing & Quality Assurance",
+    "objective": "Môn học giới thiệu các nguyên tắc trong kiểm thử phần mềm, đảm bảo chất lượng và các kỹ thuật phân tích chương trình liên quan. Môn học bao gồm các khái niệm về kiểm thử phần mềm như kiểm thử ở cấp độ mô đun, các hệ thống và hệ thống con, các kỹ thuật kiểm thử tự động và thủ công, sinh các kịch bản kiểm thử, các chỉ số trong kiểm thử bao phủ, phân tích tĩnh và động, kiểm thử đột biến và các kỹ thuật kiểm thử chức năng. Sinh viên sẽ có cơ hội tìm hiểu vai trò của kiểm thử trong vòng đời phần mềm, các khái niệm về kiểm thử đơn vị, kiểm thử tích hợp và kiểm thử hệ thống đồng thời thực hành với việc tạo và chạy các kịch bản kiểm thử.",
+    "review": "Môn học cung cấp kiến thức kiểm thử phần mềm và đảm bảo chất lượng."
+  },
+  {
+    "id": "CSW 406",
+    "name": "Kiến trúc phần mềm",
+    "english": "Software Architecture",
+    "objective": "Môn học trang bị cho sinh viên kiến thức để xây dựng phần mềm hoàn chỉnh dựa trên mẫu thiết kế (Design Patterns), thông qua các nội dung: các design patterns kinh điển (Gang of Four), các architectural patterns trong ứng dụng doanh nghiệp, và ưu nhược điểm của microservices trong mô hình phát triển phần mềm hiện đại.",
+    "review": "Môn học cung cấp kiến thức về kiến trúc phần mềm và mẫu thiết kế."
+  },
+  {
+    "id": "CSW 400",
+    "name": "Thực tập tốt nghiệp Kỹ thuật phần mềm",
+    "english": "Computing Internship",
+    "objective": "Trong môn học này này, dưới sự hướng dẫn của các giảng viên chịu trách nhiệm, sinh viên tham gia thực tập tại các công ty, và họ sẽ thiết kế và triển khai một ứng dụng. Sinh viên cần phải báo cáo cho giảng viên hướng dẫn và nộp dự án của mình vào cuối kỳ học.",
+    "review": "Môn học thực tập thiết kế và triển khai ứng dụng phần mềm thực tế."
+  },
+  {
+    "id": "CSW 430",
+    "name": "Phát triển ứng dụng di động",
+    "english": "Mobile Application Development",
+    "objective": "Môn học cung cấp cho sinh viên kiến thức nền tảng lập trình trên thiết bị di động, các kiến trúc khi xây dựng ứng dụng di động, xử lý giao diện người dùng, đồ họa, các phương thức điều hướng, kết nối đến dữ liệu cục bộ, cơ sở dữ liệu thông qua các dịch vụ (Rest API).",
+    "review": "Môn học cung cấp kiến thức lập trình và phát triển ứng dụng di động."
+  },
+  {
+    "id": "CSW 431",
+    "name": "Phát triển Back-end nâng cao",
+    "english": "Advanced Back-end Development",
+    "objective": "Môn học này cung cấp kiến thức và kỹ thuật nâng cao trong việc xây dựng các hệ thống backend mạnh mẽ, có thể mở rộng và bảo mật. Sinh viên sẽ khám phá thêm về nhiều khía cạnh của phát triển backend, bao gồm kiến trúc và mẫu thiết kế, quản lý cơ sở dữ liệu nâng cao, tối ưu hóa và khả năng mở rộng, các thực hành bảo mật, ứng dụng thời gian thực, và triển khai ứng dụng.",
+    "review": "Môn học cung cấp kỹ thuật nâng cao xây dựng hệ thống backend bảo mật."
+  },
+  {
+    "id": "CSW 432",
+    "name": "Kiểm thử tự động",
+    "english": "Automation Testing",
+    "objective": "Môn học giới thiệu các khái niệm cơ bản về tự động hóa kiểm thử, làm việc với các công cụ, tạo cấu trúc của khung kiểm thử cơ bản và tạo báo cáo trực quan về kết quả kiểm thử cũng như phân tích dữ liệu. Nội dung môn học bao gồm kiểm tra hộp đen và hộp trắng, kiểm tra tự động, kiểm tra web và thiết bị di động cũng như việc sử dụng lý thuyết và kỹ thuật kiểm tra chính thức trong tối ưu hóa lập kế hoạch và thực hiện kiểm tra phần mềm một cách hiệu quả.",
+    "review": "Môn học cung cấp kiến thức về tự động hóa kiểm thử phần mềm."
+  },
+  {
+    "id": "CSW 433",
+    "name": "Lập trình Front-end nâng cao",
+    "english": "Advanced Front-end Development",
+    "objective": "Môn học cung cấp cho sinh viên những kiến thức cần thiết để hoàn thiện được các ứng dụng web phức tạp hơn, và cho phép mở rộng dễ dàng hơn sử dụng một trong những framework mới như React, Vue, Angular,... kết hợp với TypeScript. Những kiến thức này bao gồm: Giới thiệu về TypeScript; Kỹ thuật xây dựng những thành phần nhỏ, tách biệt và có khả năng tái sử dụng cao; Kỹ thuật định tuyến; Các kỹ thuật style (CSS); Sử dụng các Hook thông dụng; Kỹ thuật quản lý trạng thái (state management); Kỹ thuật thao tác, xử lý và xác thực bằng form; Kỹ thuật giao tiếp với RESTful APIs: Fetch, Oxios,...; Giới thiệu một số công cụ, ngôn ngữ, thư viện giúp phát hiện lỗi sớm, phân tích lỗi và tái cấu trúc mã nguồn; Unit testing;",
+    "review": "Môn học cung cấp kỹ năng lập trình front-end nâng cao với framework hiện đại."
+  },
+  {
+    "id": "CSW 434",
+    "name": "Phát triển ứng dụng di động nâng cao",
+    "english": "Advanced Mobile Application Development",
+    "objective": "Môn học cung cấp cho sinh viên kiến thức nâng cao về lập trình trên thiết bị di động: Làm việc với cơ sở dữ liệu Firebase (Authentication, realtime database, Cloud Storage...), quản lý hiệu năng, Sensor, handling Gestures, Push Notifications, APIs...",
+    "review": "Môn học cung cấp kiến thức nâng cao về phát triển ứng dụng di động."
+  },
+  {
+    "id": "CSW 435",
+    "name": "Quản lý dự án",
+    "english": "Project Management",
+    "objective": "Môn học này cung cấp cho sinh viên các kiến thức trong quản lý dự án, cũng như các bước thực tế để quản lý dự án phần mềm. Môn học này cũng giúp sinh viên tiếp cận với nhiều hoạt động liên quan đến dự án phần mềm. Ngoài ra, sinh viên sẽ được trang bị kiến thức về quản lý các dự án nhóm và trình bày dự án. Môn học này sẽ bao gồm các nội dung sau: tổng quan về quản lý dự án; Nguyên tắc và kỹ thuật cơ bản của quản lý dự án; các công cụ quản lý dự án; cách thiết lập bắt đầu một dự án; các giai đoạn chính của dự án; lập kế hoạch và kiểm soát một dự án; Vai trò và trách nhiệm cá nhân của người quản lý dự án.",
+    "review": "Môn học cung cấp kiến thức và kỹ năng quản lý dự án phần mềm."
+  },
+  {
+    "id": "CSW 436",
+    "name": "Cơ sở dữ liệu nâng cao",
+    "english": "Advanced Databases",
+    "objective": "Môn học cung cấp cho sinh viên về hệ quản trị Cơ sở dữ liệu, tạo lập, sao lưu và phục hồi cơ sở dữ liệu, lập trình cơ sở dữ liệu và bẫy lỗi, tự động hóa và đồng bộ hóa dữ liệu, bảo mật trong cơ sở dữ liệu, tối ưu câu truy vấn, quản lý giao tác, NoSQL.",
+    "review": "Môn học cung cấp kiến thức nâng cao về quản trị và bảo mật cơ sở dữ liệu."
+  },
+  {
+    "id": "CSW 310",
+    "name": "Phân tích và thiết kế giải thuật",
+    "english": "Analysis and Design of Algorithms",
+    "objective": "Môn học trang bị cho sinh viên các kỹ thuật để giải quyết hiệu nhiều dạng vấn đề mà có ứng dụng cao trong thực tiễn bằng cách vận dụng các chiến thuật thiết kế giải thuật như: brute force, backtracking with branch and bound, divide or decrease and conquer, greedy method, dynamic programming, transformation, iterative improvement, and space and time trade-offs. Môn học cũng trang bị đầy đủ lý thuyết và công cụ thể để phân tích độ phức tạp của giải thuật về cả thời gian thực thi và sử dụng bộ nhớ.",
+    "review": "Môn học cung cấp kỹ thuật thiết kế và phân tích độ phức tạp giải thuật."
+  },
+  {
+    "id": "CSW 437",
+    "name": "Thiết kế trải nghiệm người dùng",
+    "english": "User Interface and Experience (UI/UX) Design",
+    "objective": "Thiết kế trải nghiệm người dùng là môn học tập trung vào quy trình thiết kế hướng đến trải nghiệm của người sử dụng. Để đáp ứng những nhu cầu trải nghiệm, lập trình viên phải hiểu rõ về các khái niệm thiết kế cũng như nắm bắt được xu thế để áp dụng những nguyên tắc thiết kế phù hợp nhất. Môn học này sẽ cung cấp cho sinh viên những khái niệm, hướng dẫn và nguyên tắc nền tảng để có thể sử dụng cải tiến trải nghiệm người dùng trên giao diện ứng dụng.",
+    "review": "Môn học cung cấp kiến thức thiết kế giao diện và trải nghiệm người dùng."
+  },
+  {
+    "id": "CSW 438",
+    "name": "Phát triển phần mềm và vận hành hệ thống",
+    "english": "Software Development and IT Operations (DevOps)",
+    "objective": "Môn học này giới thiệu các nguyên lý và kỹ năng thực hành DevOps trong quy trình phát triển phần mềm. Môn học cũng giới thiệu các khái niệm cần thiết để hiện thực phát triển phần mềm hiện đại. Sinh viên sẽ được học các nguyên lý và thực hành các công cụ phát triển phần mềm như git, Docker, Kubernetes, Ansible, Terraform, Packer hay các công cụ tương tự.",
+    "review": "Môn học giới thiệu nguyên lý và công cụ DevOps trong phát triển phần mềm."
+  },
+  {
+    "id": "CSW 439",
+    "name": "Khai thác dữ liệu",
+    "english": "Data Mining",
+    "objective": "Môn học này giới thiệu cho sinh viên các khái niệm về khai thác dữ liệu, truy xuất thông tin, phương pháp phân tích, hệ thống lưu trữ, trực quan hóa, triển khai và ứng dụng. Môn học nhằm mục đích cung cấp cho sinh viên kiến thức tổng quát về lĩnh vực Khai thác dữ liệu và các lĩnh vực liên quan, đồng thời giới thiệu cho sinh viên cách thức áp dụng các phương pháp khai phá dữ để giải quyết các vấn đề trong lĩnh vực chuyên ngành.",
+    "review": "Môn học cung cấp kiến thức khai thác dữ liệu và ứng dụng thực tiễn."
+  },
+  {
+    "id": "CSW 440",
+    "name": "Bảo mật phần mềm",
+    "english": "Software security",
+    "objective": "Môn học này giới thiệu cho sinh viên các kiến thức về mã hóa, ứng dụng và an toàn phần mềm, những nguyên lý phát triển phần mềm an toàn. Sinh viên sẽ được học những phương pháp tránh tạo những lỗ hổng bảo mật trong phát triển phần mềm và thiết kế phần mềm an toàn với những mẫu thiết kế an toàn như mẫu thiết kế trong nhận diện và xác thực người dùng, mẫu thiết kế quyền truy cập và điều khiển truy cập, mẫu thiết kế ghi nhật ký và kiểm tra.",
+    "review": "Môn học cung cấp kiến thức về bảo mật phần mềm và thiết kế an toàn."
+  },
+  {
+    "id": "CSW 330",
+    "name": "Trí tuệ nhân tạo",
+    "english": "Artificial Intelligence",
+    "objective": "Môn học này giới thiệu cho sinh viên các bài toán của trí tuệ nhân tạo trong lĩnh vực tìm kiếm, tìm kiếm mù, tìm kiếm Heuristic, các kỹ thuật biểu diễn tri thức và xử lý tri thức. Trang bị cho sinh viên những kiến thức cơ sở của trí tuệ nhân tạo, mục tiêu và các lĩnh vực nghiên cứu, các cấu trúc và chiến lược giải quyết vấn đề trong các nhánh nghiên cứu khác nhau của trí tuệ nhân tạo như trò chơi, suy luận tự động, hệ chuyên gia, và các khái niệm học máy cơ bản.",
+    "review": "Môn học giới thiệu kiến thức cơ bản về trí tuệ nhân tạo và học máy. (IOT)"
+  },
+  {
+    "id": "CSW 331",
+    "name": "Xử lý ảnh",
+    "english": "Image Processing",
+    "objective": "Môn học này giới thiệu cho sinh viên các kỹ thuật xử lý hình ảnh kỹ thuật số để nâng cao, phục hồi và phân tích thông tin từ hình ảnh 2 chiều. Bài giảng và thực hành lab bao gồm nhiều chủ đề: nâng cao chất lượng và phân tích hình ảnh 2 chiều, phân đoạn hình ảnh, xử lý hình ảnh màu, làm sắc nét và xây dựng bộ lọc hình ảnh để xử lý nhiễu.",
+    "review": "Môn học cung cấp kỹ thuật xử lý và phân tích hình ảnh kỹ thuật số."
+  },
+  {
+    "id": "CSW 332",
+    "name": "Máy học và ứng dụng",
+    "english": "Machine Learning and applications",
+    "objective": "Môn học này trang bị cho sinh viên các kiến thức cơ bản về nhận dạng mẫu và học máy, cũng như cách vận dụng các phương pháp này để giải quyết các vấn đề trong ứng dụng thực tiễn. Trọng tâm của môn học này là giới thiệu các khái niệm máy học cơ bản và tìm hiểu và biết cách sử dụng các công cụ, thư viện máy học hiện đại. Ngoài ra, môn học cũng giới thiệu cho sinh viên các chủ đề như học sâu, phân loại tuyến tính và phi tuyến tính.",
+    "review": "Môn học cung cấp kiến thức máy học và ứng dụng thực tiễn."
+  },
+  {
+    "id": "CSW 333",
+    "name": "Phương pháp nghiên cứu khoa học",
+    "english": "Research methodology",
+    "objective": "Môn học này trang bị cho sinh viên những kiến thức cơ bản về phương pháp nghiên cứu khoa học: xác định vấn đề nghiên cứu, các phương pháp nghiên cứu thường được áp dụng, cách thức tổ chức và triển khai nghiên cứu, cũng như cách thức truyền đạt kết quả nghiên cứu tới cộng đồng khoa học thông qua bài báo nghiên cứu khoa học. Các vấn đề về đạo đức và tính liêm chính trong nghiên cứu khoa học cũng được nhấn mạnh trong môn học này.",
+    "review": "Môn học cung cấp kiến thức phương pháp nghiên cứu khoa học và đạo đức."
+  },
+  {
+    "id": "CSN 305",
+    "name": "Điện toán đám mây",
+    "english": "Cloud Computing",
+    "objective": "Môn học giới thiệu các khái niệm, các công nghệ về điện toán đám mây hiện nay như VMware vSphere, ownCloud, Amazon Web Service (AWS). Sau khi học xong sinh viên có thể xây dựng, triển khai cấu hình và khắc phục các sự cố trong hệ thống Cloud computing.",
+    "review": "Môn học cung cấp kiến thức và kỹ năng triển khai điện toán đám mây."
+  },
+  {
+    "id": "CSW 480",
+    "name": "Đồ án tốt nghiệp KTPM I",
+    "english": "Software Engineering Capstone Project I",
+    "objective": "Sinh viên làm việc nhóm để hoàn thành một dự án phần mềm trong vòng 3 học kỳ. Trong đó sinh viên phải thể hiện được khả năng vận dụng kiến thức và kỹ năng nền tảng cũng như chuyên ngành. Sinh viên có thể phát triển một phần mềm mới, hoặc cải tiến một phần mềm đã có. Phần mềm có thể được chuyển giao cho khách hàng và triển khai trong thực tế, đồng thời cung cấp các tài liệu liên quan đến việc sử dụng phần mềm và quản trị người dùng. Đồ án 1 yêu cầu sinh viên hoàn thành các nhiệm vụ: lựa chọn quy trình phần mềm, tổ chức và quản lý nhóm, thiết lập cấu hình dự án, quản lý yêu cầu. Sinh viên cũng phải lựa chọn công cụ, thư viện, framework để xây dựng các chức năng nền tảng cho sản phẩm. Nhóm trình bày vào bảo vệ đồ án với giảng viên hướng dẫn.",
+    "review": "Môn học thực hiện dự án phần mềm với quản lý yêu cầu và cấu hình."
+  },
+  {
+    "id": "CSW 481",
+    "name": "Đồ án tốt nghiệp KTPM II",
+    "english": "Software Engineering Capstone Project II",
+    "objective": "Sinh viên làm việc nhóm để hoàn thành một dự án phần mềm trong vòng 3 học kỳ. Trong đó sinh viên phải thể hiện được khả năng vận dụng kiến thức và kỹ năng nền tảng cũng như chuyên ngành. Sinh viên có thể phát triển một phần mềm mới, hoặc cải tiến một phần mềm đã có. Phần mềm có thể được chuyển giao cho khách hàng và triển khai trong thực tế, đồng thời cung cấp các tài liệu liên quan đến việc sử dụng phần mềm và quản trị người dùng. Đồ án 2 yêu cầu sinh viên hoàn thành các nhiệm vụ: hoàn thiện kiến trúc phần mềm, thiết kế chi tiết chức năng, xây dựng các chức năng chính của sản phẩm. Nhóm trình bày vào bảo vệ đồ án với giảng viên hướng dẫn.",
+    "review": "Môn học hoàn thiện kiến trúc và xây dựng chức năng chính của phần mềm."
+  },
+  {
+    "id": "CSW 482",
+    "name": "Đồ án tốt nghiệp KTPM III",
+    "english": "Software Engineering Capstone Project III",
+    "objective": "Sinh viên làm việc nhóm để hoàn thành một dự án phần mềm trong vòng 3 học kỳ. Trong đó sinh viên phải thể hiện được khả năng vận dụng kiến thức và kỹ năng nền tảng cũng như chuyên ngành. Sinh viên có thể phát triển một phần mềm mới, hoặc cải tiến một phần mềm đã có. Phần mềm có thể được chuyển giao cho khách hàng và triển khai trong thực tế, đồng thời cung cấp các tài liệu liên quan đến việc sử dụng phần mềm và quản trị người dùng. Đồ án 3 yêu cầu sinh viên hoàn thành các nhiệm vụ: hoàn thiện các chức năng, cải tiến source code tuân theo tiêu chuẩn của ngành, triển khai sản phẩm trong môi trường thực tế, và đảm bảo chất lượng sản phẩm. Cả nhóm trình bày và bảo vệ đồ án trước hội đồng.",
+    "review": "Môn học hoàn thiện phần mềm, triển khai thực tế và đảm bảo chất lượng."
+  },
+  {
+    "id": "ANT 110",
+    "name": "Nhân học văn hóa",
+    "english": "Cultural Anthropology",
+    "objective": "Môn học cung cấp kiến thức về cách con người xây dựng và hiểu thế giới xã hội qua lăng kính của nhân học văn hóa. Sinh viên sẽ tìm hiểu về các yếu tố như giới tính, thân tộc, tôn giáo, ngôn ngữ, kinh tế chính trị, chủng tộc và quyền công dân trong việc hình thành và định vị con người trong xã hội. Môn học trang bị cho sinh viên khả năng phân tích các khái niệm văn hóa, từ đó nâng cao nhận thức về sự khác biệt xã hội và nhấn mạnh các khía cạnh đạo đức trong nghiên cứu dân tộc học.",
+    "review": "Môn học giúp hiểu văn hóa, sự đa dạng và cách con người sống trong xã hội."
+  },
+  {
+    "id": "CIVI 101",
+    "name": "Lịch sử văn minh thế giới",
+    "english": "The Story of Civilization",
+    "objective": "Môn học cung cấp kiến thức tổng quan về các nền văn minh phương Đông và phương Tây, giúp sinh viên hiểu rõ quy luật phát triển và thành tựu của nhân loại qua các thời kỳ. Ngoài ra, môn học trang bị kỹ năng thảo luận các vấn đề xã hội hiện đại với tinh thần học tập suốt đời.",
+    "review": "Môn học trang bị kiến thức về các nền văn minh và tư duy phản biện xã hội."
+  },
+  {
+    "id": "EBS 110",
+    "name": "Kinh tế kỹ thuật",
+    "english": "Engineering Economy",
+    "objective": "Môn học cung cấp kiến thức cơ bản và kỹ năng về đánh giá phương án đầu tư, quản lý sản xuất và hoạch định nguồn nhân lực. Sinh viên được rèn luyện kỹ năng làm việc nhóm, giải quyết vấn đề và học tập suốt đời thông qua các dự án thực tế.",
+    "review": "Môn học trang bị kỹ năng phân tích đầu tư và quản lý trong kỹ thuật."
+  },
+  {
+    "id": "IREL 101",
+    "name": "Nhập môn quan hệ quốc tế",
+    "english": "Foundations of International Relations",
+    "objective": "Môn học cung cấp kiến thức nền tảng về lịch sử, lý thuyết và các vấn đề toàn cầu trong quan hệ quốc tế. Sinh viên được tiếp cận các góc nhìn đa dạng về quan hệ giữa các quốc gia, với trọng tâm đặc biệt vào vai trò của Việt Nam trong bối cảnh thế giới.",
+    "review": "Môn học giúp hiểu nền tảng quan hệ quốc tế và vị trí của Việt Nam toàn cầu."
+  },
+  {
+    "id": "IEPS 100",
+    "name": "Tư duy kinh doanh",
+    "english": "Entrepreneurial Thinking",
+    "objective": "Môn học giúp sinh viên rèn luyện tư duy phản biện và sáng tạo để nhận diện xu hướng, vấn đề mới và biến chúng thành cơ hội. Sinh viên học cách phát triển giải pháp khả thi, làm việc nhóm hiệu quả, ứng phó với thay đổi, đồng thời hiểu được cách tư duy kinh doanh có thể cải thiện cuộc sống và tạo ra giá trị thực tiễn.",
+    "review": "Môn học giúp rèn tư duy sáng tạo và biến vấn đề thành cơ hội kinh doanh."
+  },
+  {
+    "id": "LNGS-C101",
+    "name": "Tiếng Trung 1",
+    "english": "Chinese 1",
+    "objective": "Môn học giúp sinh viên nhận biết ngôn ngữ, con người và đất nước Trung Hoa ở mức độ cơ bản. Làm quen với bảng chữ cái tiếng Trung, từ vựng và cấu trúc ngữ pháp cơ bản, đồng thời hình thành khả năng giao tiếp đơn giản.",
+    "review": "Môn học làm quen tiếng Trung và giao tiếp cơ bản."
+  },
+  {
+    "id": "LNGS-C102",
+    "name": "Tiếng Trung 2",
+    "english": "Chinese 2",
+    "objective": "Tiếp nối Tiếng Trung 1, môn học giúp mở rộng vốn từ, cấu trúc câu và kỹ năng nghe nói đọc viết. Sinh viên thực hành giao tiếp với ngữ cảnh phong phú và chính xác hơn.",
+    "review": "Môn học phát triển kỹ năng tiếng Trung và ngữ pháp nâng cao."
+  },
+  {
+    "id": "LNGS-C103",
+    "name": "Tiếng Trung 3",
+    "english": "Chinese 3",
+    "objective": "Môn học củng cố và mở rộng năng lực sử dụng tiếng Trung trong giao tiếp học thuật và nghề nghiệp. Tăng cường kỹ năng đọc hiểu, viết và phản xạ giao tiếp nâng cao.",
+    "review": "Môn học ứng dụng tiếng Trung trong học thuật và công việc."
+  },
+  {
+    "id": "LNGS-J101",
+    "name": "Tiếng Nhật 1",
+    "english": "Japanese 1",
+    "objective": "Sinh viên làm quen với bảng chữ cái Hiragana, Katakana và các từ vựng thường dùng trong lớp học như chào hỏi, số đếm. Luyện phát âm, nghe nói cơ bản và viết các ký tự đơn giản.",
+    "review": "Môn học nhập môn tiếng Nhật và luyện kỹ năng cơ bản."
+  },
+  {
+    "id": "LNGS-J102",
+    "name": "Tiếng Nhật 2",
+    "english": "Japanese 2",
+    "objective": "Tiếp tục luyện kỹ năng sử dụng chữ cái, phát âm, từ vựng và câu giao tiếp thường dùng. Sinh viên thực hành phản xạ và mô tả đồ vật, con người và hành động trong ngữ cảnh đơn giản.",
+    "review": "Môn học mở rộng ngữ pháp và giao tiếp hàng ngày."
+  },
+  {
+    "id": "LNGS-J103",
+    "name": "Tiếng Nhật 3",
+    "english": "Japanese 3",
+    "objective": "Nâng cao khả năng nghe, nói, đọc, viết với các chủ đề quen thuộc. Sinh viên học cách viết và nói những câu phức dài hơn, nhận biết và vận dụng từ vựng trong các ngữ cảnh đa dạng.",
+    "review": "Môn học tăng cường năng lực giao tiếp tiếng Nhật thực tế."
+  },
+  {
+    "id": "LNGS-K101",
+    "name": "Tiếng Hàn 1",
+    "english": "Korean 1",
+    "objective": "Sinh viên học bảng chữ cái Hangeul, phát âm cơ bản, ngữ pháp và từ vựng cần thiết. Có khả năng giao tiếp đơn giản và tìm hiểu văn hóa cùng hệ thống kính ngữ của Hàn Quốc.",
+    "review": "Môn học nhập môn tiếng Hàn và văn hóa cơ bản."
+  },
+  {
+    "id": "LNGS-K102",
+    "name": "Tiếng Hàn 2",
+    "english": "Korean 2",
+    "objective": "Sinh viên học ngữ pháp trung cấp và sử dụng cách diễn đạt phù hợp theo chủ đề trong cuộc sống. Tăng khả năng giao tiếp hiệu quả và hiểu sâu hơn về hệ thống kính ngữ.",
+    "review": "Môn học giao tiếp tiếng Hàn tốt hơn trong ngữ cảnh thực tế."
+  },
+  {
+    "id": "LNGS-K103",
+    "name": "Tiếng Hàn 3",
+    "english": "Korean 3",
+    "objective": "Môn học nâng cao ngữ pháp và từ vựng tiếng Hàn trong môi trường học thuật hoặc công sở. Sinh viên thực hành nghe, nói và viết nâng cao, phù hợp với nhu cầu công việc.",
+    "review": "Môn học sử dụng tiếng Hàn trong môi trường chuyên nghiệp."
+  },
+  {
+    "id": "MUSI 203",
+    "name": "Âm nhạc 1",
+    "english": "Music 1",
+    "objective": "Môn học nhập môn thanh nhạc, giúp sinh viên làm quen với cách lấy hơi, phát âm trong ca hát và luyện thanh cơ bản. Sinh viên được rèn luyện kỹ năng thanh nhạc nền tảng và hình thành thái độ siêng năng, ham học hỏi.",
+    "review": "Môn học làm quen với kỹ thuật hát và luyện thanh cơ bản."
+  },
+  {
+    "id": "MUSI 204",
+    "name": "Âm nhạc 2",
+    "english": "Music 2",
+    "objective": "Tiếp nối Âm nhạc 1, môn học nâng cao kỹ thuật lấy hơi, phát âm và luyện thanh với các bài tập ngắt quãng và nối tiếp. Sinh viên thực hành áp dụng kỹ thuật trong các bài hát cụ thể và rèn kỹ năng trình bày cá nhân.",
+    "review": "Môn học nâng cao kỹ thuật thanh nhạc và luyện tập bài bản hơn."
+  },
+  {
+    "id": "MUSI 205",
+    "name": "Âm nhạc 3",
+    "english": "Music 3",
+    "objective": "Môn học nâng cao, tập trung vào luyện tập ứng dụng kỹ thuật thanh nhạc ở mức chuyên sâu. Sinh viên luyện kỹ năng hát nối tiếp, lấy hơi đúng kỹ thuật và biểu diễn hiệu quả. Môn học nhấn mạnh tính kỷ luật và luyện tập thường xuyên.",
+    "review": "Môn học luyện thanh nâng cao và ứng dụng kỹ thuật vào biểu diễn."
+  },
+  {
+    "id": "ART 101",
+    "name": "Nghệ thuật trong đời sống xã hội",
+    "english": "Art in Society",
+    "objective": "Môn học cung cấp nền tảng triết học và văn hóa để hiểu vai trò của nghệ thuật trong xã hội. Sinh viên khám phá mối liên hệ giữa nghệ thuật với văn hóa, giá trị cá nhân và thay đổi xã hội thông qua các lăng kính dân gian, xã hội học, triết học và giáo dục nghệ thuật. Các dạng nghệ thuật như nghệ thuật tinh tế, dân gian, đa phương tiện... được phân tích trong môi trường truyền thông hiện đại.",
+    "review": "Môn học tìm hiểu nghệ thuật qua các khía cạnh xã hội và văn hóa."
+  },
+  {
+    "id": "HLTH 130",
+    "name": "Nghiên cứu sáng tạo về Chăm sóc sức khỏe",
+    "english": "Healthcare and Creative Inquiry",
+    "objective": "Môn học khám phá các phương pháp phê phán và phân tích từ tường thuật và nghệ thuật trong môi trường chăm sóc sức khỏe. Sinh viên được khuyến khích thể hiện sáng tạo thông qua viết và nghệ thuật, đồng thời phát triển nhận thức, sự đồng cảm và hiểu biết đa chiều về sự giao thoa giữa nghệ thuật và sức khỏe.",
+    "review": "Môn học kết hợp nghệ thuật và tường thuật để hiểu sâu hơn về chăm sóc sức khỏe."
+  },
+  {
+    "id": "UNIV 101",
+    "name": "Sự tự chủ và phát triển bản thân",
+    "english": "The Intentional Self",
+    "objective": "Môn học giúp sinh viên hiểu rõ bản thân qua việc khám phá các trụ cột cuộc sống như mục đích, các mối quan hệ, sức khỏe, cộng đồng, sự thịnh vượng và bản chất. Hướng tới việc đưa ra lựa chọn có chủ ý để nâng cao sự hài lòng trong cuộc sống và định hướng tương lai một cách toàn diện.",
+    "review": "Môn học giúp hiểu bản thân và định hướng tương lai."
+  },
+  {
+    "id": "PSYC 110",
+    "name": "Hạnh phúc và phúc lợi",
+    "english": "Happiness and Well-being",
+    "objective": "Môn học khám phá các quan điểm triết học và tâm lý học về điều gì tạo nên một cuộc sống tốt: từ niềm vui, mong muốn cá nhân đến các giá trị như tình bạn và kiến thức. Sinh viên sẽ phân tích và so sánh những lý thuyết này để hiểu sâu hơn về hạnh phúc và chất lượng sống.",
+    "review": "Môn học hiểu rõ hơn về các yếu tố tạo nên một cuộc sống hạnh phúc."
+  },
+  {
+    "id": "ECE 160",
+    "name": "Nhập môn lập trình",
+    "english": "Introduction to Programming",
+    "objective": "Môn học giới thiệu các khái niệm và kỹ năng cơ bản trong lập trình như biến, hàm, cấu trúc điều khiển, mảng, chuỗi và con trỏ. Thực hành với C và MATLAB để xây dựng tư duy lập trình nền tảng.",
+    "review": "Môn học về các kiến thức cơ bản về lập trình để làm nền cho các môn sau."
+  },
+  {
+    "id": "PHYS 100",
+    "name": "Vật lý đại cương",
+    "english": "General Physics",
+    "objective": "Môn học cung cấp kiến thức nền tảng về cơ học, nhiệt học, điện và từ học. Học cách áp dụng các định luật vật lý để giải thích hiện tượng, thực hành thí nghiệm và rèn kỹ năng xử lý dữ liệu.",
+    "review": "Môn học về lý thuyết và thực hành các nguyên lý vật lý cơ bản, áp dụng vào giải bài và thí nghiệm."
+  },
+  {
+    "id": "CSE 101",
+    "name": "Tin học đại cương",
+    "english": "Introduction to Computing",
+    "objective": "Môn học trang bị kiến thức cơ bản về máy tính, hệ điều hành, Internet và mạng máy tính. Sinh viên sẽ được làm quen với phần cứng, các thao tác hệ điều hành, sử dụng các dịch vụ trực tuyến như Google Drive, Docs, Sheets, và công cụ ảo hóa như VMware. Ngoài ra, môn học còn giúp phát triển tư duy lập trình ban đầu thông qua Scratch, tạo nền tảng cho các môn chuyên sâu sau này.",
+    "review": "Môn học về máy tính, Internet, Google tools và tư duy lập trình cơ bản với Scratch."
+  },
+  {
+    "id": "LAWS 121",
+    "name": "Pháp luật Việt Nam đại cương",
+    "english": "Vietnamese Law and Government",
+    "objective": "Môn học cung cấp cho sinh viên kiến thức nền tảng về Nhà nước và pháp luật Việt Nam; giúp sinh viên hiểu được vai trò và chức năng của pháp luật trong đời sống xã hội. Những nội dung chính bao gồm: Khái niệm cơ bản về nhà nước và pháp luật; Nguyên tắc tổ chức và hoạt động của bộ máy nhà nước; Các loại văn bản pháp luật và trình tự ban hành; Quy trình thực hiện và áp dụng pháp luật trong thực tiễn; Phân tích các tình huống pháp lý phổ biến trong đời sống cá nhân và cộng đồng; Rèn luyện tư duy pháp lý và kỹ năng đánh giá hoạt động lập pháp, hành pháp và tư pháp; Nâng cao ý thức công dân trong việc tuân thủ và bảo vệ pháp luật.",
+    "review": "Môn học hiểu về nhà nước, pháp luật và áp dụng vào thực tế đời sống hàng ngày."
+  },
+  {
+    "id": "MATH 101",
+    "name": "Giải tích 1A",
+    "english": "Calculus 1A",
+    "objective": "Môn học cung cấp cho sinh viên kiến thức nền tảng về vi phân và tích phân hàm một biến. Giúp sinh viên xác định đúng tình huống áp dụng vi phân hoặc tích phân trong các bài toán kỹ thuật, từ đó xây dựng cơ sở cho việc giải quyết các vấn đề thực tiễn trong kỹ thuật và khoa học.",
+    "review": "Môn học học cách dùng vi phân và tích phân trong các bài toán kỹ thuật."
+  },
+  {
+    "id": "CSE 102",
+    "name": "Nhập môn lập trình",
+    "english": "Introduction to Programming",
+    "objective": "Môn học trang bị kiến thức và kỹ năng lập trình cơ bản thông qua ngôn ngữ C#. Sinh viên học cách phân tích, sửa lỗi, áp dụng các thuật toán đơn giản và phát triển phong cách lập trình cá nhân. Làm quen với công cụ Visual Studio để chuẩn bị cho các môn học nâng cao sau này.",
+    "review": "Môn học làm quen lập trình qua C#, học phân tích lỗi và xây dựng nền tảng lập trình."
+  },
+  {
+    "id": "CSE 107",
+    "name": "Toán tin ứng dụng",
+    "english": "Applied Computational Mathematics",
+    "objective": "Môn học cung cấp kiến thức nền tảng về tài chính và mô hình hóa toán học các vấn đề thực tiễn. Sinh viên sẽ vận dụng công cụ MS Excel và ngôn ngữ lập trình để hiện thực và đánh giá mô hình tính toán, từ đó phát triển tư duy ứng dụng toán học vào giải quyết các vấn đề đời sống.",
+    "review": "Môn học áp dụng toán học và lập trình để giải quyết các bài toán tài chính thực tiễn."
+  },
+  {
+    "id": "MATH 102",
+    "name": "Giải tích 1B",
+    "english": "Calculus 1B",
+    "objective": "Môn học trang bị cho sinh viên kiến thức về vi phân hàm nhiều biến, tìm cực trị có điều kiện và không điều kiện, và giải phương trình vi phân cơ bản. Sinh viên được rèn luyện khả năng lựa chọn và áp dụng công cụ toán học phù hợp để mô hình hóa và giải quyết các bài toán kỹ thuật trong thực tiễn.",
+    "review": "Môn học về hàm nhiều biến và phương trình vi phân vào bài toán kỹ thuật."
+  },
+  {
+    "id": "MATH 201",
+    "name": "Giải tích 2A",
+    "english": "Calculus 2A",
+    "objective": "Môn học trang bị cho sinh viên kiến thức và kỹ năng cần thiết để tính toán tích phân hàm nhiều biến, bao gồm tích phân kép và ba, trong các hệ tọa độ khác nhau. Sinh viên hiểu được khi nào cần áp dụng tích phân bội và cách vận dụng công cụ này để giải quyết các bài toán thực tế trong kỹ thuật và khoa học.",
+    "review": "Môn học về tích phân nhiều biến và ứng dụng vào các bài toán kỹ thuật."
+  },
+  {
+    "id": "CSE 205",
+    "name": "Mạng và Truyền thông",
+    "english": "Networks and Communications",
+    "objective": "Môn học cung cấp cho sinh viên kiến thức nền tảng về nguyên lý thiết kế và vận hành mạng máy tính, bao gồm các giao thức truyền thông, ứng dụng mạng phổ biến như Web, truyền thông đa phương tiện, và các cải tiến gần đây trong công nghệ mạng. Sinh viên có khả năng phân tích, đánh giá và ứng dụng các kiến thức này vào hệ thống mạng và viễn thông thực tế.",
+    "review": "Môn học về nguyên lý mạng, giao thức, và ứng dụng truyền thông hiện đại."
+  },
+  {
+    "id": "MATH 202",
+    "name": "Giải tích 2B",
+    "english": "Calculus 2B",
+    "objective": "Môn học trang bị cho sinh viên kiến thức về chuỗi hội tụ, miền hội tụ và cách xác định tổng của chuỗi; giúp sinh viên nhận biết và áp dụng chuỗi trong việc giải các phương trình đạo hàm riêng trong các bài toán kỹ thuật. Môn học củng cố tư duy phân tích và khả năng giải quyết bài toán toán học nâng cao trong thực tiễn kỹ thuật.",
+    "review": "Môn học về chuỗi hội tụ và ứng dụng chuỗi trong giải phương trình đạo hàm riêng."
+  },
+  {
+    "id": "PHYS 201",
+    "name": "Vật lý 1A",
+    "english": "Physics 1A",
+    "objective": "Môn học cung cấp kiến thức nền tảng về cơ học cổ điển và nhiệt động học, giúp sinh viên vận dụng vào giải thích hiện tượng tự nhiên và giải bài toán kỹ thuật cơ bản. Rèn luyện kỹ năng thực hành thí nghiệm, xử lý dữ liệu đo và tác phong làm việc khoa học trong phòng thí nghiệm.",
+    "review": "Môn học về các định luật cơ bản, ứng dụng vào bài toán kỹ thuật và thực hành thí nghiệm."
+  },
+  {
+    "id": "MATH 203",
+    "name": "Giải tích 3A",
+    "english": "Calculus 3A",
+    "objective": "Môn học trang bị kiến thức về hàm biến phức và phép biến đổi Laplace, giúp sinh viên giải quyết các bài toán kỹ thuật có liên quan.",
+    "review": "Môn học về hàm biến phức và áp dụng biến đổi Laplace trong các bài toán kỹ thuật."
+  },
+  {
+    "id": "CSE 307",
+    "name": "Lập trình Web",
+    "english": "Web Programming",
+    "objective": "Môn học cung cấp kiến thức và kỹ năng xây dựng trang web với HTML, CSS, Bootstrap, Javascript/jQuery và các công cụ hỗ trợ; đảm bảo chuẩn SEO và tương thích đa thiết bị.",
+    "review": "Môn học về kỹ thuật lập trình Web, tạo được trang Web tương tác, chuẩn SEO và hiển thị tốt trên mọi thiết bị."
+  },
+  {
+    "id": "PHYS 202",
+    "name": "Vật lý 1B",
+    "english": "Physics 1B",
+    "objective": "Môn học hiểu và vận dụng các định luật về tĩnh điện, từ trường và điện từ trường để giải thích hiện tượng tự nhiên và giải bài toán kỹ thuật; thực hành thí nghiệm với tác phong khoa học.",
+    "review": "Môn học về điện – từ trường, thực hành thí nghiệm và có tư duy phân tích."
+  },
+  {
+    "id": "MATH 204",
+    "name": "Giải tích 3B",
+    "english": "Calculus 3B",
+    "objective": "Môn học trang bị kiến thức và kỹ năng về các phương pháp số cơ bản trong giải tích. Sinh viên có thể giải gần đúng phương trình phi tuyến, hệ phương trình tuyến tính, tính gần đúng đạo hàm và tích phân xác định, giải phương trình vi phân bằng phương pháp số. Làm quen với các phương pháp xấp xỉ hàm và ứng dụng các kỹ thuật số vào bài toán thực tế trong kỹ thuật và khoa học.",
+    "review": "Môn học về các phương pháp tính gần đúng để giải bài toán kỹ thuật."
+  },
+  {
+    "id": "CSE 443",
+    "name": "Lập trình DOTNET",
+    "english": "DOTNET Programming",
+    "objective": "Môn học cung cấp kiến thức và kỹ năng về lập trình ứng dụng trên nền tảng Windows với .NET Framework. Sinh viên hiểu được cách quản lý sự kiện, xử lý giao diện người dùng, truy xuất và xử lý dữ liệu. Vận dụng ngôn ngữ lập trình C# để xây dựng các ứng dụng quản lý theo mô hình hướng đối tượng. Hình thành tác phong làm việc nghiêm túc và chuyên nghiệp trong phát triển phần mềm thực tiễn.",
+    "review": "Môn học về C# với .NET, xây dựng ứng dụng Windows, phát triển kỹ năng lập trình."
+  },
+  {
+    "id": "CSE 303",
+    "name": "Phân tích và thiết kế giải thuật",
+    "english": "Algorithm Analysis and Design",
+    "objective": "Môn học trang bị kiến thức về các kỹ thuật thiết kế giải thuật như Brute Force, Đệ quy, Chia để trị, Tham lam, Quay lui và Quy hoạch động. Sinh viên hiểu được độ phức tạp thuật toán (Big-O), có khả năng phân tích bài toán và thiết kế giải thuật phù hợp. Rèn luyện tư duy logic và tác phong làm việc chuyên nghiệp.",
+    "review": "Môn về các kỹ thuật thiết kế giải thuật phổ biến, biết phân tích độ phức tạp."
+  },
+  {
+    "id": "PHYS 203",
+    "name": "Vật lý 2",
+    "english": "Physics 2",
+    "objective": "Môn học cung cấp kiến thức về quang học sóng, thuyết tương đối hẹp, cơ học lượng tử và các mô hình vật lý cơ bản. Sinh viên có khả năng giải thích các hiện tượng giao thoa, nhiễu xạ, phát xạ, quang phổ, mô hình nguyên tử; thực hành thí nghiệm và xử lý kết quả đo lường chính xác, nghiêm túc.",
+    "review": "Môn học về kiến thức hiện đại về quang học và lượng tử, thực hành thí nghiệm tốt."
+  },
+  {
+    "id": "MATH 301",
+    "name": "Xác suất thống kê",
+    "english": "Probability and Statistics",
+    "objective": "Môn học Xác suất thống kê cung cấp cho sinh viên kiến thức cơ bản về xác suất, các biến ngẫu nhiên, và các phân phối xác suất thường gặp; kỹ năng kiểm định giả thuyết thống kê. Sinh viên sẽ nắm vững các phương pháp phân tích và đánh giá dữ liệu thống kê, áp dụng vào các bài toán thực tiễn, từ đó nâng cao khả năng tư duy logic và giải quyết vấn đề trong các lĩnh vực kỹ thuật và khoa học.",
+    "review": "Môn học cung cấp nền tảng vững chắc về xác suất và thống kê, hỗ trợ tư duy phân tích và ứng dụng thực tiễn."
+  },
+  {
+    "id": "CSE 441",
+    "name": "Lập trình Mobile",
+    "english": "Mobile Programming",
+    "objective": "Môn học Lập trình Mobile trang bị cho sinh viên kỹ năng phát triển ứng dụng trên nền tảng Android bằng cách sử dụng các thư viện API có sẵn. Sinh viên sẽ học cách phân tích và xây dựng ứng dụng quản lý trên Android sử dụng ngôn ngữ lập trình Java, đồng thời rèn luyện tác phong làm việc chuyên nghiệp và ý thức trách nhiệm trong quá trình phát triển phần mềm.",
+    "review": "Môn học cung cấp kỹ năng lập trình ứng dụng Android, tập trung vào thực hành và tính chuyên nghiệp."
+  },
+  {
+    "id": "CSE 305",
+    "name": "Kỹ thuật phần mềm",
+    "english": "Software Engineering",
+    "objective": "Môn học Kỹ thuật phần mềm giúp sinh viên hiểu rõ về các quy trình và phương pháp phát triển phần mềm như Scrum, eXtreme Programming. Sinh viên sẽ nắm được tầm quan trọng của kỹ thuật phần mềm, áp dụng các kỹ năng phát triển phần mềm, làm việc nhóm và giao tiếp hiệu quả, đồng thời xây dựng tinh thần trách nhiệm với công việc.",
+    "review": "Môn học cung cấp kiến thức nền tảng về kỹ thuật phần mềm, nhấn mạnh vào quy trình và làm việc nhóm."
+  },
+  {
+    "id": "CSE 310",
+    "name": "Đồ án Kỹ Thuật Phần Mềm",
+    "english": "Software Engineering Project",
+    "objective": "Môn học Đồ án Kỹ Thuật Phần Mềm giúp sinh viên phát triển kỹ năng phân tích, thiết kế và hiện thực một phần mềm. Sinh viên sẽ rèn luyện kỹ năng thuyết trình, phản biện, trình bày kết quả dự án bằng báo cáo viết, làm việc nhóm, và nghiên cứu tài liệu kỹ thuật, đồng thời xây dựng tinh thần trách nhiệm và hợp tác trong công việc.",
+    "review": "Môn học tập trung vào thực hành, phát triển kỹ năng thiết kế phần mềm và làm việc nhóm."
+  },
+  {
+    "id": "CSE 442",
+    "name": "Phân tích & Thiết kế HTTT",
+    "english": "Systems Analysis and Design",
+    "objective": "Môn học Phân tích và Thiết kế Hệ thống Thông tin trang bị kiến thức về các phương pháp thu thập, phân tích và thiết kế hệ thống thông tin. Sinh viên sẽ học cách vận dụng kiến thức để xây dựng các hệ thống thông tin thực tế, tổ chức làm việc nhóm, và phát triển kỹ năng thuyết trình.",
+    "review": "Môn học cung cấp kỹ năng phân tích và thiết kế hệ thống thông tin, phù hợp với nhu cầu thực tế."
+  },
+  {
+    "id": "CSE 453",
+    "name": "Kiểm thử phần mềm",
+    "english": "Software Testing",
+    "objective": "Môn học Kiểm thử phần mềm giúp sinh viên hiểu các khái niệm cơ bản về kiểm thử, thiết kế các test case bao quát yêu cầu và hoạt động nghiệp vụ. Sinh viên sẽ được chuẩn bị để thi chứng chỉ ISTQB Foundation Level (CTFL), đồng thời phát triển kỹ năng kiểm thử phần mềm chuyên nghiệp.",
+    "review": "Môn học cung cấp kiến thức chuyên sâu về kiểm thử phần mềm, hỗ trợ chuẩn bị chứng chỉ quốc tế."
+  },
+  {
+    "id": "CSE 422",
+    "name": "Kỹ năng lập trình chuyên nghiệp",
+    "english": "Professional Programming Skills",
+    "objective": "Môn học Kỹ năng lập trình chuyên nghiệp giúp sinh viên hiểu và áp dụng các tiêu chuẩn công nghiệp trong lập trình, đánh giá và cải tiến code, đồng thời phát triển khả năng tự nghiên cứu và cập nhật kiến thức, công nghệ mới trong phát triển phần mềm.",
+    "review": "Môn học nâng cao kỹ năng lập trình theo tiêu chuẩn công nghiệp và khả năng tự học."
+  },
+  {
+    "id": "CSE 311",
+    "name": "Đồ án chuyên ngành Kỹ Thuật Phần Mềm",
+    "english": "Specialized Software Engineering Project",
+    "objective": "Môn học Đồ án chuyên ngành Kỹ Thuật Phần Mềm giúp sinh viên phát triển kỹ năng phân tích, thiết kế và hiện thực phần mềm. Sinh viên sẽ rèn luyện kỹ năng thuyết trình, phản biện, làm việc nhóm, nghiên cứu tài liệu kỹ thuật, và xây dựng tinh thần trách nhiệm trong công việc.",
+    "review": "Môn học tập trung vào thực hành chuyên sâu, phát triển kỹ năng thiết kế và phản biện."
+  },
+  {
+    "id": "EBS 401",
+    "name": "Kỹ năng giao tiếp",
+    "english": "Communication Skills",
+    "objective": "Môn học Kỹ năng giao tiếp trang bị cho sinh viên lý thuyết và thực hành giao tiếp bằng văn bản và miệng trong môi trường kinh doanh. Sinh viên sẽ phát triển kỹ năng viết báo cáo, email, thuyết trình kinh doanh, và áp dụng các chiến lược giao tiếp hiệu quả trong các ngữ cảnh thực tế.",
+    "review": "Môn học nâng cao kỹ năng giao tiếp chuyên nghiệp, phù hợp với môi trường kinh doanh."
+  },
+  {
+    "id": "CSE 306",
+    "name": "Lập trình mạng",
+    "english": "Network Programming",
+    "objective": "Môn học Lập trình mạng giúp sinh viên hiểu các khái niệm về môi trường mạng máy tính, mô hình client-server, và kỹ thuật lập trình socket (TCP, UDP). Sinh viên sẽ học cách quản lý luồng dữ liệu, bảo mật dữ liệu, và phát triển ứng dụng mạng như chat, FTP, đồng thời rèn luyện kỹ năng làm việc nhóm.",
+    "review": "Môn học cung cấp kiến thức chuyên sâu về lập trình mạng và kỹ năng phát triển ứng dụng."
+  },
+  {
+    "id": "CSE 410",
+    "name": "Thực tập tốt nghiệp Kỹ Thuật Phần Mềm",
+    "english": "Software Engineering Internship",
+    "objective": "Môn học Thực tập tốt nghiệp Kỹ Thuật Phần Mềm giúp sinh viên áp dụng kiến thức vào thực tế, phát triển kỹ năng phân tích, thiết kế và hiện thực phần mềm. Sinh viên sẽ rèn luyện kỹ năng thuyết trình, nghiên cứu tài liệu kỹ thuật, làm việc nhóm, và xây dựng tinh thần trách nhiệm.",
+    "review": "Môn học cung cấp trải nghiệm thực tế, phát triển kỹ năng chuyên môn và làm việc nhóm."
+  },
+  {
+    "id": "EBS 405",
+    "name": "Quản trị doanh nghiệp",
+    "english": "Business Management",
+    "objective": "Môn học Quản trị doanh nghiệp giới thiệu các nguyên tắc và chức năng của doanh nghiệp trong bối cảnh kinh tế, chính trị, xã hội. Sinh viên sẽ tìm hiểu về hệ thống kinh tế, quản lý, kế toán, tài chính, thị trường chứng khoán, luật doanh nghiệp, và công nghệ thông tin.",
+    "review": "Môn học cung cấp kiến thức toàn diện về quản trị doanh nghiệp trong môi trường thực tế."
+  },
+  {
+    "id": "CSE 491",
+    "name": "Đồ án tốt nghiệp KTPM 1",
+    "english": "Software Engineering Capstone Project 1",
+    "objective": "Môn học Đồ án tốt nghiệp KTPM 1 giúp sinh viên phát triển kỹ năng nghiên cứu, lập luận, phân tích, và lựa chọn phương án tối ưu để thực hiện một dự án kỹ thuật phần mềm. Sinh viên sẽ rèn luyện kỹ năng làm việc nhóm, thuyết trình, phản biện, và trình bày báo cáo viết.",
+    "review": "Môn học tập trung vào nghiên cứu và phát triển dự án phần mềm, rèn luyện kỹ năng chuyên sâu."
+  },
+  {
+    "id": "CSE 492",
+    "name": "Đồ án tốt nghiệp KTPM 2",
+    "english": "Software Engineering Capstone Project 2",
+    "objective": "Môn học Đồ án tốt nghiệp KTPM 2 tiếp tục phát triển kỹ năng nghiên cứu, lập luận, phân tích, và hiện thực dự án kỹ thuật phần mềm. Sinh viên sẽ rèn luyện kỹ năng làm việc nhóm, thuyết trình, phản biện, và trình bày báo cáo viết, đồng thời thể hiện tinh thần cầu tiến và trách nhiệm.",
+    "review": "Môn học nâng cao kỹ năng thực hiện dự án phần mềm và kỹ năng thuyết trình, phản biện."
+  },
+  {
+    "id": "CSE 493",
+    "name": "Đồ án tốt nghiệp KTPM 3",
+    "english": "Software Engineering Capstone Project 3",
+    "objective": "Môn học Đồ án tốt nghiệp KTPM 3 giúp sinh viên hoàn thiện kỹ năng nghiên cứu, phân tích, và hiện thực dự án kỹ thuật phần mềm. Sinh viên sẽ rèn luyện kỹ năng làm việc nhóm, thuyết trình, phản biện, trình bày báo cáo viết, và thể hiện tinh thần trách nhiệm, cầu tiến.",
+    "review": "Môn học hoàn thiện kỹ năng phát triển dự án phần mềm và trình bày kết quả chuyên nghiệp."
+  },
+  {
+    "id": "EBS 415",
+    "name": "Quản lý dự án",
+    "english": "Project Management",
+    "objective": "Môn học Quản lý dự án cung cấp kiến thức về chín lĩnh vực quản lý dự án và vòng đời dự án. Sinh viên sẽ học cách áp dụng lý thuyết vào thực hành, đảm bảo quản lý dự án hiệu quả, phát triển kỹ năng làm việc nhóm, và chuẩn bị cho sự thành công trong môi trường làm việc thực tế.",
+    "review": "Môn học cung cấp kiến thức thực tiễn về quản lý dự án, hỗ trợ phát triển kỹ năng làm việc nhóm."
+  },
+  {
+    "id": "EBS 410",
+    "name": "Khởi nghiệp",
+    "english": "Entrepreneurship",
+    "objective": "Môn học Khởi nghiệp giúp sinh viên hiểu các yếu tố cơ bản của doanh nhân từ lịch sử, triết học, kinh tế, xã hội học và tâm lý. Sinh viên sẽ học cách xây dựng kế hoạch kinh doanh, phát triển mô hình kinh doanh vững chắc, và tạo chiến lược tăng trưởng cho doanh nghiệp mới.",
+    "review": "Môn học cung cấp kiến thức và kỹ năng cần thiết để khởi nghiệp và phát triển doanh nghiệp."
+  },
+  {
+    "id": "EBS 420",
+    "name": "Lãnh đạo",
+    "english": "Leadership",
+    "objective": "Môn học Lãnh đạo khảo sát các ý tưởng về lãnh đạo hiệu quả trong thế kỷ 21, tập trung vào các mô hình lãnh đạo mới. Sinh viên sẽ phát triển nhận thức về hồ sơ lãnh đạo cá nhân, các năng lực cần thiết, và chuẩn bị cho vai trò lãnh đạo trong các tổ chức trong tương lai.",
+    "review": "Môn học cung cấp kiến thức sâu sắc về lãnh đạo và phát triển kỹ năng lãnh đạo cá nhân."
+  },
+  {
+    "id": "CSE 483",
+    "name": "Kiến trúc phần mềm",
+    "english": "Software Architecture",
+    "objective": "Môn học Kiến trúc phần mềm giúp sinh viên hiểu các mẫu design pattern và architectural pattern, ưu nhược điểm của microservices, và thực hành xây dựng kiến trúc phần mềm. Sinh viên sẽ rèn luyện tác phong làm việc chuyên nghiệp và nhận thức được tầm quan trọng của kiến trúc phần mềm.",
+    "review": "Môn học cung cấp kiến thức chuyên sâu về kiến trúc phần mềm và ứng dụng thực tiễn."
+  },
+  {
+    "id": "CSE 454",
+    "name": "Phát triển ứng dụng mã nguồn mở",
+    "english": "Open Source Software Development",
+    "objective": "Môn học Phát triển ứng dụng mã nguồn mở giúp sinh viên hiểu về giấy phép mã nguồn mở, xây dựng ứng dụng từ mã nguồn mở, và đánh giá các dự án mã nguồn mở. Sinh viên sẽ học cách tham gia hoặc bắt đầu một dự án mã nguồn mở, đồng thời rèn luyện tác phong làm việc chuyên nghiệp.",
+    "review": "Môn học cung cấp kỹ năng phát triển ứng dụng mã nguồn mở và tham gia cộng đồng phát triển."
+  },
+  {
+    "id": "CSE 456",
+    "name": "Lập trình Java nâng cao",
+    "english": "Advanced Java Programming",
+    "objective": "Môn học Lập trình Java nâng cao giúp sinh viên vận dụng kiến thức hướng đối tượng và cơ sở dữ liệu để phát triển ứng dụng web. Sinh viên sẽ học cách áp dụng các kiến trúc phần mềm hiện đại, nhận thức tầm quan trọng của lập trình chuyên nghiệp, và rèn luyện tác phong làm việc nghiêm túc.",
+    "review": "Môn học nâng cao kỹ năng lập trình Java và phát triển ứng dụng web chuyên nghiệp."
+  },
+  {
+    "id": "CSE 431",
+    "name": "Phát triển & nâng cấp phần mềm",
+    "english": "Software Development and Maintenance",
+    "objective": "Môn học Phát triển & nâng cấp phần mềm cung cấp lý thuyết, mô hình, công cụ và quy trình liên quan đến việc duy trì và phát triển hệ thống phần mềm. Sinh viên sẽ học cách áp dụng các kỹ thuật để duy trì và nâng cấp phần mềm, đồng thời rèn luyện tác phong làm việc chuyên nghiệp.",
+    "review": "Môn học cung cấp kiến thức thực tiễn về duy trì và phát triển phần mềm."
+  },
+  {
+    "id": "CSE 432",
+    "name": "Lập trình nâng cao",
+    "english": "Advanced Programming",
+    "objective": "Môn học Lập trình nâng cao giúp sinh viên nắm vững các khái niệm về phân tích và thiết kế giải thuật, sử dụng các kỹ thuật như brute force, divide and conquer, greedy, dynamic programming để giải quyết bài toán hiệu quả. Sinh viên sẽ học cách đánh giá độ phức tạp và điều chỉnh giải thuật phù hợp với thực tế.",
+    "review": "Môn học nâng cao kỹ năng phân tích và thiết kế giải thuật, ứng dụng vào lập trình thực tế."
+  },
+  {
+    "id": "CSE 434",
+    "name": "Lập trình Mobile nâng cao",
+    "english": "Advanced Mobile Programming",
+    "objective": "Môn học Lập trình Mobile nâng cao giúp sinh viên hiểu cấp hệ thống để phát triển ứng dụng khai thác tính năng phần cứng và hệ điều hành di động. Sinh viên sẽ học cách tích hợp API cấp thấp, dịch vụ web, và xây dựng backend cho ứng dụng, đồng thời rèn luyện tác phong làm việc chuyên nghiệp.",
+    "review": "Môn học cung cấp kỹ năng chuyên sâu để phát triển ứng dụng di động phức tạp."
+  },
+  {
+    "id": "CSE 470",
+    "name": "Điện toán đám mây",
+    "english": "Cloud Computing",
+    "objective": "Môn học Điện toán đám mây trang bị kiến thức về các công nghệ như VMware vSphere, ownCloud, AWS, giúp sinh viên xây dựng và triển khai hệ thống cloud, cấu hình và khắc phục sự cố. Sinh viên sẽ rèn luyện ý thức trách nhiệm trong việc bảo vệ tài nguyên phòng thí nghiệm.",
+    "review": "Môn học cung cấp kiến thức thực tiễn về điện toán đám mây và triển khai hệ thống."
+  },
+  {
+    "id": "CSE 482",
+    "name": "Thiết kế trải nghiệm người dùng",
+    "english": "User Experience Design",
+    "objective": "Môn học Thiết kế trải nghiệm người dùng giúp sinh viên hiểu các nguyên tắc thiết kế Sketching, Prototype, và giao diện người dùng. Sinh viên sẽ học cách nghiên cứu trải nghiệm người dùng và áp dụng vào thiết kế, đồng thời rèn luyện tinh thần trách nhiệm với công việc.",
+    "review": "Môn học cung cấp kiến thức và kỹ năng thiết kế trải nghiệm người dùng chuyên nghiệp."
+  },
+  {
+    "id": "CSE 449",
+    "name": "Trí tuệ nhân tạo",
+    "english": "Artificial Intelligence",
+    "objective": "Môn học Trí tuệ nhân tạo giúp sinh viên hiểu các bài toán nâng cao về tìm kiếm, biểu diễn và xử lý tri thức. Sinh viên sẽ học cách áp dụng và cài đặt các thuật toán AI, giải quyết bài toán thực tế, và rèn luyện tác phong làm việc chuyên nghiệp.",
+    "review": "Môn học cung cấp kiến thức chuyên sâu về AI và ứng dụng thực tiễn."
+  },
+  {
+    "id": "CSE 457",
+    "name": "Xử lý ảnh",
+    "english": "Image Processing",
+    "objective": "Môn học Xử lý ảnh giúp sinh viên hiểu các công cụ phần cứng và phần mềm trong công nghệ xử lý ảnh, áp dụng lý thuyết và kỹ năng lập trình để giải quyết các bài toán công nghiệp như phân loại chất lượng sản phẩm. Sinh viên sẽ rèn luyện tác phong làm việc chuyên nghiệp và ý thức trách nhiệm.",
+    "review": "Môn học cung cấp kỹ năng chuyên sâu về xử lý ảnh và ứng dụng công nghiệp."
+  },
+  {
+    "id": "CSE 450",
+    "name": "Khai thác dữ liệu",
+    "english": "Data Mining",
+    "objective": "Môn học Khai thác dữ liệu giúp sinh viên hiểu các khái niệm, công nghệ và quy trình khám phá tri thức, áp dụng các tác vụ như hồi quy, phân loại, gom cụm, và khai phá luật kết hợp. Sinh viên sẽ học cách phân tích dữ liệu và đánh giá tài liệu chuyên ngành, đồng thời rèn luyện tác phong làm việc chuyên nghiệp.",
+    "review": "Môn học cung cấp kiến thức chuyên sâu về khai thác dữ liệu và ứng dụng thực tiễn."
+  },
+  {
+    "id": "CSE 455",
+    "name": "Thương mại điện tử",
+    "english": "E-Commerce",
+    "objective": "Môn học Thương mại điện tử giúp sinh viên hiểu các phương pháp tiếp cận khách hàng trên Internet, lập kế hoạch xây dựng website/ứng dụng TMĐT, và áp dụng các công cụ Digital Marketing. Sinh viên sẽ rèn luyện tác phong làm việc chuyên nghiệp và kỹ năng hoạch định chiến lược TMĐT.",
+    "review": "Môn học cung cấp kiến thức thực tiễn về thương mại điện tử và marketing số."
+  },
+  {
+    "id": "CSE 458",
+    "name": "Theory of Computation",
+    "english": "Theory of Computation",
+    "objective": "Môn học Theory of Computation khám phá nền tảng lý thuyết của khoa học tính toán, bao gồm các khái niệm về ngôn ngữ, automata, và máy Turing. Sinh viên sẽ học về toán rời rạc, các phương pháp chứng minh, và các chủ đề như regular languages, context-free languages, và Chomsky hierarchy.",
+    "review": "Môn học cung cấp nền tảng lý thuyết vững chắc cho khoa học tính toán."
+  },
+  {
+    "id": "CSE 459",
+    "name": "Principles of Programming Languages",
+    "english": "Principles of Programming Languages",
+    "objective": "Môn học Principles of Programming Languages giới thiệu về thiết kế và hiện thực ngôn ngữ lập trình cấp cao, bao gồm văn phạm, ngữ nghĩa, và các tính năng của các ngôn ngữ như Fortran, Algol 60, Pascal, Ada, Lisp. Sinh viên sẽ tìm hiểu quá trình phát triển của các ngôn ngữ lập trình mới.",
+    "review": "Môn học cung cấp kiến thức sâu về thiết kế và phát triển ngôn ngữ lập trình."
+  },
+  {
+    "id": "EBS 407",
+    "name": "Kinh tế kỹ thuật",
+    "english": "Engineering Economics",
+    "objective": "Môn học Kinh tế kỹ thuật cung cấp cho sinh viên các kiến thức cơ bản về đánh giá và lựa chọn phương án đầu tư, quản lý sản xuất. Sinh viên sẽ phát triển các kỹ năng làm việc nhóm, học tập suốt đời, và sử dụng các công cụ để giải quyết vấn đề và hoạch định sản xuất, từ đó nâng cao khả năng thành công trong vai trò kỹ sư trong tương lai.",
+    "review": "Môn học cung cấp kiến thức thực tiễn về kinh tế kỹ thuật và kỹ năng quản lý sản xuất."
+  },
+  {
+    "id": "CSE 481",
+    "name": "Phát triển phần mềm điện toán đám mây",
+    "english": "Cloud Software Development",
+    "objective": "Môn học Phát triển phần mềm điện toán đám mây trang bị kiến thức về xây dựng các ứng dụng linh hoạt, phân bố cao cho điện toán đám mây. Sinh viên sẽ tìm hiểu các cơ hội và thách thức trong phát triển phần mềm đám mây, áp dụng các kỹ thuật phát triển phần mềm hiện đại, và rèn luyện tác phong làm việc chuyên nghiệp dựa trên nền tảng kiến thức từ môn Điện toán đám mây và Kỹ thuật phần mềm.",
+    "review": "Môn học cung cấp kỹ năng chuyên sâu về phát triển phần mềm trên nền tảng đám mây."
+  },
+  {
+    "id": "CSN 205",
+    "name": "Mạng và truyền thông dữ liệu",
+    "english": "Networks and Data Communications",
+    "objective": "Môn học giới thiệu các hệ thống truyền thông dữ liệu và các thành phần của nó, giải thích việc truyền tín hiệu trong mạng máy tính, mạng truyền thông của từng lớp TCP/IP. Sinh viên sẽ áp dụng các công nghệ chủ chốt của mạng không dây và di động, đánh giá các thách thức trong thiết kế và triển khai mạng, đồng thời rèn luyện kỹ năng phân tích và làm việc nhóm.",
+    "review": "Môn học cung cấp kiến thức cơ bản về mạng và truyền thông dữ liệu, tập trung vào ứng dụng thực tiễn."
+  },
+  {
+    "id": "CSN 301",
+    "name": "Phân tích và thiết kế hệ thống mạng",
+    "english": "Network Analysis and Design",
+    "objective": "Môn học giới thiệu quy trình phân tích và thiết kế hệ thống mạng, bao gồm phân tích yêu cầu, thiết kế mạng logic và vật lý, kiểm tra và tối ưu hệ thống mạng. Sinh viên sẽ rèn luyện kỹ năng phân tích, thiết kế hệ thống mạng hoàn chỉnh, đáp ứng các yêu cầu kỹ thuật như băng thông, hiệu suất, bảo mật, quản lý và giám sát.",
+    "review": "Môn học cung cấp kỹ năng thực tiễn trong phân tích và thiết kế hệ thống mạng."
+  },
+  {
+    "id": "CSN 302",
+    "name": "Internet of Things",
+    "english": "Internet of Things",
+    "objective": "Môn học giới thiệu các khái niệm, kỹ thuật và ứng dụng của mô hình vạn vật kết nối (IoT), bao gồm kiến trúc hệ thống IoT, giao tiếp serial, wireless, và các giao thức truyền thông IoT. Sinh viên sẽ thực hành trên các thiết bị như Arduino, Raspberry và các nền tảng ứng dụng, điện toán đám mây để triển khai hệ thống IoT thực tế.",
+    "review": "Môn học cung cấp kiến thức và kỹ năng thực hành về IoT, phù hợp với xu hướng công nghệ hiện đại."
+  },
+  {
+    "id": "CSN 303",
+    "name": "Giới thiệu an ninh mạng",
+    "english": "Introduction to Cyber Security",
+    "objective": "Môn học giới thiệu các khái niệm và kỹ thuật về bảo mật máy tính và an toàn hệ thống mạng, các mối đe dọa và lỗ hổng bảo mật mới, cùng các phương pháp ngăn chặn và giảm thiểu tấn công mạng. Sinh viên sẽ áp dụng kiến thức vào các tình huống bảo mật thực tế, đồng thời rèn luyện ý thức trách nhiệm nghề nghiệp.",
+    "review": "Môn học cung cấp nền tảng vững chắc về an ninh mạng và ứng dụng thực tiễn."
+  },
+  {
+    "id": "CSN 304",
+    "name": "Bảo mật máy tính",
+    "english": "Computer Security",
+    "objective": "Môn học giới thiệu các nguyên tắc cơ bản về bảo mật và an toàn hệ thống máy tính, bao gồm mật mã học, xác thực, bảo mật dữ liệu, phần mềm độc hại, bảo mật phần mềm và hệ điều hành (Linux, Windows). Sinh viên sẽ áp dụng kiến thức để đảm bảo an toàn hệ thống máy tính và dữ liệu người dùng.",
+    "review": "Môn học cung cấp kiến thức chuyên sâu về bảo mật máy tính và ứng dụng thực tế."
+  },
+  {
+    "id": "CSN 305",
+    "name": "Điện toán đám mây",
+    "english": "Cloud Computing",
+    "objective": "Môn học giới thiệu các khái niệm và công nghệ điện toán đám mây như VMware vSphere, ownCloud, Amazon Web Service (AWS). Sinh viên sẽ học cách xây dựng, triển khai, cấu hình và khắc phục sự cố trong hệ thống điện toán đám mây, đồng thời rèn luyện ý thức trách nhiệm trong quản lý tài nguyên.",
+    "review": "Môn học cung cấp kỹ năng thực tiễn về điện toán đám mây và triển khai hệ thống."
+  },
+  {
+    "id": "CSN 306",
+    "name": "Quản trị hệ thống mạng",
+    "english": "System Administration",
+    "objective": "Môn học giới thiệu các khái niệm về dịch vụ mạng như DNS, DHCP, Remote Desktop, Storage Server, File Server, sử dụng công nghệ trên nền tảng Linux Server qua giao diện đồ họa và dòng lệnh Terminal. Sinh viên sẽ triển khai, cấu hình và quản trị các dịch vụ hạ tầng mạng.",
+    "review": "Môn học cung cấp kỹ năng quản trị hệ thống mạng trên nền tảng Linux, tập trung vào thực hành."
+  },
+  {
+    "id": "CSN 340",
+    "name": "Đồ án MMT&TTDL",
+    "english": "CNDC Project",
+    "objective": "Môn học yêu cầu sinh viên vận dụng kiến thức cơ sở ngành và tìm hiểu các công nghệ mới để phân tích, thiết kế và triển khai hệ thống mạng máy tính và truyền thông dữ liệu. Sinh viên sẽ rèn luyện kỹ năng làm việc nhóm, nghiên cứu và trình bày báo cáo dự án.",
+    "review": "Môn học tập trung vào thực hành, phát triển kỹ năng thiết kế hệ thống mạng."
+  },
+  {
+    "id": "CSN 341",
+    "name": "Thực tập tốt nghiệp",
+    "english": "Internship",
+    "objective": "Môn học giới thiệu các quy trình triển khai, thiết kế hệ thống mạng máy tính và truyền thông dữ liệu. Sinh viên tham gia thực tập tại các doanh nghiệp để áp dụng kiến thức vào thực tế, triển khai hệ thống mạng và rèn luyện kỹ năng làm việc chuyên nghiệp.",
+    "review": "Môn học cung cấp trải nghiệm thực tế và kỹ năng triển khai hệ thống mạng."
+  },
+  {
+    "id": "CSN 401",
+    "name": "Bảo mật mạng",
+    "english": "Network Security",
+    "objective": "Môn học trình bày các kỹ thuật tấn công mạng như port scans, footprinting, buffer overflow, SQL injection, privilege escalation, Trojans, backdoors và các giải pháp phát hiện, bảo vệ hệ thống mạng. Sinh viên sẽ cấu hình thiết bị mạng trong phòng an ninh mạng để kiểm chứng lý thuyết và rèn luyện đạo đức nghề nghiệp.",
+    "review": "Môn học cung cấp kiến thức chuyên sâu về bảo mật mạng và kỹ năng phòng chống tấn công."
+  },
+  {
+    "id": "CSN 402",
+    "name": "Bảo mật Web",
+    "english": "Web Security",
+    "objective": "Môn học giới thiệu các khái niệm, kỹ thuật bảo mật web, các phương pháp tấn công và phòng thủ như SQL injection, XSS để bảo vệ ứng dụng web và cơ sở dữ liệu. Sinh viên sẽ áp dụng kiến thức để bảo vệ hệ thống máy tính và ứng dụng web một cách an toàn, bảo mật.",
+    "review": "Môn học cung cấp kỹ năng bảo mật web và ứng dụng thực tiễn. (ANM)"
+  },
+  {
+    "id": "CSN 403",
+    "name": "Bảo mật mạng nâng cao",
+    "english": "Advanced Network Security",
+    "objective": "Môn học tập trung vào các giải pháp thiết kế, triển khai, vận hành và khắc phục hệ thống mạng an toàn, bảo mật. Sinh viên sẽ đánh giá mức độ an toàn của hệ thống và đề xuất giải pháp khắc phục sự cố, đồng thời rèn luyện kỹ năng phân tích khoa học.",
+    "review": "Môn học nâng cao kỹ năng bảo mật mạng và giải quyết vấn đề thực tế."
+  },
+  {
+    "id": "CSN 404",
+    "name": "Quản trị và định tuyến mạng",
+    "english": "Administration and Network Routing",
+    "objective": "Môn học giới thiệu kiến thức về kiến trúc, thành phần và hoạt động của bộ định tuyến và chuyển mạch, các kỹ thuật như VLAN, ACL, DHCP, NAT để triển khai hệ thống mạng hoàn chỉnh. Sinh viên sẽ áp dụng kiến thức để xây dựng mạng thực tế.",
+    "review": "Môn học cung cấp kỹ năng quản trị và định tuyến mạng, tập trung vào thực hành. (QTM)"
+  },
+  {
+    "id": "CSN 405",
+    "name": "Lập trình mạng",
+    "english": "Network Programming",
+    "objective": "Môn học giới thiệu các khái niệm về môi trường mạng máy tính, mô hình client-server, kỹ thuật lập trình socket (TCP, UDP) và shell script để quản trị hệ thống mạng. Sinh viên sẽ viết các chương trình ứng dụng trao đổi dữ liệu và giám sát hệ thống mạng.",
+    "review": "Môn học cung cấp kỹ năng lập trình mạng và phát triển ứng dụng thực tế. (ANM)"
+  },
+  {
+    "id": "CSN 406",
+    "name": "Quản trị hệ thống mạng nâng cao",
+    "english": "Advanced System Administration",
+    "objective": "Môn học dựa trên kiến thức quản trị hệ thống mạng để triển khai các giải pháp cho hoạt động của hệ thống mạng truyền thông. Sinh viên sẽ triển khai, vận hành, đánh giá và đề xuất giải pháp cải tiến các dịch vụ hạ tầng mạng.",
+    "review": "Môn học nâng cao kỹ năng quản trị hệ thống mạng và tối ưu hóa hạ tầng. (QTM)"
+  },
+  {
+    "id": "CSN 407",
+    "name": "Mạng cảm biến không dây",
+    "english": "Wireless Sensor Network",
+    "objective": "Môn học giới thiệu các khái niệm, kiến trúc của mạng cảm biến không dây, các giao thức kiểm soát truy nhập và đặc điểm truyền thông giữa các thiết bị. Sinh viên sẽ áp dụng kiến thức để triển khai hệ thống mạng cảm biến trong thực tế.",
+    "review": "Môn học cung cấp kiến thức và kỹ năng về mạng cảm biến không dây, phù hợp với IoT. (IOT)"
+  },
+  {
+    "id": "CSN 408",
+    "name": "Quản trị hệ thống dữ liệu",
+    "english": "Database Management Systems",
+    "objective": "Môn học giới thiệu các nguyên tắc thiết kế cơ sở dữ liệu quan hệ, xử lý giao dịch, kiểm soát đồng thời, cấu trúc lưu trữ và kỹ thuật truy cập. Sinh viên sẽ thiết kế mối quan hệ thực thể, chuyển đổi sang RDBMS, tạo truy vấn SQL và quản lý dữ liệu an toàn.",
+    "review": "Môn học cung cấp kỹ năng thiết kế và quản trị cơ sở dữ liệu chuyên nghiệp."
+  },
+  {
+    "id": "CSN 409",
+    "name": "Chuyên đề về mạng máy tính",
+    "english": "Special Topics in Computer Networking",
+    "objective": "Môn học giới thiệu các kiến trúc và công nghệ mới trong mạng máy tính như mạng VANET, MANET, WSN, WPAN, công nghệ IoT và các giải pháp bảo mật. Sinh viên sẽ áp dụng kiến thức để phân tích và thiết kế mô hình mạng trong thực tế.",
+    "review": "Môn học cung cấp kiến thức cập nhật về mạng máy tính và công nghệ mới."
+  },
+  {
+    "id": "CSN 410",
+    "name": "Điều tra số",
+    "english": "Digital Forensics",
+    "objective": "Môn học giới thiệu các nguyên tắc pháp y kỹ thuật số và phân tích dấu vết trên máy tính, điện thoại di động và thiết bị kỹ thuật số. Sinh viên sẽ học các phương pháp, quy trình để tiến hành điều tra pháp y kỹ thuật số và áp dụng vào thực tế.",
+    "review": "Môn học cung cấp kỹ năng điều tra số và phân tích dữ liệu kỹ thuật số."
+  },
+  {
+    "id": "CSN 494",
+    "name": "Đồ án tốt nghiệp MMT&TTDL 1",
+    "english": "Capstone Project 1",
+    "objective": "Môn học hướng dẫn sinh viên nghiên cứu, lựa chọn phương pháp phù hợp để thực hiện đồ án tốt nghiệp liên quan đến quản trị hệ thống dữ liệu, mạng máy tính, IoT hoặc an ninh mạng. Sinh viên sẽ hoàn thành báo cáo nghiên cứu, phát triển kỹ năng làm việc nhóm và giao tiếp.",
+    "review": "Môn học tập trung vào nghiên cứu và chuẩn bị cho đồ án tốt nghiệp."
+  },
+  {
+    "id": "CSN 495",
+    "name": "Đồ án tốt nghiệp MMT&TTDL 2",
+    "english": "Capstone Project 2",
+    "objective": "Môn học hướng dẫn sinh viên phân tích, thiết kế và đưa ra giải pháp cho đề tài đã chọn trong Đồ án tốt nghiệp 1. Sinh viên sẽ hoàn thiện đề tài có tính ứng dụng thực tiễn, sáng tạo, đồng thời phát triển kỹ năng làm việc nhóm và trình bày báo cáo.",
+    "review": "Môn học nâng cao kỹ năng thực hiện và trình bày đồ án tốt nghiệp."
+  },
+  {
+    "id": "CSN 496",
+    "name": "Đồ án tốt nghiệp MMT&TTDL 3",
+    "english": "Capstone Project 3",
+    "objective": "Môn học tiếp tục hướng dẫn sinh viên hoàn thiện đề tài từ Đồ án tốt nghiệp 2, đánh giá và chọn giải pháp tối ưu. Sinh viên sẽ thực hiện đề tài có tính ứng dụng, sáng tạo, trình bày báo cáo và bảo vệ trước hội đồng, đồng thời rèn luyện kỹ năng làm việc nhóm.",
+    "review": "Môn học hoàn thiện kỹ năng phát triển và bảo vệ đồ án tốt nghiệp."
+  },
+  {
+    "id": "CSE 320",
+    "name": "Đồ án môn học TT&MMT",
+    "english": "CNDC Course Project",
+    "objective": "Môn học yêu cầu sinh viên vận dụng kiến thức cơ sở ngành để giải quyết các vấn đề thực tế của đồ án. Sinh viên sẽ áp dụng kiến thức đã học và tìm hiểu các công nghệ mới, phát triển kỹ năng làm việc độc lập và làm việc nhóm, cũng như kỹ năng trình bày báo cáo khoa học. Môn học nhằm chuẩn bị cho đồ án tốt nghiệp và công việc trong tương lai.",
+    "review": "Môn học tập trung vào ứng dụng thực tế và phát triển kỹ năng làm việc nhóm, trình bày báo cáo khoa học."
+  },
+  {
+    "id": "CSE 321",
+    "name": "Đồ án chuyên ngành TT&MMT",
+    "english": "CNDC Specialized Project",
+    "objective": "Môn học yêu cầu sinh viên vận dụng kiến thức chuyên ngành để giải quyết các vấn đề thực tế của đồ án. Sinh viên sẽ áp dụng kiến thức đã học, tìm hiểu các công nghệ mới, phát triển kỹ năng làm việc độc lập, làm việc nhóm và trình bày báo cáo khoa học. Môn học chuẩn bị cho thực tập tốt nghiệp và công việc trong tương lai.",
+    "review": "Môn học nâng cao kỹ năng giải quyết vấn đề thực tế và trình bày báo cáo khoa học."
+  },
+  {
+    "id": "CSE 420",
+    "name": "Thực tập tốt nghiệp TT&MMT",
+    "english": "CNDC Internship",
+    "objective": "Môn học giúp sinh viên áp dụng kiến thức lý thuyết và thực hành trong lĩnh vực Mạng máy tính và Truyền thông dữ liệu vào thực tế tại các doanh nghiệp. Sinh viên sẽ vận dụng kiến thức để định hướng nghiên cứu cho đồ án tốt nghiệp, thực hiện các công việc thực tiễn được giao, đồng thời rèn luyện kỹ năng làm việc chuyên nghiệp.",
+    "review": "Môn học cung cấp trải nghiệm thực tế và kỹ năng triển khai hệ thống mạng tại doanh nghiệp."
+  },
+  {
+    "id": "CSE 460",
+    "name": "Bảo mật máy tính",
+    "english": "Computer Security",
+    "objective": "Môn học giới thiệu các nguyên tắc cơ bản của bảo mật máy tính, bao gồm bảo mật, toàn vẹn, tính xác thực, tính khả dụng và không thể từ chối trách nhiệm. Sinh viên sẽ học cách phát triển chính sách bảo vệ, áp dụng các giao thức mã hóa, mật mã, và giải quyết các vấn đề pháp luật, đạo đức liên quan đến bảo mật máy tính.",
+    "review": "Môn học cung cấp kiến thức nền tảng và kỹ năng thực tiễn về bảo mật máy tính."
+  },
+  {
+    "id": "CSE 461",
+    "name": "Bảo mật mạng",
+    "english": "Network Security",
+    "objective": "Môn học giới thiệu các kỹ thuật tấn công mạng như port scans, footprinting, buffer overflow, SQL injection, privilege escalation, Trojans, backdoors và các phương pháp bảo vệ hệ thống mạng. Sinh viên sẽ học cách phân tích và giải quyết các vấn đề bảo mật mạng một cách khoa học, đồng thời rèn luyện ý thức trách nhiệm khi sử dụng thiết bị.",
+    "review": "Môn học cung cấp kiến thức chuyên sâu và kỹ năng phòng chống tấn công mạng."
+  },
+  {
+    "id": "CSE 462",
+    "name": "Phân tích và thiết kế hệ thống mạng",
+    "english": "Network Analysis and Design",
+    "objective": "Môn học giới thiệu quy trình phân tích và thiết kế hệ thống mạng, bao gồm phân tích yêu cầu, thiết kế mạng logic và vật lý, kiểm tra và tối ưu hóa hệ thống mạng. Sinh viên sẽ học cách sử dụng các thiết bị mạng như router, switch, gateway và phát triển kỹ năng làm việc nhóm, giao tiếp hiệu quả.",
+    "review": "Môn học cung cấp kỹ năng thực tiễn trong phân tích và thiết kế hệ thống mạng."
+  },
+  {
+    "id": "CSE 465",
+    "name": "Quản trị và định tuyến mạng",
+    "english": "Administration and Network Routing",
+    "objective": "Môn học giới thiệu các công nghệ chuyển mạch và định tuyến như VLAN, VTP, RSTP, PVSTP, 802.1Q và các giao thức định tuyến động. Sinh viên sẽ học cách sử dụng các thiết bị mạng như router, switch, gateway để phân tích và thiết kế mô hình mạng thực tế, đồng thời rèn luyện ý thức trách nhiệm khi sử dụng thiết bị.",
+    "review": "Môn học cung cấp kỹ năng quản trị và định tuyến mạng, tập trung vào thực hành."
+  },
+  {
+    "id": "CSE 468",
+    "name": "Nguyên lý mạng không dây",
+    "english": "Wireless Network Principles",
+    "objective": "Môn học giới thiệu các nguyên lý của mạng không dây và mạng di động, bao gồm xử lý tín hiệu mạng, mô hình vận hành của các mạng truyền dữ liệu vô tuyến như 3G, 4G, 5G. Sinh viên sẽ học cách sử dụng các thiết bị mạng WLAN và giải quyết các vấn đề liên quan một cách khoa học.",
+    "review": "Môn học cung cấp kiến thức và kỹ năng về mạng không dây, phù hợp với xu hướng công nghệ."
+  },
+  {
+    "id": "CSE 469",
+    "name": "Mạng cảm biến không dây",
+    "english": "Wireless Sensor Network",
+    "objective": "Môn học giới thiệu các khái niệm, kiến trúc và giao thức của mạng cảm biến không dây. Sinh viên sẽ học cách triển khai và quản lý hệ thống mạng cảm biến trong thực tế, sử dụng các thiết bị liên quan và phát triển kỹ năng làm việc nhóm, giao tiếp hiệu quả.",
+    "review": "Môn học cung cấp kiến thức và kỹ năng thực hành về mạng cảm biến không dây, phù hợp với IoT."
+  },
+  {
+    "id": "CSE 479",
+    "name": "Internet of Things",
+    "english": "Internet of Things",
+    "objective": "Môn học giới thiệu các khái niệm, kỹ thuật và kiến trúc của mô hình IoT, cùng với hoạt động và chức năng của các thiết bị phần cứng như Arduino, TelosB. Sinh viên sẽ học cách phát triển các ứng dụng IoT đáp ứng nhu cầu thực tiễn, sử dụng các thiết bị phần cứng và rèn luyện kỹ năng làm việc nhóm.",
+    "review": "Môn học cung cấp kiến thức và kỹ năng thực hành về IoT, phù hợp với xu hướng công nghệ hiện đại."
+  },
+  {
+    "id": "CSE 480",
+    "name": "Bảo mật Web",
+    "english": "Web Security",
+    "objective": "Môn học giới thiệu các khái niệm và thách thức về bảo mật trên mạng và ứng dụng web. Sinh viên sẽ học cách phân tích an ninh mạng, áp dụng kỹ năng cấu hình và khắc phục sự cố an ninh trong hệ thống ứng dụng web, đồng thời rèn luyện thái độ làm việc chuyên nghiệp.",
+    "review": "Môn học cung cấp kỹ năng bảo mật web và ứng dụng thực tiễn."
+  },
+  {
+    "id": "CSE 484",
+    "name": "Chuyên đề mạng 1",
+    "english": "Special Topics in Networking 1",
+    "objective": "Môn học giới thiệu các khái niệm và kiến thức tổng quan về khoa học dữ liệu. Sinh viên sẽ học cách thu thập, thao tác dữ liệu và sử dụng ngôn ngữ R hoặc Python để xây dựng các ứng dụng trực quan hóa dữ liệu, phục vụ cho luận văn tốt nghiệp và công việc trong tương lai.",
+    "review": "Môn học cung cấp kiến thức cơ bản về khoa học dữ liệu và kỹ năng trực quan hóa dữ liệu."
+  },
+  {
+    "id": "CSE 485",
+    "name": "Chuyên đề mạng 2",
+    "english": "Special Topics in Networking 2",
+    "objective": "Môn học giới thiệu các khái niệm và công nghệ khai phá dữ liệu để hỗ trợ ra quyết định. Sinh viên sẽ học cách khai thác dữ liệu để khám phá tri thức và áp dụng công nghệ khai phá dữ liệu vào phân tích các dữ liệu thực tế, phục vụ cho luận văn tốt nghiệp và công việc trong tương lai.",
+    "review": "Môn học cung cấp kỹ năng phân tích và khai phá dữ liệu, hỗ trợ ra quyết định."
+  },
+  {
+    "id": "CSE 486",
+    "name": "Chuyên đề mạng 3",
+    "english": "Special Topics in Networking 3",
+    "objective": "Môn học giới thiệu các kiến trúc và khái niệm trong mạng giao tiếp không dây thế hệ mới (NGN) như VANET, MANET, WSN, WPAN. Sinh viên sẽ học cách phân tích, thiết kế và sử dụng các thiết bị trong mạng NGN, đồng thời phát triển kỹ năng làm việc nhóm và giao tiếp hiệu quả.",
+    "review": "Môn học cung cấp kiến thức cập nhật về mạng không dây thế hệ mới và kỹ năng thực hành."
+  },
+  {
+    "id": "CSE 487",
+    "name": "Các mạng không dây thế hệ mới",
+    "english": "Next Generation Wireless Networks",
+    "objective": "Môn học giới thiệu các kiến trúc và khái niệm trong mạng không dây thế hệ mới (NGWN) như tính toán di động, mạng tế bào nhỏ, IoT, WSN, ad hoc network, cognitive network, 5G. Sinh viên sẽ học cách thiết kế, triển khai và quản lý mạng NGWN, áp dụng kiến thức vào thực tế.",
+    "review": "Môn học cung cấp kiến thức chuyên sâu về mạng không dây thế hệ mới và ứng dụng thực tiễn."
+  },
+  {
+    "id": "CSE 489",
+    "name": "Truyền thông đa phương tiện",
+    "english": "Multimedia Communications",
+    "objective": "Môn học giới thiệu các khái niệm cơ bản về biểu diễn dữ liệu đa phương tiện, bao gồm đồ họa, dữ liệu ảnh, video, âm thanh và các kỹ thuật nén dữ liệu. Sinh viên sẽ học cách phát triển các ứng dụng mạng truyền dữ liệu đa phương tiện và áp dụng vào thực tế.",
+    "review": "Môn học cung cấp kiến thức và kỹ năng về truyền thông đa phương tiện, tập trung vào ứng dụng thực tiễn."
+  },
+  {
+    "id": "CSE 490",
+    "name": "Máy học và ứng dụng",
+    "english": "Machine Learning and Applications",
+    "objective": "Môn học giới thiệu các khái niệm và thuật toán học máy, cùng với ứng dụng trong việc xây dựng các hệ thống hỗ trợ ra quyết định. Sinh viên sẽ học quy trình xử lý dữ liệu, áp dụng các thuật toán học máy bằng Python và phát triển các ứng dụng thông minh cho các vấn đề thực tế.",
+    "review": "Môn học cung cấp kiến thức cơ bản về học máy và kỹ năng phát triển ứng dụng thực tiễn."
+  },
+  {
+    "id": "CSE 494",
+    "name": "Đồ án tốt nghiệp TT&MMT 1",
+    "english": "CNDC Capstone Project 1",
+    "objective": "Môn học hướng dẫn sinh viên vận dụng kiến thức trong lĩnh vực truyền thông và mạng máy tính để thực hiện một đề tài có tính ứng dụng thực tiễn, sáng tạo. Sinh viên sẽ phát triển kỹ năng giải quyết vấn đề, trình bày báo cáo khoa học và làm việc nhóm, chuẩn bị cho công việc và học tập sau này.",
+    "review": "Môn học tập trung vào nghiên cứu và chuẩn bị cho đồ án tốt nghiệp."
+  },
+  {
+    "id": "CSE 495",
+    "name": "Đồ án tốt nghiệp TT&MMT 2",
+    "english": "CNDC Capstone Project 2",
+    "objective": "Môn học hướng dẫn sinh viên tiếp tục phát triển đề tài từ Đồ án tốt nghiệp 1, thực hiện phân tích, thiết kế và giải pháp có tính ứng dụng thực tiễn, sáng tạo. Sinh viên sẽ nâng cao kỹ năng giải quyết vấn đề, trình bày báo cáo khoa học và làm việc nhóm.",
+    "review": "Môn học nâng cao kỹ năng thực hiện và trình bày đồ án tốt nghiệp."
+  },
+  {
+    "id": "CSE 496",
+    "name": "Đồ án tốt nghiệp TT&MMT 3",
+    "english": "CNDC Capstone Project 3",
+    "objective": "Môn học hướng dẫn sinh viên hoàn thiện đề tài từ Đồ án tốt nghiệp 2, đánh giá và chọn giải pháp tối ưu. Sinh viên sẽ thực hiện đề tài có tính ứng dụng, sáng tạo, trình bày báo cáo và bảo vệ trước hội đồng, đồng thời phát triển kỹ năng làm việc nhóm và giao tiếp hiệu quả.",
+    "review": "Môn học hoàn thiện kỹ năng phát triển và bảo vệ đồ án tốt nghiệp."
+  },
+  {
+    "id": "CSE 476",
+    "name": "Quản trị HĐH Windows Server",
+    "english": "Windows Server Administration",
+    "objective": "Môn học giới thiệu các khái niệm và công nghệ trên nền tảng Windows Server, sử dụng giao diện đồ họa và PowerShell. Sinh viên sẽ học cách cấu hình, quản trị các dịch vụ hạ tầng mạng như DNS, DHCP, Remote Desktop, Storage Server, File Server, và khắc phục sự cố trong hệ thống mạng.",
+    "review": "Môn học cung cấp kỹ năng quản trị hệ thống mạng trên Windows Server, tập trung vào thực hành."
+  },
+  {
+    "id": "CSE 477",
+    "name": "Quản trị HĐH Linux Server",
+    "english": "Linux Server Administration",
+    "objective": "Môn học giới thiệu các khái niệm và công nghệ trên nền tảng Linux Server, sử dụng giao diện đồ họa và Terminal. Sinh viên sẽ học cách cấu hình, quản trị các dịch vụ hạ tầng mạng như DNS, DHCP, Remote Desktop, Storage Server, File Server, và khắc phục sự cố trong hệ thống mạng.",
+    "review": "Môn học cung cấp kỹ năng quản trị hệ thống mạng trên Linux Server, tập trung vào thực hành."
+  },
+  {
+    "id": "CSE 488",
+    "name": "Trí tuệ nhân tạo",
+    "english": "Artificial Intelligence",
+    "objective": "Môn học nhằm giới thiệu các vấn đề, khái niệm thuộc lĩnh vực Trí tuệ nhân tạo, các phương pháp luận và ngôn ngữ nền tảng để máy tính có thể giải quyết bài toán con người đặt ra, bao gồm: giải quyết vấn đề bằng thuật toán tìm kiểm, biểu diễn tri thức, lập luận và học máy..",
+    "review": "Cung cấp nền tảng về AI, tập trung vào thuật toán tìm kiếm và học máy."
+  },
+  {
+    "id": "CSE 467",
+    "name": "Bảo mật mạng nâng cao",
+    "english": "Advanced Network Security",
+    "objective": "Môn học trang bị các kiến thức về các giải pháp bảo mật mạng chuyên sâu, và an toàn thông tin như: Bảo mật cơ |sở dữ liệu, bảo mật dữ liệu đa phương tiện. Ngoài ra, sinh viên cũng năm băt các công nghệ giám sát, phòng chông tân công và xâm nhập mạng, công nghệ mä hóa và bảo mật dữ liệu đa phương tiện đảm bảo an toàn thông tin trong hệ thông mạng đã được doanh nghiệp lớn triên khai.",
+    "review": "Kiến thức chuyên sâu về bảo mật mạng, phù hợp với doanh nghiệp lớn."
+  }
+]

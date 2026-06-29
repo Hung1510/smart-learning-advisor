@@ -1,0 +1,98 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+   <div class="d-flex align-items-center flex-nowrap">
+      <button class="navbar-toggler btn-sm py-1 px-1 me-2" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="/dashboard">
+        <i class="fas fa-graduation-cap me-2"></i>Smart Learning Advisor
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a
+            class="nav-link <%= currentPage === 'dashboard' ? 'active' : '' %>"
+            href="/dashboard"
+          >
+            <i class="fas fa-tachometer-alt me-1"></i>Dashboard
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link <%= currentPage === 'grades' ? 'active' : '' %>"
+            href="/grades"
+          >
+            <i class="fas fa-chart-line me-1"></i>Xem điểm
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link <%= currentPage === 'flowchart' ? 'active' : '' %>"
+            href="/flowchart"
+          >
+            <i class="fas fa-diagram-project me-1"></i>Xem lộ trình
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link <%= currentPage === 'advisor' ? 'active' : '' %>"
+            href="/advisor"
+          >
+            <i class="fas fa-robot me-1"></i>Tư vấn AI
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link <%= currentPage === 'chat' ? 'active' : '' %>"
+            href="/chat"
+          >
+            <i class="fas fa-comment me-1"></i>Nhắn tin
+          </a>
+        </li>
+         <li class="nav-item">
+          <a
+            class="nav-link <%= currentPage === 'manageFlow' ? 'active' : '' %>"
+            href="/manageFlow"
+          >
+            <i class="fas fa-cogs me-1"></i>Sửa lộ trình
+          </a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+          >
+            <i class="fas fa-user me-1"></i><%= student.name %>
+          </a>
+          <ul class="dropdown-menu">
+            <!-- <li>
+              <a class="dropdown-item" href="/profile">
+                <i class="fas fa-user-edit me-2"></i>Thông tin cá nhân
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="/settings">
+                <i class="fas fa-cog me-2"></i>Cài đặt
+              </a>
+            </li>
+            <li><hr class="dropdown-divider" /></li> -->
+            <li>
+              <a class="dropdown-item" href="/logout">
+                <i class="fas fa-sign-out-alt me-2"></i>Đăng xuất
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

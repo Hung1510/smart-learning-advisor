@@ -1,0 +1,123 @@
+<!-- Welcome Section -->
+<div class="row">
+  <div class="col-12">
+    <div class="card bg-gradient-primary text-white mb-4">
+      <div class="card-body">
+        <div class="row align-items-center">
+          <div class="col">
+            <h4 class="mb-1">Xin chào, <%= student.name %>!</h4>
+            <p class="mb-0">Chào mừng bạn đến với Smart Learning Advisor</p>
+          </div>
+          <div class="col-auto">
+            <i class="fas fa-user-graduate fa-3x opacity-50"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Statistics Cards -->
+<div class="row mb-4">
+  <div class="col-md-3 col-sm-6 mb-3">
+    <div class="card border-0 shadow-sm">
+      <div class="card-body text-center">
+        <div class="text-primary mb-2">
+          <i class="fas fa-book fa-2x"></i>
+        </div>
+        <h5 class="card-title">Tổng số môn</h5>
+        <h3 class="text-primary"><%= totalCourses %></h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3 col-sm-6 mb-3">
+    <div class="card border-0 shadow-sm">
+      <div class="card-body text-center">
+        <div class="text-success mb-2">
+          <i class="fas fa-check-circle fa-2x"></i>
+        </div>
+        <h5 class="card-title">Đã hoàn thành</h5>
+        <h3 class="text-success"><%= completedCourses %></h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3 col-sm-6 mb-3">
+    <div class="card border-0 shadow-sm">
+      <div class="card-body text-center">
+        <div class="text-warning mb-2">
+          <i class="fas fa-star fa-2x"></i>
+        </div>
+        <h5 class="card-title">GPA Trung bình</h5>
+        <h3 class="text-warning"><%= averageScore %></h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3 col-sm-6 mb-3">
+    <div class="card border-0 shadow-sm">
+      <div class="card-body text-center">
+        <div class="text-info mb-2">
+          <i class="fas fa-graduation-cap fa-2x"></i>
+        </div>
+        <h5 class="card-title">Khóa học</h5>
+        <h3 class="text-info"><%= student.cohort %></h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Student Information -->
+<div class="row">
+  <div class="col-md-8">
+    <div class="card border-0 shadow-sm">
+      <div class="card-header bg-white">
+        <h5 class="mb-0">
+          <i class="fas fa-info-circle me-2"></i>Thông tin sinh viên
+        </h5>
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-sm-6 mb-3">
+            <strong>Họ tên:</strong><br />
+            <span class="text-muted"><%= student.name %></span>
+          </div>
+          <div class="col-sm-6 mb-3">
+            <strong>ID sinh viên:</strong><br />
+            <span class="text-muted"><%= student.id %></span>
+          </div>
+          <div class="col-sm-6 mb-3">
+            <strong>Email:</strong><br />
+            <span class="text-muted"><%= student.email %></span>
+          </div>
+          <div class="col-sm-6 mb-3">
+            <strong>Chuyên ngành:</strong><br />
+            <span class="text-muted"><%= student.major.toUpperCase() %></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="card border-0 shadow-sm">
+      <div class="card-header bg-white">
+        <h5 class="mb-0"><i class="fas fa-rocket me-2"></i>Hành động nhanh</h5>
+      </div>
+      <div class="card-body">
+        <div class="d-grid gap-2">
+          <a href="/grades" class="btn btn-outline-primary">
+            <i class="fas fa-chart-line me-2"></i>Xem bảng điểm
+          </a>
+          <a href="/flowchart" class="btn btn-outline-warning">
+            <i class="fas fa-diagram-project me-2"></i>Lộ trình học
+          </a>
+          <a href="/advisor" class="btn btn-outline-success">
+            <i class="fas fa-robot me-2"></i>Tư vấn học tập
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

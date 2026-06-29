@@ -1,0 +1,33 @@
+#secrets / env
+.env
+.env.*
+_env
+*.env
+
+#dependencies
+node_modules/
+
+#vercel
+.vercel
+
+#local runtime state
+aao_state.json
+student_data.json
+
+#saved student feedback
+Students/*.json
+
+#logs
+*.log
+npm-debug.log*
+
+#OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+
+#python-service
+python-service/__pycache__/
+python-service/.venv/
+python-service/venv/
+*.pyc

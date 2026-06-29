@@ -1,0 +1,1784 @@
+{
+  "IELP 1": {
+    "id": "IELP 1",
+    "name": "Tiếng Anh tổng quát 1",
+    "nameEg": "Level 1 General English",
+    "credits": 0,
+    "lectures": 0
+  },
+  "ORI 101": {
+    "id": "ORI 101",
+    "name": "EIU chào đón Tân sinh viên",
+    "credits": 0,
+    "lectures": 0
+  },
+  "ORI 103": {
+    "id": "ORI 103",
+    "name": "Phương pháp học ĐH (1) (Phương pháp học Đại học Chuyên đề 1: Phương pháp tự học và nghiên cứu tài liệu)",
+    "credits": 0,
+    "lectures": 0
+  },
+  "ORI 104": {
+    "id": "ORI 104",
+    "name": "Trải nghiệm Thư viện",
+    "credits": 0,
+    "lectures": 0
+  },
+  "ORI 105": {
+    "id": "ORI 105",
+    "name": "Phương pháp học đại học",
+    "credits": 0,
+    "lectures": 0
+  },
+  "ORI 106": {
+    "id": "ORI 106",
+    "name": "Phương pháp học tiếng Anh",
+    "credits": 0,
+    "lectures": 0
+  },
+  "ORI 108": {
+    "id": "ORI 108",
+    "name": "Chuyên đề \"Bảo hiểm y tế cho sinh viên\"",
+    "credits": 0,
+    "lectures": 0
+  },
+  "ORI 109": {
+    "id": "ORI 109",
+    "name": "Tập huấn kiến tập doanh nghiệp",
+    "credits": 0,
+    "lectures": 0
+  },
+  "ORI 111": {
+    "id": "ORI 111",
+    "name": "Chuyên đề an ninh chính trị - Bảo hiểm y tế SV",
+    "credits": 0,
+    "lectures": 0
+  },
+  "ORI 112": {
+    "id": "ORI 112",
+    "name": "Giao lưu Alumni & các nhà quản lý doanh nghiệp",
+    "credits": 0,
+    "lectures": 0
+  },
+  "POLS 132": {
+    "id": "POLS 132",
+    "name": "Tư tưởng Hồ Chí Minh",
+    "nameEg": "Ho Chi Minh Ideology",
+    "credits": 3,
+    "lectures": 30
+  },
+  "POLS 133": {
+    "id": "POLS 133",
+    "name": "Triết học Mác - Lênin",
+    "nameEg": "Philosophy of Marxism and Leninism",
+    "credits": 4,
+    "lectures": 40
+  },
+  "LAWS 122": {
+    "id": "LAWS 122",
+    "name": "Lý luận nhà nước và pháp luật",
+    "nameEg": "General Theory of Law and State",
+    "credits": 4,
+    "lectures": 40
+  },
+  "POLS 134": {
+    "id": "POLS 134",
+    "name": "Kinh tế chính trị Mác - Lênin",
+    "nameEg": "Political Economics of Marxism and Leninism",
+    "credits": 3,
+    "lectures": 30
+  },
+  "IELP 2": {
+    "id": "IELP 2",
+    "name": "Tiếng Anh tổng quát 2",
+    "nameEg": "Level 2 General English",
+    "credits": 0,
+    "lectures": 0
+  },
+  "PED 122": {
+    "id": "PED 122",
+    "name": "Aerobic 1",
+    "nameEg": "Aerobic 1",
+    "credits": 1,
+    "lectures": 20
+  },
+  "POLS 135": {
+    "id": "POLS 135",
+    "name": "Chủ nghĩa xã hội khoa học",
+    "nameEg": "Scientific Socialism",
+    "credits": 3,
+    "lectures": 30
+  },
+  "POLS 136": {
+    "id": "POLS 136",
+    "name": "Lịch sử Đảng Cộng sản Việt Nam",
+    "nameEg": "History of  Vietnamese Communist Party",
+    "credits": 3,
+    "lectures": 30
+  },
+  "IELP 3": {
+    "id": "IELP 3",
+    "name": "Tiếng Anh tổng quát 3",
+    "nameEg": "Level 3 General English",
+    "credits": 0,
+    "lectures": 0
+  },
+  "PED 123": {
+    "id": "PED 123",
+    "name": "Aerobic 2",
+    "nameEg": "Aerobic 2",
+    "credits": 1,
+    "lectures": 20
+  },
+  "IELP 4": {
+    "id": "IELP 4",
+    "name": "Tiếng Anh tổng quát 4",
+    "nameEg": "Level 4 General English",
+    "credits": 0,
+    "lectures": 0
+  },
+  "IELP 5": {
+    "id": "IELP 5",
+    "name": "Tiếng Anh tổng quát 5",
+    "nameEg": "Level 5 General English",
+    "credits": 0,
+    "lectures": 0
+  },
+  "MET 100": {
+    "id": "MET 100",
+    "name": "Giáo dục quốc phòng",
+    "nameEg": "Military Education",
+    "credits": 0,
+    "lectures": 0
+  },
+  "PED 100": {
+    "id": "PED 100",
+    "name": "Giáo dục thể chất",
+    "nameEg": "Physical Education",
+    "credits": 0,
+    "lectures": 0
+  },
+  "CGE2000": {
+    "id": "CGE2000",
+    "name": "Tin học đại cương",
+    "nameEg": "Introduction to Computers",
+    "credits": 4,
+    "lectures": 60
+  },
+  "MATH151": {
+    "id": "MATH151",
+    "name": "Toán ứng dụng 1",
+    "nameEg": "Applied Mathematics 1",
+    "credits": 4,
+    "lectures": 40
+  },
+  "POL2003": {
+    "id": "POL2003",
+    "name": "Những nguyên lý cơ bản của Chủ nghĩa Mác - Lênin",
+    "nameEg": "Principles of Marxism-Leninism",
+    "credits": 8,
+    "lectures": 80
+  },
+  "CSE 105": {
+    "id": "CSE 105",
+    "name": "Nhập môn lập trình",
+    "nameEg": "Introduction to Programming",
+    "credits": 4,
+    "lectures": 60
+  },
+  "MTH 3003": {
+    "id": "MTH 3003",
+    "name": "Đại số tuyến tính",
+    "nameEg": "Linear Algebra",
+    "credits": 4,
+    "lectures": 40
+  },
+  "POLS 131": {
+    "id": "POLS 131",
+    "name": "Đường lối CM của ĐCS VN",
+    "nameEg": "Revolutionary Direction of Vietnam Communist Party",
+    "credits": 5,
+    "lectures": 50
+  },
+  "CSE 106": {
+    "id": "CSE 106",
+    "name": "Toán rời rạc 1",
+    "nameEg": "Discrete Mathematics 1",
+    "credits": 4,
+    "lectures": 40
+  },
+  "IELP 102": {
+    "id": "IELP 102",
+    "name": "Anh văn 2",
+    "nameEg": "English 2",
+    "credits": 5,
+    "lectures": 0
+  },
+  "LAWS 121": {
+    "id": "LAWS 121",
+    "name": "Pháp luật Việt Nam đại cương",
+    "nameEg": "Vietnam Laws",
+    "credits": 3,
+    "lectures": 30
+  },
+  "UNIV 300": {
+    "id": "UNIV 300",
+    "name": "Kỹ năng giao tiếp",
+    "nameEg": "Communication Skills",
+    "credits": 3,
+    "lectures": 30
+  },
+  "CSE 201": {
+    "id": "CSE 201",
+    "name": "Cấu trúc dữ liệu và giải thuật",
+    "nameEg": "Data Structures and Algorithms",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 204": {
+    "id": "CSE 204",
+    "name": "Mạng máy tính",
+    "nameEg": "Computer Networks",
+    "credits": 4,
+    "lectures": 60
+  },
+  "IELP 2A": {
+    "id": "IELP 2A",
+    "name": "Tiếng Anh tổng quát 2A",
+    "nameEg": "Level 2A General English",
+    "credits": 0,
+    "lectures": 0
+  },
+  "PHYS 201": {
+    "id": "PHYS 201",
+    "name": "Vật lý 1A",
+    "nameEg": "Physics 1A",
+    "credits": 4,
+    "lectures": 45
+  },
+  "CSE 203": {
+    "id": "CSE 203",
+    "name": "Lập trình hướng đối tượng",
+    "nameEg": "Object-Oriented Development",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 205": {
+    "id": "CSE 205",
+    "name": "Mạng và truyền thông",
+    "nameEg": "Networks and Communications",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 206": {
+    "id": "CSE 206",
+    "name": "Kiến trúc và cấu tạo máy tính",
+    "nameEg": "Computer Architecture and Organization",
+    "credits": 4,
+    "lectures": 60
+  },
+  "IELP 2B": {
+    "id": "IELP 2B",
+    "name": "Tiếng Anh tổng quát 2B",
+    "nameEg": "Level 2B General English",
+    "credits": 0,
+    "lectures": 0
+  },
+  "IELP 101": {
+    "id": "IELP 101",
+    "name": "Anh văn 1",
+    "nameEg": "English 1",
+    "credits": 5,
+    "lectures": 0
+  },
+  "IELP 103": {
+    "id": "IELP 103",
+    "name": "Anh văn 3",
+    "nameEg": "English 3",
+    "credits": 5,
+    "lectures": 0
+  },
+  "IELP 104": {
+    "id": "IELP 104",
+    "name": "Anh văn 4",
+    "nameEg": "English 4",
+    "credits": 5,
+    "lectures": 0
+  },
+  "CSE 301": {
+    "id": "CSE 301",
+    "name": "Cơ sở dữ liệu",
+    "nameEg": "Introduction to Databases",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 302": {
+    "id": "CSE 302",
+    "name": "Hệ điều hành",
+    "nameEg": "Operating Systems",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 468": {
+    "id": "CSE 468",
+    "name": "Nguyên lí mạng không dây",
+    "nameEg": "Wireless Network",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 306": {
+    "id": "CSE 306",
+    "name": "Lập trình mạng",
+    "nameEg": "Network Programming",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 330": {
+    "id": "CSE 330",
+    "name": "Đồ án môn học (CĐ)",
+    "nameEg": "Project",
+    "credits": 1,
+    "lectures": 30
+  },
+  "CSE 462": {
+    "id": "CSE 462",
+    "name": "Phân tích và thiết kế hệ thống mạng",
+    "nameEg": "Network Analysis and Design",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 466": {
+    "id": "CSE 466",
+    "name": "MPLS and Applications",
+    "nameEg": "MPLS and Applications",
+    "credits": 4,
+    "lectures": 60
+  },
+  "IELTS 6.0": {
+    "id": "IELTS 6.0",
+    "name": "IELTS 6.0",
+    "nameEg": "IELTS 6.0",
+    "credits": 0,
+    "lectures": 0
+  },
+  "MTH3002": {
+    "id": "MTH3002",
+    "name": "Giải tích 1A",
+    "nameEg": "Calculus 1A",
+    "credits": 4,
+    "lectures": 40
+  },
+  "MATH 102": {
+    "id": "MATH 102",
+    "name": "Giải tích 1B",
+    "nameEg": "Calculus 1B",
+    "credits": 4,
+    "lectures": 40
+  },
+  "MATH 103": {
+    "id": "MATH 103",
+    "name": "Đại số tuyến tính",
+    "nameEg": "Linear Algebra",
+    "credits": 4,
+    "lectures": 40
+  },
+  "MATH 201": {
+    "id": "MATH 201",
+    "name": "Giải tích 2A",
+    "nameEg": "Calculus 2A",
+    "credits": 4,
+    "lectures": 40
+  },
+  "MATH 203": {
+    "id": "MATH 203",
+    "name": "Giải tích 3A",
+    "nameEg": "Calculus 3A",
+    "credits": 4,
+    "lectures": 40
+  },
+  "PHYS 202": {
+    "id": "PHYS 202",
+    "name": "Vật lý 1B",
+    "nameEg": "Physics 1B",
+    "credits": 4,
+    "lectures": 45
+  },
+  "CSE 202": {
+    "id": "CSE 202",
+    "name": "Toán rời rạc 2",
+    "nameEg": "Discrete Mathematics 2",
+    "credits": 4,
+    "lectures": 60
+  },
+  "IELP 3A": {
+    "id": "IELP 3A",
+    "name": "Tiếng Anh tổng quát 3A",
+    "nameEg": "Level 3A General English",
+    "credits": 0,
+    "lectures": 0
+  },
+  "MATH 202": {
+    "id": "MATH 202",
+    "name": "Giải tích 2B",
+    "nameEg": "Calculus 2B",
+    "credits": 4,
+    "lectures": 40
+  },
+  "PHYS 203": {
+    "id": "PHYS 203",
+    "name": "Vật lý 2",
+    "nameEg": "Physics 2",
+    "credits": 4,
+    "lectures": 45
+  },
+  "CSE 320": {
+    "id": "CSE 320",
+    "name": "Đồ án môn học Truyền thông và Mạng máy tính",
+    "nameEg": "Computer Networks and Data Communications Project 1",
+    "credits": 1,
+    "lectures": 30
+  },
+  "MATH 301": {
+    "id": "MATH 301",
+    "name": "Xác suất thống kê",
+    "nameEg": "Probabilities and Statistics",
+    "credits": 4,
+    "lectures": 40
+  },
+  "CSE 307": {
+    "id": "CSE 307",
+    "name": "Lập trình Web",
+    "nameEg": "Web Programming",
+    "credits": 4,
+    "lectures": 60
+  },
+  "MATH 204": {
+    "id": "MATH 204",
+    "name": "Giải tích 3B (Phương pháp tính)",
+    "nameEg": "Calculus 3B",
+    "credits": 3,
+    "lectures": 30
+  },
+  "CSE 305": {
+    "id": "CSE 305",
+    "name": "Kỹ thuật phần mềm",
+    "nameEg": "Software Engineering",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 321": {
+    "id": "CSE 321",
+    "name": "Đồ án chuyên ngành Truyền thông và Mạng máy tính",
+    "nameEg": "Computer Networks and Data Communications Project 2",
+    "credits": 1,
+    "lectures": 30
+  },
+  "CSE 476": {
+    "id": "CSE 476",
+    "name": "Quản trị hệ điều hành Windows Server",
+    "nameEg": "Windows server Operating System Administration",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 400": {
+    "id": "CSE 400",
+    "name": "Quản trị dự án IT",
+    "nameEg": "IT Project Management",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 420": {
+    "id": "CSE 420",
+    "name": "Thực tập tốt nghiệp Truyền thông và Mạng máy tính",
+    "nameEg": "Internship",
+    "credits": 2,
+    "lectures": 60
+  },
+  "CSE 470": {
+    "id": "CSE 470",
+    "name": "Điện toán đám mây",
+    "nameEg": "Cloud Computing",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 469": {
+    "id": "CSE 469",
+    "name": "Mạng cảm biến không dây",
+    "nameEg": "Wireless Sensor Network",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 461": {
+    "id": "CSE 461",
+    "name": "Bảo mật mạng",
+    "nameEg": "Network Security",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 477": {
+    "id": "CSE 477",
+    "name": "Quản trị hệ điều hành Linux Server",
+    "nameEg": "Linux Operating System Administration",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 303": {
+    "id": "CSE 303",
+    "name": "Phân tích và thiết kế giải thuật",
+    "nameEg": "Analysis and Design of Algorithms",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 421": {
+    "id": "CSE 421",
+    "name": "Đồ án tốt nghiệp",
+    "nameEg": "Capstone Project",
+    "credits": 7,
+    "lectures": 210
+  },
+  "CSE 460": {
+    "id": "CSE 460",
+    "name": "Bảo mật máy tính",
+    "nameEg": "Computer Security",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 430": {
+    "id": "CSE 430",
+    "name": "Đồ án TN (CĐ)",
+    "nameEg": "Capstone Project",
+    "credits": 5,
+    "lectures": 150
+  },
+  "LAN2006": {
+    "id": "LAN2006",
+    "name": "Anh văn 3",
+    "nameEg": "English 3",
+    "credits": 3,
+    "lectures": 80
+  },
+  "POL2000": {
+    "id": "POL2000",
+    "name": "Những nguyên lý cơ bản của Chủ nghĩa Mác - Lênin",
+    "nameEg": "Principles of Marxism-Leninism",
+    "credits": 7,
+    "lectures": 75
+  },
+  "LAN2007": {
+    "id": "LAN2007",
+    "name": "Anh văn 4",
+    "nameEg": "English 4",
+    "credits": 3,
+    "lectures": 80
+  },
+  "MTH3001": {
+    "id": "MTH3001",
+    "name": "Toán rời rạc",
+    "nameEg": "Discrete Mathematics",
+    "credits": 4,
+    "lectures": 40
+  },
+  "MTH3003": {
+    "id": "MTH3003",
+    "name": "Đại số tuyến tính",
+    "nameEg": "Linear Algebra",
+    "credits": 3,
+    "lectures": 30
+  },
+  "POL2002": {
+    "id": "POL2002",
+    "name": "Đường lối Cách mạng của Đảng Cộng Sản Việt Nam",
+    "nameEg": "Revolutionary Direction of Vietnam Communist Party",
+    "credits": 4,
+    "lectures": 45
+  },
+  "SEP2000": {
+    "id": "SEP2000",
+    "name": "Nhập môn lập trình",
+    "nameEg": "Introduction to Programing",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CNT2000": {
+    "id": "CNT2000",
+    "name": "Mạng máy tính",
+    "nameEg": "Computer network",
+    "credits": 4,
+    "lectures": 60
+  },
+  "MTH3004": {
+    "id": "MTH3004",
+    "name": "Xác suất thống kê",
+    "nameEg": "Probabilities and Statistics",
+    "credits": 3,
+    "lectures": 0
+  },
+  "POL2001": {
+    "id": "POL2001",
+    "name": "Tư tưởng Hồ Chí Minh",
+    "nameEg": "Ho Chi Minh Ideology",
+    "credits": 3,
+    "lectures": 30
+  },
+  "SEP3000": {
+    "id": "SEP3000",
+    "name": "Lập trình hướng đối tượng",
+    "nameEg": "Object-Oriented Programming",
+    "credits": 6,
+    "lectures": 75
+  },
+  "GEN2006": {
+    "id": "GEN2006",
+    "name": "Vật lý 1A",
+    "nameEg": "Physics 1A",
+    "credits": 4,
+    "lectures": 60
+  },
+  "MTH3008": {
+    "id": "MTH3008",
+    "name": "Giải tích 2A",
+    "nameEg": "Calculus 2A",
+    "credits": 4,
+    "lectures": 40
+  },
+  "MTH3009": {
+    "id": "MTH3009",
+    "name": "Toán rời rạc 2",
+    "nameEg": "Discrete Mathematics 2",
+    "credits": 4,
+    "lectures": 60
+  },
+  "MTH3010": {
+    "id": "MTH3010",
+    "name": "Giải tích 3A (Toán kỹ thuật)",
+    "nameEg": "Calculus 3A",
+    "credits": 4,
+    "lectures": 40
+  },
+  "GEN2007": {
+    "id": "GEN2007",
+    "name": "Vật lý 1B",
+    "nameEg": "Physics 1B",
+    "credits": 4,
+    "lectures": 60
+  },
+  "IELP 3B": {
+    "id": "IELP 3B",
+    "name": "Tiếng Anh tổng quát 3B",
+    "nameEg": "Level 3B General English",
+    "credits": 0,
+    "lectures": 0
+  },
+  "CSE 464": {
+    "id": "CSE 464",
+    "name": "Network Operating System Administration",
+    "nameEg": "Network Operating System Administration",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 465": {
+    "id": "CSE 465",
+    "name": "Quản trị và định tuyến mạng",
+    "nameEg": "Network Routing and Administration",
+    "credits": 4,
+    "lectures": 60
+  },
+  "POLS 130": {
+    "id": "POLS 130",
+    "name": "Những nguyên lý cơ bản của Chủ nghĩa Mác - Lênin",
+    "nameEg": "Principles of Marxism-Leninism",
+    "credits": 8,
+    "lectures": 75
+  },
+  "MATH 151": {
+    "id": "MATH 151",
+    "name": "Toán ứng dụng 1",
+    "nameEg": "Applied Mathematics 1",
+    "credits": 4,
+    "lectures": 40
+  },
+  "CSE 101": {
+    "id": "CSE 101",
+    "name": "Tin học đại cương",
+    "nameEg": "Introduction to Computing",
+    "credits": 4,
+    "lectures": 60
+  },
+  "LAW2000": {
+    "id": "LAW2000",
+    "name": "Pháp luật đại cương",
+    "nameEg": "Vietnam Laws",
+    "credits": 3,
+    "lectures": 30
+  },
+  "MATH 101": {
+    "id": "MATH 101",
+    "name": "Giải tích 1A",
+    "nameEg": "Calculus 1A",
+    "credits": 4,
+    "lectures": 40
+  },
+  "CSE 473": {
+    "id": "CSE 473",
+    "name": "Chuyên đề mạng 1",
+    "nameEg": "Special Topic 1",
+    "credits": 2,
+    "lectures": 40
+  },
+  "PED 121": {
+    "id": "PED 121",
+    "name": "Cầu lông cơ bản",
+    "nameEg": "Basic Badminton",
+    "credits": 1,
+    "lectures": 20
+  },
+  "PED 124": {
+    "id": "PED 124",
+    "name": "Aerobic 3",
+    "nameEg": "Aerobic 3",
+    "credits": 1,
+    "lectures": 20
+  },
+  "EBS 401": {
+    "id": "EBS 401",
+    "name": "Kỹ năng giao tiếp",
+    "nameEg": "Communication Skills",
+    "credits": 4,
+    "lectures": 40
+  },
+  "CSE 102": {
+    "id": "CSE 102",
+    "name": "Nhập môn lập trình",
+    "nameEg": "Introduction to Programming",
+    "credits": 4,
+    "lectures": 60
+  },
+  "EBS 405": {
+    "id": "EBS 405",
+    "name": "Quản trị doanh nghiệp",
+    "nameEg": "Fundamentals of Business Administration",
+    "credits": 4,
+    "lectures": 40
+  },
+  "EBS 415": {
+    "id": "EBS 415",
+    "name": "Quản lý dự án",
+    "nameEg": "Project Management",
+    "credits": 4,
+    "lectures": 0
+  },
+  "PED 131": {
+    "id": "PED 131",
+    "name": "Cầu lông nâng cao",
+    "nameEg": "Advanced Badminton",
+    "credits": 1,
+    "lectures": 20
+  },
+  "EBS 407": {
+    "id": "EBS 407",
+    "name": "Kinh tế kỹ thuật",
+    "nameEg": "Engineering Economy",
+    "credits": 4,
+    "lectures": 40
+  },
+  "IELTS 6.5": {
+    "id": "IELTS 6.5",
+    "name": "IELTS 6.5",
+    "nameEg": "IELTS 6.5",
+    "credits": 0,
+    "lectures": 0
+  },
+  "IELP 4A": {
+    "id": "IELP 4A",
+    "name": "Tiếng Anh tổng quát 4A",
+    "nameEg": "Level 4A General English",
+    "credits": 0,
+    "lectures": 0
+  },
+  "PED 120": {
+    "id": "PED 120",
+    "name": "Giáo dục thể chất",
+    "nameEg": "Physical Education",
+    "credits": 3,
+    "lectures": 0
+  },
+  "CSE 479": {
+    "id": "CSE 479",
+    "name": "Internet of Things",
+    "nameEg": "Internet of Things",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 463": {
+    "id": "CSE 463",
+    "name": "Quản trị mạng WAN",
+    "nameEg": "WAN Administration",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 486": {
+    "id": "CSE 486",
+    "name": "Chuyên đề mạng 3",
+    "nameEg": "Special Topic 3",
+    "credits": 3,
+    "lectures": 50
+  },
+  "CSE 485": {
+    "id": "CSE 485",
+    "name": "Chuyên đề mạng 2",
+    "nameEg": "Special Topic 2",
+    "credits": 3,
+    "lectures": 50
+  },
+  "CSE 107": {
+    "id": "CSE 107",
+    "name": "Toán tin ứng dụng",
+    "nameEg": "Applied Math in Computing",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 480": {
+    "id": "CSE 480",
+    "name": "Bảo mật Web",
+    "nameEg": "Web Security",
+    "credits": 4,
+    "lectures": 0
+  },
+  "CSE 484": {
+    "id": "CSE 484",
+    "name": "Chuyên đề mạng 1",
+    "nameEg": "Special Topic 1",
+    "credits": 3,
+    "lectures": 50
+  },
+  "CSE 494": {
+    "id": "CSE 494",
+    "name": "Đồ án tốt nghiệp Truyền thông và Mạng máy tính 1",
+    "nameEg": "Computer Networks and Data Communications Capstone Project 1",
+    "credits": 1,
+    "lectures": 30
+  },
+  "CSE 495": {
+    "id": "CSE 495",
+    "name": "Đồ án tốt nghiệp Truyền thông và Mạng máy tính 2",
+    "nameEg": "Computer Networks and Data Communications Capstone Project 2",
+    "credits": 2,
+    "lectures": 60
+  },
+  "LAN2004": {
+    "id": "LAN2004",
+    "name": "Anh văn 1",
+    "nameEg": "English for Technology 1",
+    "credits": 4,
+    "lectures": 80
+  },
+  "LAN2003": {
+    "id": "LAN2003",
+    "name": "Anh văn 2",
+    "nameEg": "English 2",
+    "credits": 4,
+    "lectures": 80
+  },
+  "IELP 1B": {
+    "id": "IELP 1B",
+    "name": "Tiếng Anh tổng quát 1B",
+    "nameEg": "Level 1B General English",
+    "credits": 0,
+    "lectures": 0
+  },
+  "CSE 474": {
+    "id": "CSE 474",
+    "name": "Chuyên đề mạng 2",
+    "nameEg": "Special Topic 2",
+    "credits": 2,
+    "lectures": 40
+  },
+  "IELTS 7.0": {
+    "id": "IELTS 7.0",
+    "name": "IELTS 7.0",
+    "nameEg": "IELTS 7.0",
+    "credits": 0,
+    "lectures": 0
+  },
+  "LAN2005": {
+    "id": "LAN2005",
+    "name": "Anh văn 2",
+    "nameEg": "English 2",
+    "credits": 4,
+    "lectures": 80
+  },
+  "CSE 496": {
+    "id": "CSE 496",
+    "name": "Đồ án tốt nghiệp Truyền thông và Mạng máy tính 3",
+    "nameEg": "Computer Networks and Data Communications Capstone Project 3",
+    "credits": 4,
+    "lectures": 0
+  },
+  "INFO 106": {
+    "id": "INFO 106",
+    "name": "Focused Inquiry: Digital Literacy",
+    "nameEg": "Công nghệ số",
+    "credits": 4,
+    "lectures": 40
+  },
+  "PED 125": {
+    "id": "PED 125",
+    "name": "Bóng bàn",
+    "nameEg": "Table tennis",
+    "credits": 1,
+    "lectures": 20
+  },
+  "UNIV 112": {
+    "id": "UNIV 112",
+    "name": "Focused Inquiry: Globalization",
+    "nameEg": "Toàn cầu hóa",
+    "credits": 4,
+    "lectures": 40
+  },
+  "IELTS 7.5": {
+    "id": "IELTS 7.5",
+    "name": "IELTS 7.5",
+    "nameEg": "IELTS 7.5",
+    "credits": 0,
+    "lectures": 0
+  },
+  "PED 118": {
+    "id": "PED 118",
+    "name": "Bóng rổ",
+    "nameEg": "Basketball",
+    "credits": 1,
+    "lectures": 0
+  },
+  "CSE 100": {
+    "id": "CSE 100",
+    "name": "Nhập môn Công Nghệ Thông Tin",
+    "nameEg": "Introduction to Computing",
+    "credits": 4,
+    "lectures": 60
+  },
+  "MATH 111": {
+    "id": "MATH 111",
+    "name": "Giải tích I",
+    "nameEg": "Calculus I",
+    "credits": 4,
+    "lectures": 40
+  },
+  "MUSI 110": {
+    "id": "MUSI 110",
+    "name": "Music Theory",
+    "nameEg": "Lý thuyết Âm nhạc",
+    "credits": 4,
+    "lectures": 40
+  },
+  "ECO 110": {
+    "id": "ECO 110",
+    "name": "Principles of Economics",
+    "nameEg": "Nguyên lý kinh tế học",
+    "credits": 4,
+    "lectures": 40
+  },
+  "UNIV 100": {
+    "id": "UNIV 100",
+    "name": "Study Skills",
+    "nameEg": "Kỹ năng học tập",
+    "credits": 1,
+    "lectures": 10
+  },
+  "PED 116": {
+    "id": "PED 116",
+    "name": "Bóng đá",
+    "nameEg": "Football",
+    "credits": 1,
+    "lectures": 0
+  },
+  "PED 114": {
+    "id": "PED 114",
+    "name": "Tennis",
+    "nameEg": "Tennis",
+    "credits": 1,
+    "lectures": 0
+  },
+  "IELP 4B": {
+    "id": "IELP 4B",
+    "name": "Tiếng Anh tổng quát 4B",
+    "nameEg": "Level 4B General English",
+    "credits": 0,
+    "lectures": 0
+  },
+  "PHYS 100": {
+    "id": "PHYS 100",
+    "name": "Vật lý đại cương",
+    "nameEg": "General Physics",
+    "credits": 4,
+    "lectures": 60
+  },
+  "PSYC 154": {
+    "id": "PSYC 154",
+    "name": "Psychology",
+    "nameEg": "Tâm lý học",
+    "credits": 4,
+    "lectures": 40
+  },
+  "CSE 490": {
+    "id": "CSE 490",
+    "name": "Máy học và ứng dụng",
+    "nameEg": "Machine Learning and Application",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 449": {
+    "id": "CSE 449",
+    "name": "Trí tuệ nhân tạo",
+    "nameEg": "Artificial Intelligence",
+    "credits": 4,
+    "lectures": 60
+  },
+  "COMS 101": {
+    "id": "COMS 101",
+    "name": "Communication Skill",
+    "nameEg": "Kỹ năng giao tiếp",
+    "credits": 4,
+    "lectures": 40
+  },
+  "EEE2000": {
+    "id": "EEE2000",
+    "name": "Công tác kỹ sư điện, điện tử",
+    "nameEg": "Introduction to Electrical and Electronics Engineering",
+    "credits": 2,
+    "lectures": 60
+  },
+  "ENT2002": {
+    "id": "ENT2002",
+    "name": "Kỹ thuật số",
+    "nameEg": "Digital Engineering",
+    "credits": 4,
+    "lectures": 40
+  },
+  "MATH 152": {
+    "id": "MATH 152",
+    "name": "Toán ứng dụng 2",
+    "nameEg": "Applied Mathematics 2",
+    "credits": 4,
+    "lectures": 40
+  },
+  "PED 103": {
+    "id": "PED 103",
+    "name": "Cầu lông",
+    "nameEg": "Badminton",
+    "credits": 1,
+    "lectures": 20
+  },
+  "PED 117": {
+    "id": "PED 117",
+    "name": "Bóng chuyền",
+    "nameEg": "Volleyball",
+    "credits": 1,
+    "lectures": 0
+  },
+  "TOEFL IBT 83": {
+    "id": "TOEFL IBT 83",
+    "name": "Chứng chỉ TOEFL iBT",
+    "nameEg": "TOEFL iBT",
+    "credits": 0,
+    "lectures": 0
+  },
+  "CSE 310": {
+    "id": "CSE 310",
+    "name": "Đồ án Kỹ thuật Phần mềm",
+    "nameEg": "Software Engineering Project 1",
+    "credits": 1,
+    "lectures": 30
+  },
+  "CSE 103": {
+    "id": "CSE 103",
+    "name": "Lập trình và giải quyết vấn đề I",
+    "nameEg": "Programming and Problem Solving I",
+    "credits": 4,
+    "lectures": 60
+  },
+  "IELTS 5.5": {
+    "id": "IELTS 5.5",
+    "name": "IELTS 5.5",
+    "nameEg": "IELTS 5.5",
+    "credits": 0,
+    "lectures": 0
+  },
+  "MATH 112": {
+    "id": "MATH 112",
+    "name": "Giải tích II",
+    "nameEg": "Calculus II",
+    "credits": 4,
+    "lectures": 40
+  },
+  "STAT 101": {
+    "id": "STAT 101",
+    "name": "Xác suất và thống kê I",
+    "nameEg": "Statistics and Probability I",
+    "credits": 4,
+    "lectures": 40
+  },
+  "CSW 435": {
+    "id": "CSW 435",
+    "name": "Quản lý dự án",
+    "nameEg": "Project Management",
+    "credits": 4,
+    "lectures": 40
+  },
+  "MATH 114": {
+    "id": "MATH 114",
+    "name": "Giải tích IV",
+    "nameEg": "Calculus IV",
+    "credits": 4,
+    "lectures": 40
+  },
+  "PHYS 101": {
+    "id": "PHYS 101",
+    "name": "Vật Lý I",
+    "nameEg": "General Physic I",
+    "credits": 4,
+    "lectures": 60
+  },
+  "PHYS 102": {
+    "id": "PHYS 102",
+    "name": "Vật Lý II",
+    "nameEg": "General Physic II",
+    "credits": 4,
+    "lectures": 60
+  },
+  "PHYS 103": {
+    "id": "PHYS 103",
+    "name": "Vật Lý III",
+    "nameEg": "General Physic III",
+    "credits": 4,
+    "lectures": 60
+  },
+  "SOC 144": {
+    "id": "SOC 144",
+    "name": "Sociology",
+    "nameEg": "Xã hội học",
+    "credits": 4,
+    "lectures": 40
+  },
+  "CIVI 101": {
+    "id": "CIVI 101",
+    "name": "Lịch sử văn minh thế giới",
+    "nameEg": "The Story of Civilization",
+    "credits": 4,
+    "lectures": 40
+  },
+  "CSN 205": {
+    "id": "CSN 205",
+    "name": "Mạng và truyền thông dữ liệu",
+    "nameEg": "Network and Data Communications",
+    "credits": 4,
+    "lectures": 60
+  },
+  "UNIV 111": {
+    "id": "UNIV 111",
+    "name": "Focused Inquiry: Sustainability",
+    "nameEg": "Phát triển bền vững",
+    "credits": 4,
+    "lectures": 40
+  },
+  "PHL 255": {
+    "id": "PHL 255",
+    "name": "Critical and Creative Thinking",
+    "nameEg": "Tư duy phản biện và sáng tạo",
+    "credits": 4,
+    "lectures": 40
+  },
+  "ECE 101": {
+    "id": "ECE 101",
+    "name": "Nhập môn kỹ thuật Điện - Điện tử",
+    "nameEg": "Introduction to Electrical and Electronics Engineering",
+    "credits": 2,
+    "lectures": 60
+  },
+  "ECE 103": {
+    "id": "ECE 103",
+    "name": "PLC",
+    "nameEg": "PLC",
+    "credits": 2,
+    "lectures": 60
+  },
+  "UNIV 226": {
+    "id": "UNIV 226",
+    "name": "Focused Inquiry: Smart Cities and Communities",
+    "nameEg": "Thành phố và cộng đồng thông minh",
+    "credits": 4,
+    "lectures": 40
+  },
+  "IELTS 8.0": {
+    "id": "IELTS 8.0",
+    "name": "IELTS 8.0",
+    "nameEg": "IELTS 8.0",
+    "credits": 0,
+    "lectures": 0
+  },
+  "INFO 201": {
+    "id": "INFO 201",
+    "name": "Tư duy tính toán",
+    "nameEg": "Computational Thinking",
+    "credits": 4,
+    "lectures": 60
+  },
+  "EBS 110": {
+    "id": "EBS 110",
+    "name": "Kinh tế kỹ thuật",
+    "nameEg": "Engineering Economy",
+    "credits": 4,
+    "lectures": 40
+  },
+  "MEC 110": {
+    "id": "MEC 110",
+    "name": "Nhập môn kỹ thuật Cơ khí - Cơ điện tử",
+    "nameEg": "Introduction to Mechanical and Mechatronics Engineering",
+    "credits": 2,
+    "lectures": 60
+  },
+  "WRT 122": {
+    "id": "WRT 122",
+    "name": "English Composition",
+    "nameEg": "Viết luận tiếng Anh",
+    "credits": 4,
+    "lectures": 40
+  },
+  "SPCH 201": {
+    "id": "SPCH 201",
+    "name": "Public Speaking",
+    "nameEg": "Nghệ thuật nói trước công chúng",
+    "credits": 4,
+    "lectures": 40
+  },
+  "ACTG 240": {
+    "id": "ACTG 240",
+    "name": "Fundamentals of Financial Accounting",
+    "nameEg": "Nguyên lý kế toán tài chính",
+    "credits": 4,
+    "lectures": 40
+  },
+  "MTH 171": {
+    "id": "MTH 171",
+    "name": "Mathematic Applications for Business",
+    "nameEg": "Toán ứng dụng trong kinh doanh",
+    "credits": 4,
+    "lectures": 40
+  },
+  "PED 109": {
+    "id": "PED 109",
+    "name": "Thể dục cơ bản 1",
+    "nameEg": "Physical Education 1",
+    "credits": 1,
+    "lectures": 0
+  },
+  "PED 110": {
+    "id": "PED 110",
+    "name": "Thể dục cơ bản 2",
+    "nameEg": "Physical Education 2",
+    "credits": 1,
+    "lectures": 0
+  },
+  "IREL 101": {
+    "id": "IREL 101",
+    "name": "Foundations of International Relations",
+    "nameEg": "Nhập môn quan hệ quốc tế",
+    "credits": 4,
+    "lectures": 40
+  },
+  "ECE 104": {
+    "id": "ECE 104",
+    "name": "Thực tập điện cơ bản",
+    "nameEg": "Electrical Lab",
+    "credits": 1,
+    "lectures": 30
+  },
+  "HLTH 130": {
+    "id": "HLTH 130",
+    "name": "Nghiên cứu sáng tạo về Chăm sóc sức khỏe",
+    "nameEg": "Healthcare and Creative Inquiry",
+    "credits": 4,
+    "lectures": 40
+  },
+  "CHEM 100": {
+    "id": "CHEM 100",
+    "name": "Hóa đại cương",
+    "nameEg": "General Chemistry",
+    "credits": 4,
+    "lectures": 60
+  },
+  "MEC 210": {
+    "id": "MEC 210",
+    "name": "Tĩnh học",
+    "nameEg": "Statics",
+    "credits": 4,
+    "lectures": 40
+  },
+  "CSE 108": {
+    "id": "CSE 108",
+    "name": "Nhập môn lập trình kỹ thuật",
+    "nameEg": "Introduction to Programming",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 311": {
+    "id": "CSE 311",
+    "name": "Đồ án chuyên ngành Kỹ thuật Phần mềm",
+    "nameEg": "Software Engineering Project 2",
+    "credits": 1,
+    "lectures": 30
+  },
+  "CSE 443": {
+    "id": "CSE 443",
+    "name": "Lập trình DotNet",
+    "nameEg": "DotNet Programming",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 455": {
+    "id": "CSE 455",
+    "name": "Thương mại điện tử",
+    "nameEg": "E-commerce",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 450": {
+    "id": "CSE 450",
+    "name": "Khai thác dữ liệu",
+    "nameEg": "Data Mining",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 456": {
+    "id": "CSE 456",
+    "name": "Lập trình Java nâng cao",
+    "nameEg": "Advanced Java Programming",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 441": {
+    "id": "CSE 441",
+    "name": "Lập trình Mobile",
+    "nameEg": "Mobile programming",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 442": {
+    "id": "CSE 442",
+    "name": "Phân tích và thiết kế hệ thống thông tin",
+    "nameEg": "Information System Analysis and Design",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 454": {
+    "id": "CSE 454",
+    "name": "Phát triển ứng dụng mã nguồn mở",
+    "nameEg": "Open Source Software Development",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 410": {
+    "id": "CSE 410",
+    "name": "Thực tập tốt nghiệp Kỹ thuật Phần mềm",
+    "nameEg": "Internship",
+    "credits": 2,
+    "lectures": 60
+  },
+  "CSE 411": {
+    "id": "CSE 411",
+    "name": "Đồ án tốt nghiệp",
+    "nameEg": "Capstone Project",
+    "credits": 7,
+    "lectures": 210
+  },
+  "CSE 453": {
+    "id": "CSE 453",
+    "name": "Kiểm thử phần mềm",
+    "nameEg": "Software Testing",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 451": {
+    "id": "CSE 451",
+    "name": "Design Pattern",
+    "nameEg": "Design Pattern",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 482": {
+    "id": "CSE 482",
+    "name": "Thiết kế trải nghiệm người dùng",
+    "nameEg": "User Experience Design",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 457": {
+    "id": "CSE 457",
+    "name": "Xử lý ảnh",
+    "nameEg": "Image Processing",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 422": {
+    "id": "CSE 422",
+    "name": "Kỹ năng lập trình chuyên nghiệp",
+    "nameEg": "Coding practice",
+    "credits": 3,
+    "lectures": 0
+  },
+  "CSE 491": {
+    "id": "CSE 491",
+    "name": "Đồ án tốt nghiệp Kỹ thuật phần mềm 1",
+    "nameEg": "Software Engineering Capstone Project 1",
+    "credits": 1,
+    "lectures": 30
+  },
+  "CSE 492": {
+    "id": "CSE 492",
+    "name": "Đồ án tốt nghiệp Kỹ thuật phần mềm 2",
+    "nameEg": "Software Engineering Capstone Project 2",
+    "credits": 2,
+    "lectures": 60
+  },
+  "CSE 493": {
+    "id": "CSE 493",
+    "name": "Đồ án tốt nghiệp Kỹ thuật phần mềm 3",
+    "nameEg": "Software Engineering Capstone Project 3",
+    "credits": 4,
+    "lectures": 0
+  },
+  "ECO 204": {
+    "id": "ECO 204",
+    "name": "Microeconomics",
+    "nameEg": "Kinh tế vi mô",
+    "credits": 4,
+    "lectures": 40
+  },
+  "ECO 205": {
+    "id": "ECO 205",
+    "name": "Macroeconomics",
+    "nameEg": "Kinh tế vĩ mô",
+    "credits": 4,
+    "lectures": 40
+  },
+  "MUSI 203": {
+    "id": "MUSI 203",
+    "name": "Music 1",
+    "nameEg": "Âm nhạc 1",
+    "credits": 4,
+    "lectures": 40
+  },
+  "CSE 458": {
+    "id": "CSE 458",
+    "name": "Chuyên đề phần mềm",
+    "nameEg": "Software Topic",
+    "credits": 2,
+    "lectures": 40
+  },
+  "CSE 434": {
+    "id": "CSE 434",
+    "name": "Lập trình Mobile nâng cao",
+    "nameEg": "Advanced Mobile Programming",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CHEM 301": {
+    "id": "CHEM 301",
+    "name": "Hóa đại cương",
+    "nameEg": "Chemistry",
+    "credits": 5,
+    "lectures": 70
+  },
+  "ECE 102": {
+    "id": "ECE 102",
+    "name": "Kỹ thuật số",
+    "nameEg": "Digital Engineering",
+    "credits": 4,
+    "lectures": 40
+  },
+  "ECE 201": {
+    "id": "ECE 201",
+    "name": "Mạch điện 1",
+    "nameEg": "Electric Circuits 1",
+    "credits": 4,
+    "lectures": 60
+  },
+  "ECE 301": {
+    "id": "ECE 301",
+    "name": "Mạch điện tử 1",
+    "nameEg": "Electronic Circuits 1",
+    "credits": 4,
+    "lectures": 60
+  },
+  "PED 108": {
+    "id": "PED 108",
+    "name": "Điền kinh",
+    "nameEg": "                                                                 ",
+    "credits": 0,
+    "lectures": 20
+  },
+  "MTH171": {
+    "id": "MTH171",
+    "name": "Mathematics Applications for Business",
+    "nameEg": "Toán ứng dụng trong kinh doanh",
+    "credits": 4,
+    "lectures": 40
+  },
+  "CSE 432": {
+    "id": "CSE 432",
+    "name": "Lập trình nâng cao",
+    "nameEg": "Advanced Programming",
+    "credits": 4,
+    "lectures": 60
+  },
+  "INFO 105": {
+    "id": "INFO 105",
+    "name": "Computer Fundamentals",
+    "nameEg": "Tin học căn bản",
+    "credits": 3,
+    "lectures": 30
+  },
+  "MUSI 204": {
+    "id": "MUSI 204",
+    "name": "Music 2",
+    "nameEg": "Âm nhạc 2",
+    "credits": 4,
+    "lectures": 40
+  },
+  "MEC 231": {
+    "id": "MEC 231",
+    "name": "Hình họa – Vẽ kỹ thuật",
+    "nameEg": "Engineering Graphics",
+    "credits": 4,
+    "lectures": 60
+  },
+  "ECE 305": {
+    "id": "ECE 305",
+    "name": "Vi xử lý",
+    "nameEg": "Microprocessor",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 483": {
+    "id": "CSE 483",
+    "name": "Kiến trúc phần mềm",
+    "nameEg": "Software Architecture",
+    "credits": 4,
+    "lectures": 60
+  },
+  "CSE 433": {
+    "id": "CSE 433",
+    "name": "Lập trình Web nâng cao",
+    "nameEg": "Advanced Web Programming",
+    "credits": 4,
+    "lectures": 60
+  },
+  "INFO 103": {
+    "id": "INFO 103",
+    "name": "Tin học đại cương",
+    "nameEg": "Introduction to Computers",
+    "credits": 3,
+    "lectures": 50
+  },
+  "BSC 107": {
+    "id": "BSC 107",
+    "name": "Giải phẫu",
+    "nameEg": "Anatomy",
+    "credits": 4,
+    "lectures": 60
+  },
+  "BSC 108": {
+    "id": "BSC 108",
+    "name": "Sinh lý",
+    "nameEg": "Physiology",
+    "credits": 4,
+    "lectures": 60
+  },
+  "BSC 304": {
+    "id": "BSC 304",
+    "name": "Sức khỏe - Nâng cao sức khỏe và hành vi con người",
+    "nameEg": "Health - Health Promotion and Human Behavior",
+    "credits": 2,
+    "lectures": 20
+  },
+  "BUS 198": {
+    "id": "BUS 198",
+    "name": "Information Technology for Business",
+    "nameEg": "Công nghệ thông tin trong kinh doanh",
+    "credits": 4,
+    "lectures": 40
+  },
+  "MEC 420": {
+    "id": "MEC 420",
+    "name": "Kỹ thuật an toàn",
+    "nameEg": "Safety Engineering",
+    "credits": 2,
+    "lectures": 20
+  },
+  "MEC 305": {
+    "id": "MEC 305",
+    "name": "Vi điều khiển",
+    "nameEg": "Microcontroller",
+    "credits": 4,
+    "lectures": 60
+  },
+  "MEC 220": {
+    "id": "MEC 220",
+    "name": "Động lực học",
+    "nameEg": "Dynamics",
+    "credits": 4,
+    "lectures": 40
+  },
+  "PHYS 105": {
+    "id": "PHYS 105",
+    "name": "Vật lý - Lý sinh",
+    "nameEg": "Physics - Biophysics",
+    "credits": 2,
+    "lectures": 20
+  },
+  "DSCI 130": {
+    "id": "DSCI 130",
+    "name": "Quyền riêng tư dữ liệu và công nghệ",
+    "nameEg": "Data Privacy and Technology",
+    "credits": 4,
+    "lectures": 60
+  },
+  "MATH 113": {
+    "id": "MATH 113",
+    "name": "Giải tích III",
+    "nameEg": "Calculus III",
+    "credits": 4,
+    "lectures": 0
+  },
+  "CSE 104": {
+    "id": "CSE 104",
+    "name": "Lập trình và giải quyết vấn đề II",
+    "nameEg": "Programming and Problem Solving II",
+    "credits": 4,
+    "lectures": 60
+  },
+  "MATH 122": {
+    "id": "MATH 122",
+    "name": "Phương trình vi phân",
+    "nameEg": "Differential Equations",
+    "credits": 4,
+    "lectures": 40
+  },
+  "MATH 123": {
+    "id": "MATH 123",
+    "name": "Tính toán kỹ thuật",
+    "nameEg": "Engineering Computation",
+    "credits": 3,
+    "lectures": 30
+  },
+  "INFO 101": {
+    "id": "INFO 101",
+    "name": "Communication, Information and Society",
+    "nameEg": "Truyền thông, thông tin và xã hội",
+    "credits": 4,
+    "lectures": 40
+  },
+  "MATH 104": {
+    "id": "MATH 104",
+    "name": "Giải tích đa biến",
+    "nameEg": "Multivariate Calculus ",
+    "credits": 4,
+    "lectures": 40
+  },
+  "ECE 106": {
+    "id": "ECE 106",
+    "name": "Nhập môn lập trình",
+    "nameEg": "Introduction to Programming",
+    "credits": 4,
+    "lectures": 60
+  },
+  "IEPS 100": {
+    "id": "IEPS 100",
+    "name": "Entrepreneurial Thinking",
+    "nameEg": "Tư duy kinh doanh",
+    "credits": 4,
+    "lectures": 40
+  },
+  "BUS 101": {
+    "id": "BUS 101",
+    "name": "Fundamentals of Business Administration",
+    "nameEg": "Quản trị kinh doanh căn bản",
+    "credits": 4,
+    "lectures": 40
+  },
+  "METH 118": {
+    "id": "METH 118",
+    "name": "Thi cử",
+    "credits": 0,
+    "lectures": 0
+  },
+  "TIELP 1": {
+    "id": "TIELP 1",
+    "name": "Tutor - Level 1 General English",
+    "nameEg": "",
+    "credits": 0,
+    "lectures": null
+  },
+  "TIELP 2": {
+    "id": "TIELP 2",
+    "name": "Tutor - Level 2 General English",
+    "nameEg": "",
+    "credits": 0,
+    "lectures": null
+  },
+  "TIELP 3": {
+    "id": "TIELP 3",
+    "name": "Tutor - Level 3 General English",
+    "nameEg": "",
+    "credits": 0,
+    "lectures": null
+  },
+  "CSW 304": {
+    "id": "CSW 304",
+    "name": "Lập trình Front-end",
+    "nameEg": "",
+    "credits": 4,
+    "lectures": null
+  },
+  "CSW 310": {
+    "id": "CSW 310",
+    "name": "Phân tích và thiết kế giải thuật",
+    "nameEg": "",
+    "credits": 4,
+    "lectures": null
+  },
+  "CSW 303": {
+    "id": "CSW 303",
+    "name": "Kỹ thuật phần mềm",
+    "nameEg": "",
+    "credits": 4,
+    "lectures": null
+  },
+  "CSW 330": {
+    "id": "CSW 330",
+    "name": "Trí tuệ nhân tạo",
+    "nameEg": "",
+    "credits": 4,
+    "lectures": null
+  },
+  "LNGS-K101": {
+    "id": "LNGS-K101",
+    "name": "Korean 1",
+    "nameEg": "",
+    "credits": 4,
+    "lectures": null
+  },
+  "WRT 187": {
+    "id": "WRT 187",
+    "name": "Academic Reading and Writing",
+    "nameEg": "",
+    "credits": 4,
+    "lectures": null
+  },
+  "ANT 110": {
+    "id": "ANT 110",
+    "name": "Nhân học văn hóa",
+    "nameEg": "",
+    "credits": 4,
+    "lectures": null
+  }
+}

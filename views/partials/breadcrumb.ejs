@@ -1,0 +1,25 @@
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">
+      <a href="/dashboard"><i class="fas fa-home me-1"></i>Trang chủ</a>
+    </li>
+    <% if (breadcrumb && Array.isArray(breadcrumb)) { %> <%
+    breadcrumb.forEach((item, index) => { %> <% if (index === breadcrumb.length
+    - 1) { %>
+    <li class="breadcrumb-item active" aria-current="page">
+      <% if (item.icon) { %><i class="<%= item.icon %> me-1"></i><% } %> <%=
+      item.name %>
+    </li>
+    <% } else { %>
+    <li class="breadcrumb-item">
+      <% if (item.url) { %>
+      <a href="<%= item.url %>">
+        <% if (item.icon) { %><i class="<%= item.icon %> me-1"></i><% } %> <%=
+        item.name %>
+      </a>
+      <% } else { %> <% if (item.icon) { %><i class="<%= item.icon %> me-1"></i
+      ><% } %> <%= item.name %> <% } %>
+    </li>
+    <% } %> <% }); %> <% } %>
+  </ol>
+</nav>

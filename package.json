@@ -1,0 +1,50 @@
+{
+  "name": "smart-learning-advisor",
+  "version": "1.0.0",
+  "description": "Web App for students to view grades and get personalized AI learning advice",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon --ignore students.json --ignore student_data.json --ignore Students/ --ignore aao_state.json app.js"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.38.0",
+    "axios": "^1.6.2",
+    "body-parser": "^1.20.2",
+    "connect-mongo": "^6.0.0",
+    "connect-redis": "^9.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "ejs": "^3.1.9",
+    "express": "^4.21.2",
+    "express-session": "^1.19.0",
+    "helmet": "^8.2.0",
+    "ioredis": "^5.10.1",
+    "jsonwebtoken": "^9.0.3",
+    "moment": "^2.29.4",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "education",
+    "ai",
+    "grades"
+  ],
+  "nodemonConfig": {
+    "ignore": [
+      "flowchart.json",
+      "*.json"
+    ]
+  },
+  "author": "EIU",
+  "license": "MIT"
+}

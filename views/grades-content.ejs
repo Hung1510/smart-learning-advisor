@@ -1,0 +1,203 @@
+<!-- Page Header -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <h2><i class="fas fa-chart-line me-2"></i>Bảng điểm học tập</h2>
+                <p class="text-muted">Kết quả học tập của <%= student.name %></p>
+            </div>
+            <div>
+                <button class="btn btn-outline-primary" onclick="window.print()">
+                    <i class="fas fa-print me-2"></i>In bảng điểm
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Grades by Year and Semester -->
+<% Object.keys(coursesByYear).sort((a, b) => b - a).forEach(year => { %>
+    <div class="card mb-4 border-0 shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h5 class="mb-0">
+                <i class="fas fa-calendar-alt me-2"></i>
+                Năm học <%= year %>
+            </h5>
+        </div>
+        <div class="card-body p-0">
+            <% Object.keys(coursesByYear[year]).sort().forEach(semester => { %>
+                <div class="border-bottom">
+                    <h6 class="bg-light p-3 mb-0">
+                        <i class="fas fa-book me-2"></i>Học kỳ <%= semester %>
+                    </h6>
+                    <div class="table-responsive">
+                        <table class="table table-hover mb-0">
+                            <thead class="table-light">
+                                <tr>
+                                    <th style="width: 20%;">Mã môn học</th>
+                                    <th style="width: 50%;">Tên môn học</th>
+                                    <th style="width: 15%;">Điểm số</th>
+                                    <th style="width: 15%;">Xếp loại</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <% coursesByYear[year][semester].forEach(course => { %>
+                                    <tr class="clickable-row" data-id="<%= course.id %>" data-bs-toggle="modal" data-bs-target="#courseModal">
+                                        <td>
+                                            <strong><%= course.id %></strong>
+                                        </td>
+                                        <td>
+                                            <% if (course.ten_mon) { %>
+                                                <%= course.ten_mon %>
+                                            <% } else { %>
+                                                <span class="text-muted">-</span>
+                                            <% } %>
+                                        </td>
+                                        <td>
+                                            <% if (course.score === 'P') { %>
+                                                <span class="badge bg-success">Pass</span>
+                                            <% } else if (course.score && !isNaN(parseFloat(course.score))) { %>
+                                                <span class="badge bg-primary"><%= course.score %></span>
+                                            <% } else { %>
+                                                <span class="text-muted">-</span>
+                                            <% } %>
+                                        </td>
+                                        <td>
+                                            <% if (course.grade === 'P') { %>
+                                                <span class="badge bg-success">Pass</span>
+                                            <% } else if (course.grade) { %>
+                                                <% 
+                                                    let badgeClass = 'bg-secondary';
+                                                    if (course.grade.includes('A')) badgeClass = 'bg-success';
+                                                    else if (course.grade.includes('B')) badgeClass = 'bg-primary';
+                                                    else if (course.grade.includes('C')) badgeClass = 'bg-warning';
+                                                    else if (course.grade.includes('D')) badgeClass = 'bg-danger';
+                                                    else if (course.grade === 'F') badgeClass = 'bg-dark';
+                                                %>
+                                                <span class="badge <%= badgeClass %>"><%= course.grade %></span>
+                                            <% } else { %>
+                                                <span class="text-muted">-</span>
+                                            <% } %>
+                                        </td>
+                                    </tr>
+                                <% }); %>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            <% }); %>
+        </div>
+    </div>
+<% }); %>
+
+<!-- Summary Statistics -->
+<div class="row">
+    <div class="col-md-6">
+        <div class="card border-0 shadow-sm">
+            <div class="card-header bg-info text-white">
+                <h6 class="mb-0">
+                    <i class="fas fa-chart-bar me-2"></i>Thống kê tổng quan
+                </h6>
+            </div>
+            <div class="card-body">
+<%
+    const allCourses = student.courses || [];
+
+    const totalCredits = allCourses.length;
+
+    let averageGPA = 0;
+
+    if (student.gpa && !isNaN(parseFloat(student.gpa))) {
+        // Có GPA từ API thực → dùng thẳng
+        averageGPA = parseFloat(student.gpa);
+    } else {
+        // Không có → tự tính (data test students.json)
+        const numericCourses = allCourses.filter(c => 
+            c.score !== null && 
+            c.score !== undefined && 
+            c.score !== 'P' && 
+            !isNaN(parseFloat(c.score))
+        );
+
+        const coursesWithCredit = numericCourses.filter(c => parseInt(c.so_tin_chi) > 0);
+        
+        if (coursesWithCredit.length > 0) {
+            const totalWeighted = coursesWithCredit.reduce((sum, c) => sum + parseFloat(c.score) * parseInt(c.so_tin_chi), 0);
+            const totalTinChi = coursesWithCredit.reduce((sum, c) => sum + parseInt(c.so_tin_chi), 0);
+            averageGPA = totalWeighted / totalTinChi;
+        } else if (numericCourses.length > 0) {
+            averageGPA = numericCourses.reduce((sum, c) => sum + parseFloat(c.score), 0) / numericCourses.length;
+        }
+    }
+%>
+                <div class="row text-center">
+                    <div class="col-4">
+                        <div class="border-end">
+                            <h4 class="text-primary"><%= totalCredits %></h4>
+                            <small class="text-muted">Tổng môn học</small>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="border-end">
+                            <h4 class="text-success"><%= completedCourses%></h4>
+                            <small class="text-muted">Đã hoàn thành</small>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <h4 class="text-warning"><%= averageGPA.toFixed(2) %></h4>
+                        <small class="text-muted">GPA trung bình</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-6">
+        <div class="card border-0 shadow-sm">
+            <div class="card-header bg-success text-white">
+                <h6 class="mb-0">
+                    <i class="fas fa-lightbulb me-2"></i>Gợi ý cải thiện
+                </h6>
+            </div>
+            <div class="card-body">
+                <% if (averageGPA >= 3.5) { %>
+                    <p class="text-success mb-1">🎉 Kết quả xuất sắc!</p>
+                    <small class="text-muted">Hãy duy trì phong độ này và tham gia thêm các hoạt động ngoại khóa.</small>
+                <% } else if (averageGPA >= 3.0) { %>
+                    <p class="text-primary mb-1">👍 Kết quả tốt!</p>
+                    <small class="text-muted">Cố gắng cải thiện một chút nữa để đạt mức xuất sắc.</small>
+                <% } else if (averageGPA >= 2.5) { %>
+                    <p class="text-warning mb-1">📚 Cần cải thiện</p>
+                    <small class="text-muted">Hãy tập trung hơn vào việc học và tham khảo tư vấn AI.</small>
+                <% } else { %>
+                    <p class="text-danger mb-1">⚠️ Cần nỗ lực nhiều hơn</p>
+                    <small class="text-muted">Hãy sử dụng tính năng tư vấn AI để có lộ trình học tập phù hợp.</small>
+                <% } %>
+                
+                <div class="mt-3">
+                    <a href="/advisor" class="btn btn-sm btn-outline-success">
+                        <i class="fas fa-robot me-1"></i>Nhận tư vấn AI
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="courseModal" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Thông tin môn học</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <p><strong>Mã môn học:</strong> <span id="course-id"></span></p>
+        <p><strong>Tên môn học:</strong> <span id="course-name"></span></p>
+        <p><strong>Tên tiếng Anh:</strong> <span id="course-english"></span></p>
+        <hr>
+        <p><strong>Mục tiêu môn học:</strong> <span id="course-objective"></span></p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nhắn tin</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <style>
+    #chatBox {
+      height: 400px;
+      overflow-y: auto;
+    }
+
+    .user-list {
+      max-height: 400px;
+      overflow-y: auto;
+    }
+
+    .chat-header {
+      background-color: #f8f9fa;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <% if (!body) { %>
+    <div class="alert alert-warning">Nội dung chat không được tải. Kiểm tra layout hoặc renderWithLayout.</div>
+    <% } else { %>
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-header chat-header">
+                <h5><i class="fas fa-users me-2"></i>Sinh viên</h5>
+              </div>
+              <div class="card-body user-list">
+                <div class="d-flex justify-content-between align-items-center mb-2 px-2">
+                  <span class="fw-semibold">Danh sách trò chuyện</span>
+                  <button class="btn btn-sm btn-outline-primary" id="addUserBtn">
+                    <i class="fas fa-user-plus me-1"></i>Thêm người
+                  </button>
+                </div>
+                <ul class="list-group" id="userList">
+                  <% users.forEach(user=> { %>
+                    <li class="list-group-item list-group-item-action" data-user-id="<%= user.id %>"
+                      data-user-name="<%= user.name %>">
+                      <i class="fas fa-user me-2"></i>
+                      <%= user.name %>
+                    </li>
+                    <% }) %>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="card" id="chatContainer" data-student='<%= JSON.stringify(advisor || {}).replace(/' /g, "\\'" )
+              %>'>
+              <div class="card-header chat-header">
+                <h5 id="chatWith">Chọn sinh viên để trò chuyện</h5>
+              </div>
+              <div class="card-body" id="chatBox">
+                <p id="debugStatus">Đang khởi động...</p>
+              </div>
+              <div class="card-footer">
+                <div class="input-group">
+                  <input type="text" class="form-control" id="messageInput" placeholder="Nhập tin nhắn...">
+                  <button class="btn btn-primary" id="sendBtn">
+                    <i class="fas fa-paper-plane"></i> Gửi
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <% } %>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script type="module" src="/js/chat.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,4645 @@
+{
+  "swe18": {
+    "nodes": [
+      {
+        "year": 1.1,
+        "id": "POLS 130",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 1.1,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 2
+      },
+      {
+        "year": 1.2,
+        "id": "POLS 131",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 1.2,
+        "id": "POLS 132",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 1.3,
+        "id": "LAWS 121",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 1.3,
+        "id": "",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 1.3,
+        "id": "CSE 101",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 2.1,
+        "id": "MATH 101",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 2.1,
+        "id": "MATH 103",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 2.1,
+        "id": "CSE 102",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 2.1,
+        "id": "CSE 107",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 2.2,
+        "id": "MATH 102",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 2.2,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 2
+      },
+      {
+        "year": 2.2,
+        "id": "CSE 203",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 2.2,
+        "id": "CSE 106",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 2.2,
+        "id": "CSE 204",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 2.3,
+        "id": "MATH 201",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 2.3,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 2
+      },
+      {
+        "year": 2.3,
+        "id": "CSE 201",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 2.3,
+        "id": "CSE 205",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 2.3,
+        "id": "CSE 206",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 3.1,
+        "id": "MATH 202",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 3.1,
+        "id": "PHYS 201",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 3.1,
+        "id": "CSE 301",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 3.1,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 4
+      },
+      {
+        "year": 3.1,
+        "id": "CSE 302",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 3.2,
+        "id": "MATH 203",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 3.2,
+        "id": "PHYS 202",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 3.2,
+        "id": "CSE 307",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 3.2,
+        "id": "CSE 202",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 3.3,
+        "id": "MATH 204",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 3.3,
+        "id": "PHYS 203",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 3.3,
+        "id": "CSE 443",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 3.3,
+        "id": "CSE 303",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 4.1,
+        "id": "MATH 301",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 4.1,
+        "id": "CSE 310",
+        "tooltip": "",
+        "group": "CAPSTONE",
+        "slot": 2
+      },
+      {
+        "year": 4.1,
+        "id": "CSE 305",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 4.1,
+        "id": "CSE 441",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 4.2,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 1
+      },
+      {
+        "year": 4.2,
+        "id": "CSE 311",
+        "tooltip": "",
+        "group": "CAPSTONE",
+        "slot": 2
+      },
+      {
+        "year": 4.2,
+        "id": "CSE 442",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 4.2,
+        "id": "CSE 453",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 4.2,
+        "id": "CSE 422",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 4.3,
+        "id": "EBS 401",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 4.3,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 2
+      },
+      {
+        "year": 4.3,
+        "id": "CSE 306",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 4.3,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 4
+      },
+      {
+        "year": 4.4,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 1
+      },
+      {
+        "year": 4.4,
+        "id": "CSE 410",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 2
+      },
+      {
+        "year": 5.1,
+        "id": "EBS 405",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 5.1,
+        "id": "CSE 491",
+        "tooltip": "",
+        "group": "CAPSTONE",
+        "slot": 2
+      },
+      {
+        "year": 5.1,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 3
+      },
+      {
+        "year": 5.1,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 4
+      },
+      {
+        "year": 5.2,
+        "id": "ELEC 5.2",
+        "tooltip": "",
+        "group": "ELEC",
+        "slot": 1
+      },
+      {
+        "year": 5.2,
+        "id": "CSE 492",
+        "tooltip": "",
+        "group": "CAPSTONE",
+        "slot": 2
+      },
+      {
+        "year": 5.2,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 3
+      },
+      {
+        "year": 5.3,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 1
+      },
+      {
+        "year": 5.3,
+        "id": "CSE 493",
+        "tooltip": "",
+        "group": "CAPSTONE",
+        "slot": 2
+      },
+      {
+        "year": 5.3,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 3
+      }
+    ],
+    "links": [
+      {
+        "source": "MATH 101",
+        "target": "MATH 102",
+        "direction": "right"
+      },
+      {
+        "source": "MATH 103",
+        "target": "MATH 201",
+        "direction": "right-1.3, "
+      },
+      {
+        "source": "MATH 103",
+        "target": "MATH 102",
+        "direction": "right-1, "
+      },
+      {
+        "source": "MATH 102",
+        "target": "MATH 204",
+        "direction": "right-0.2, down-0.2"
+      },
+      {
+        "source": "MATH 201",
+        "target": "MATH 202",
+        "direction": "right"
+      },
+      {
+        "source": "MATH 202",
+        "target": "MATH 203",
+        "direction": "right"
+      },
+      {
+        "source": "MATH 202",
+        "target": "MATH 301",
+        "direction": "down-0.1,right-2.4,right-0.2,up-0.1"
+      },
+      {
+        "source": "MATH 201",
+        "target": "PHYS 201",
+        "direction": "right-0.2,down-0.4,right"
+      },
+      {
+        "source": "PHYS 201",
+        "target": "PHYS 202",
+        "direction": "right"
+      },
+      {
+        "source": "PHYS 202",
+        "target": "PHYS 203",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 101",
+        "target": "CSE 102",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 101",
+        "target": "CSE 107",
+        "direction": "right-0.1,down-1.0,right"
+      },
+      {
+        "source": "CSE 101",
+        "target": "CSE 204",
+        "direction": "right-0.1,down-2.1,right-1.3,up"
+      },
+      {
+        "source": "CSE 101",
+        "target": "CSE 206",
+        "direction": "right-0.1,down-2.1,right-2.3,up"
+      },
+      {
+        "source": "CSE 102",
+        "target": "CSE 203",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 102",
+        "target": "CSE 201",
+        "direction": "up-0.2, right-1.4, down"
+      },
+      {
+        "source": "CSE 102",
+        "target": "CSE 307",
+        "direction": "up-0.2, right-3.4, down"
+      },
+      {
+        "source": "CSE 102",
+        "target": "CSE 306",
+        "direction": "up-0.2, right-6.1,dowm"
+      },
+      {
+        "source": "CSE 203",
+        "target": "CSE 443",
+        "direction": "up-0.1, right-3.4, down"
+      },
+      {
+        "source": "CSE 203",
+        "target": "CSE 305",
+        "direction": "up-0.1, right-4.4, down"
+      },
+      {
+        "source": "CSE 106",
+        "target": "CSE 202",
+        "direction": "up-0.1, right-2.4,right-0.2, down-0.1"
+      },
+      {
+        "source": "CSE 204",
+        "target": "CSE 205",
+        "direction": "right-0.1, up-0.4, right"
+      },
+      {
+        "source": "CSE 204",
+        "target": "CSE 306",
+        "direction": "right-0.1, up-0.2,right-6.1,up-1.3,right "
+      },
+      {
+        "source": "CSE 206",
+        "target": "CSE 302",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 201",
+        "target": "CSE 303",
+        "direction": "down-0.2, right-2.4"
+      },
+      {
+        "source": "CSE 202",
+        "target": "CSE 303",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 301",
+        "target": "CSE 443",
+        "direction": "down-0.1, right-2.0,up"
+      },
+      {
+        "source": "CSE 301",
+        "target": "CSE 442",
+        "direction": "down-0.1, right-3.4,up"
+      },
+      {
+        "source": "CSE 203",
+        "target": "CSE 441",
+        "direction": "up-0.1, right-4.2, down-1.2,right"
+      },
+      {
+        "source": "CSE 305",
+        "target": "CSE 442",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 203",
+        "target": "CSE 310",
+        "direction": "up-0.1, right-4.2, up-0.4,right"
+      },
+      {
+        "source": "CSE 305",
+        "target": "CSE 453",
+        "direction": "right-0.2, down-0.4,right"
+      },
+      {
+        "source": "CSE 305",
+        "target": "CSE 422",
+        "direction": "right-0.2, down-1.4,right"
+      },
+      {
+        "source": "CSE 310",
+        "target": "CSE 311",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 311",
+        "target": "CSE 410",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 311",
+        "target": "CSE 491",
+        "direction": "down-0.1,right"
+      },
+      {
+        "source": "CSE 410",
+        "target": "CSE 491",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 491",
+        "target": "CSE 492",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 492",
+        "target": "CSE 493",
+        "direction": "right"
+      },
+      {
+        "source": "EBS 401",
+        "target": "ELEC 5.2",
+        "direction": "down-0.1, right-2.0,up"
+      },
+      {
+        "source": "EBS 405",
+        "target": "ELEC 5.2",
+        "direction": " right"
+      }
+    ],
+    "ELEC": [
+      {
+        "id": "ELEC 5.2",
+        "name": "EBS 415",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 5.2",
+        "name": "EBS 407",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 5.2",
+        "name": "EBS 410",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 5.2",
+        "name": "EBS 420",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 454",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 456",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 431",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 432",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 434",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 470",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 481",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 482",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 449",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 457",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 450",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 455",
+        "tooltip": ""
+      }
+    ]
+  },
+  "swe21": {
+    "nodes": [
+      {
+        "year": 1.1,
+        "id": "POLS 132",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 1.1,
+        "id": "POLS 136",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 1.2,
+        "id": "POLS 133",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 1.2,
+        "id": "POLS 134",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 1.3,
+        "id": "LAWS 121",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 1.2,
+        "id": "POLS 135",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 3
+      },
+      {
+        "year": 1.3,
+        "id": "CSE 101",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 2
+      },
+      {
+        "year": 2.1,
+        "id": "MATH 101",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 2.1,
+        "id": "MATH 103",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 2.1,
+        "id": "CSE 102",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 2.1,
+        "id": "CSE 107",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 2.2,
+        "id": "MATH 102",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 2.2,
+        "id": "CSE 106",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 2
+      },
+      {
+        "year": 2.2,
+        "id": "CSE 203",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 2.2,
+        "id": "CSE 204",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 2.3,
+        "id": "MATH 201",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 2.3,
+        "id": "",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 2.3,
+        "id": "CSE 201",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 2.3,
+        "id": "CSE 205",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 2.3,
+        "id": "CSE 206",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 3.1,
+        "id": "MATH 202",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 3.1,
+        "id": "PHYS 201",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 3.1,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 3
+      },
+      {
+        "year": 3.1,
+        "id": "CSE 301",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 3.1,
+        "id": "CSE 302",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 3.2,
+        "id": "MATH 203",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 3.2,
+        "id": "PHYS 202",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 3.2,
+        "id": "CSE 307",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 3.2,
+        "id": "CSE 202",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 3.3,
+        "id": "MATH 204",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 3.3,
+        "id": "PHYS 203",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 3.3,
+        "id": "CSE 443",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 3.3,
+        "id": "CSE 303",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 4.1,
+        "id": "MATH 301",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 4.1,
+        "id": "CSE 441",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 2
+      },
+      {
+        "year": 4.1,
+        "id": "CSE 305",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 4.1,
+        "id": "CSE 310",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 4.2,
+        "id": "CSE 442",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 1
+      },
+      {
+        "year": 4.2,
+        "id": "CSE 453",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 2
+      },
+      {
+        "year": 4.2,
+        "id": "CSE 422",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 4.2,
+        "id": "CSE 311",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 4.3,
+        "id": "EBS 401",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 4.3,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 2
+      },
+      {
+        "year": 4.2,
+        "id": "",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 4.3,
+        "id": "CSE 306",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 4.4,
+        "id": "",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 4.4,
+        "id": "",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 4.4,
+        "id": "",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 4.4,
+        "id": "CSE 410",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 5.1,
+        "id": "EBS 405",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 5.1,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 2
+      },
+      {
+        "year": 5.1,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 3
+      },
+      {
+        "year": 5.1,
+        "id": "CSE 491",
+        "tooltip": "",
+        "group": "CAPSTONE",
+        "slot": 4
+      },
+      {
+        "year": 5.2,
+        "id": "ELEC GEN",
+        "tooltip": "",
+        "group": "ELEC",
+        "slot": 1
+      },
+      {
+        "year": 5.2,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 2
+      },
+      {
+        "year": 5.2,
+        "id": "",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 5.2,
+        "id": "CSE 492",
+        "tooltip": "",
+        "group": "CAPSTONE",
+        "slot": 4
+      },
+      {
+        "year": 5.3,
+        "id": "",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 1
+      },
+      {
+        "year": 5.3,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 2
+      },
+      {
+        "year": 5.3,
+        "id": "",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 3
+      },
+      {
+        "year": 5.3,
+        "id": "CSE 493",
+        "tooltip": "",
+        "group": "CAPSTONE",
+        "slot": 4
+      }
+    ],
+    "links": [
+      {
+        "source": "CSE 101",
+        "target": "CSE 102",
+        "direction": "down-0.2,right"
+      },
+      {
+        "source": "CSE 101",
+        "target": "CSE 107",
+        "direction": "down-0.4,down-0.4"
+      },
+      {
+        "source": "MATH 101",
+        "target": "MATH 102",
+        "direction": "right"
+      },
+      {
+        "source": "MATH 103",
+        "target": "CSE 106",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 102",
+        "target": "CSE 203",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 101",
+        "target": "CSE 204",
+        "direction": "down-0.8, right-1.2"
+      },
+      {
+        "source": "MATH 102",
+        "target": "MATH 201",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 204",
+        "target": "CSE 205",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 102",
+        "target": "CSE 201",
+        "direction": "down-0.1"
+      },
+      {
+        "source": "CSE 101",
+        "target": "CSE 206",
+        "direction": "down-0.6,down-1.4"
+      },
+      {
+        "source": "MATH 201",
+        "target": "MATH 202",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 106",
+        "target": "CSE 301",
+        "direction": "right-0.2, down-2.1, right"
+      },
+      {
+        "source": "CSE 102",
+        "target": "CSE 307",
+        "direction": "down-0.1"
+      },
+      {
+        "source": "CSE 206",
+        "target": "CSE 302",
+        "direction": "right"
+      },
+      {
+        "source": "MATH 202",
+        "target": "MATH 203",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 106",
+        "target": "CSE 202",
+        "direction": "right-0.2, down-2.1"
+      },
+      {
+        "source": "MATH 102",
+        "target": "MATH 204",
+        "direction": "down-0.1, right-3.2, up-0.1"
+      },
+      {
+        "source": "MATH 103",
+        "target": "MATH 204",
+        "direction": "up-0.1"
+      },
+      {
+        "source": "CSE 301",
+        "target": "CSE 443",
+        "direction": "up-0.2, right-1.3"
+      },
+      {
+        "source": "CSE 203",
+        "target": "CSE 443",
+        "direction": "up-0.2"
+      },
+      {
+        "source": "CSE 201",
+        "target": "CSE 303",
+        "direction": "right-0.2, down-0.3"
+      },
+      {
+        "source": "CSE 202",
+        "target": "CSE 303",
+        "direction": "right"
+      },
+      {
+        "source": "PHYS 201",
+        "target": "PHYS 202",
+        "direction": "right"
+      },
+      {
+        "source": "PHYS 202",
+        "target": "PHYS 203",
+        "direction": "right"
+      },
+      {
+        "source": "MATH 202",
+        "target": "MATH 301",
+        "direction": "down-0.2"
+      },
+      {
+        "source": "CSE 203",
+        "target": "CSE 441",
+        "direction": "up-0.2, right-4.2, up-0.3"
+      },
+      {
+        "source": "CSE 203",
+        "target": "CSE 305",
+        "direction": "up-0.2, right-4.2, down-0.2"
+      },
+      {
+        "source": "CSE 203",
+        "target": "CSE 310",
+        "direction": "up-0.2, right-4.2, down-1.2"
+      },
+      {
+        "source": "CSE 305",
+        "target": "CSE 442",
+        "direction": "right-0.2,up-1.4"
+      },
+      {
+        "source": "CSE 305",
+        "target": "CSE 453",
+        "direction": "right-0.2,up-0.4"
+      },
+      {
+        "source": "CSE 305",
+        "target": "CSE 422",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 310",
+        "target": "CSE 311",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 102",
+        "target": "CSE 306",
+        "direction": "down-0.1, right"
+      },
+      {
+        "source": "CSE 204",
+        "target": "CSE 306",
+        "direction": "down-0.2"
+      },
+      {
+        "source": "CSE 311",
+        "target": "CSE 410",
+        "direction": "down-0.3, right"
+      },
+      {
+        "source": "CSE 311",
+        "target": "CSE 491",
+        "direction": "down-0.3, right"
+      },
+      {
+        "source": "CSE 410",
+        "target": "CSE 491",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 491",
+        "target": "CSE 492",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 492",
+        "target": "CSE 493",
+        "direction": "right"
+      },
+      {
+        "source": "EBS 405",
+        "target": "ELEC GEN",
+        "direction": "right"
+      },
+      {
+        "source": "EBS 401",
+        "target": "ELEC GEN",
+        "direction": "down-0.2, right-2.0,up"
+      }
+    ],
+    "ELEC": [
+      {
+        "id": "ELEC GEN",
+        "name": "EBS 415",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC GEN",
+        "name": "EBS 410",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC GEN",
+        "name": "EBS 420",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 483",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 454",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 456",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 431",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 432",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 434",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 470",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 482",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 449",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 457",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 450",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 455",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 458",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 459",
+        "tooltip": ""
+      }
+    ]
+  },
+  "swe23": {
+    "nodes": [
+      {
+        "year": 1.1,
+        "id": "POLS 133",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 1.1,
+        "id": "LAWS 122",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 1.1,
+        "id": "ELEC 1.4",
+        "tooltip": "",
+        "group": "ELEC",
+        "slot": 3
+      },
+      {
+        "year": 1.1,
+        "id": "MATH 103",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 4
+      },
+      {
+        "year": 1.2,
+        "id": "POLS 134",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 1.2,
+        "id": "MATH 111",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 1.2,
+        "id": "ELEC 1.6",
+        "tooltip": "",
+        "group": "ELEC",
+        "slot": 3
+      },
+      {
+        "year": 1.2,
+        "id": "CSE 106",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 1.2,
+        "id": "CSE 100",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 1.3,
+        "id": "POLS 135",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 1.3,
+        "id": "MATH 112",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 1.3,
+        "id": "ELEC 1.5",
+        "tooltip": "",
+        "group": "ELEC",
+        "slot": 3
+      },
+      {
+        "year": 1.3,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 4
+      },
+      {
+        "year": 1.3,
+        "id": "CSE 103",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 2.1,
+        "id": "POLS 132",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 2.1,
+        "id": "MATH 113",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 2.1,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 3
+      },
+      {
+        "year": 2.1,
+        "id": "CSE 204",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 2.1,
+        "id": "CSE 104",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 2.2,
+        "id": "POLS 136",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 2.2,
+        "id": "MATH 122",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 2.2,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 3
+      },
+      {
+        "year": 2.2,
+        "id": "CSE 201",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 2.2,
+        "id": "CSE 203",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 2.3,
+        "id": "ELEC 1.2",
+        "tooltip": "",
+        "group": "ELEC",
+        "slot": 1
+      },
+      {
+        "year": 2.3,
+        "id": "STAT 101",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 2.3,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 3
+      },
+      {
+        "year": 2.3,
+        "id": "CSW 303",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 2.3,
+        "id": "CSE 206",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 3.1,
+        "id": "PHYS 101",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 3.1,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 2
+      },
+      {
+        "year": 3.1,
+        "id": "CSW 307",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 3.1,
+        "id": "CSE 301",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 3.1,
+        "id": "CSW 304",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 3.2,
+        "id": "PHYS 102",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 3.2,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 2
+      },
+      {
+        "year": 3.2,
+        "id": "CSE 202",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 3.2,
+        "id": "CSW 309",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 3.2,
+        "id": "CSW 306",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 3.3,
+        "id": "ELEC 1.3",
+        "tooltip": "",
+        "group": "ELEC",
+        "slot": 1
+      },
+      {
+        "year": 3.3,
+        "id": "ELEC 1.3",
+        "tooltip": "",
+        "group": "ELEC",
+        "slot": 2
+      },
+      {
+        "year": 3.3,
+        "id": "CSW 315",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 3.3,
+        "id": "CSE 302",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 3.4,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 2
+      },
+      {
+        "year": 3.4,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 3
+      },
+      {
+        "year": 3.4,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 1
+      },
+      {
+        "year": 3.4,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 4
+      },
+      {
+        "year": 3.4,
+        "id": "CSW 400",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 4.1,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 1
+      },
+      {
+        "year": 4.1,
+        "id": "ELEC 2.2.2",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 2
+      },
+      {
+        "year": 4.1,
+        "id": "CSW 406",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 4.1,
+        "id": "CSW 405",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 4.1,
+        "id": "CSW 480",
+        "tooltip": "",
+        "group": "CAPSTONE",
+        "slot": 5
+      },
+      {
+        "year": 4.2,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 1
+      },
+      {
+        "year": 4.2,
+        "id": "ELEC 2.2.2",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 2
+      },
+      {
+        "year": 4.2,
+        "id": "ELEC 2.2.2",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 3
+      },
+      {
+        "year": 4.2,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 4
+      },
+      {
+        "year": 4.2,
+        "id": "CSW 481",
+        "tooltip": "",
+        "group": "CAPSTONE",
+        "slot": 5
+      },
+      {
+        "year": 4.3,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 1
+      },
+      {
+        "year": 4.3,
+        "id": "ELEC 2.2.2",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 2
+      },
+      {
+        "year": 4.3,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 3
+      },
+      {
+        "year": 4.3,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 4
+      },
+      {
+        "year": 4.3,
+        "id": "CSW 482",
+        "tooltip": "",
+        "group": "CAPSTONE",
+        "slot": 5
+      }
+    ],
+    "links": [
+      {
+        "source": "MATH 103",
+        "target": "CSE 106",
+        "direction": "right"
+      },
+      {
+        "source": "MATH 103",
+        "target": "STAT 101",
+        "direction": "up-0.3, right-4.4"
+      },
+      {
+        "source": "MATH 111",
+        "target": "MATH 112",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 100",
+        "target": "CSE 103",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 100",
+        "target": "CSE 204",
+        "direction": "up-0.1,right-0.1, up-0.3"
+      },
+      {
+        "source": "CSE 100",
+        "target": "CSE 206",
+        "direction": "down-0.1,right-3.4"
+      },
+      {
+        "source": "CSE 106",
+        "target": "CSW 315",
+        "direction": "up-0.2, right-6.4"
+      },
+      {
+        "source": "MATH 112",
+        "target": "MATH 113",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 103",
+        "target": "CSE 104",
+        "direction": "right"
+      },
+      {
+        "source": "MATH 113",
+        "target": "MATH 122",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 104",
+        "target": "CSE 201",
+        "direction": "up-0.1,right-0.1,up-0.3"
+      },
+      {
+        "source": "CSE 104",
+        "target": "CSE 203",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 201",
+        "target": "CSW 303",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 201",
+        "target": "CSE 301",
+        "direction": "down-0.2, right-1.4"
+      },
+      {
+        "source": "CSE 201",
+        "target": "CSW 304",
+        "direction": "down-0.2, right-1.4"
+      },
+      {
+        "source": "CSE 201",
+        "target": "CSE 202",
+        "direction": "up-1.1, right-2.4"
+      },
+      {
+        "source": "CSE 201",
+        "target": "CSW 315",
+        "direction": "up-1.1, right-3.4"
+      },
+      {
+        "source": "CSW 303",
+        "target": "CSW 307",
+        "direction": "up-0.1,right-0.4"
+      },
+      {
+        "source": "CSW 303",
+        "target": "CSW 309",
+        "direction": "up-0.1,right-1.4"
+      },
+      {
+        "source": "CSW 303",
+        "target": "CSW 405",
+        "direction": "up-0.1, right-4.4"
+      },
+      {
+        "source": "CSW 303",
+        "target": "CSW 406",
+        "direction": "up-0.1, right-4.4"
+      },
+      {
+        "source": "CSE 206",
+        "target": "CSE 302",
+        "direction": "up-0.1, right-2.4"
+      },
+      {
+        "source": "PHYS 101",
+        "target": "PHYS 102",
+        "direction": "right"
+      },
+      {
+        "source": "CSW 304",
+        "target": "CSW 306",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 301",
+        "target": "CSW 306",
+        "direction": "right-0.1, down-0.2, right-0.3"
+      },
+      {
+        "source": "CSE 301",
+        "target": "CSW 309",
+        "direction": "right"
+      },
+      {
+        "source": "CSW 306",
+        "target": "CSW 400",
+        "direction": "down-0.1, right-1.4"
+      },
+      {
+        "source": "CSW 306",
+        "target": "CSW 480",
+        "direction": "down-0.1, right-2.4"
+      },
+      {
+        "source": "CSW 309",
+        "target": "CSW 400",
+        "direction": "down-0.1, right-1.4"
+      },
+      {
+        "source": "CSW 309",
+        "target": "CSW 480",
+        "direction": "down-0.1, right-2.4"
+      },
+      {
+        "source": "CSW 480",
+        "target": "CSW 481",
+        "direction": "right"
+      },
+      {
+        "source": "CSW 481",
+        "target": "CSW 482",
+        "direction": "right"
+      }
+    ],
+    "ELEC": [
+      {
+        "id": "ELEC 1.2",
+        "name": "BUS 101",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.2",
+        "name": "ANT 110",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.2",
+        "name": "CIVI 101",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.2",
+        "name": "PSYC 154",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.2",
+        "name": "SOC 144",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.2",
+        "name": "EBS 110",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.2",
+        "name": "ECO 110",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.2",
+        "name": "FIN 239",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.2",
+        "name": "IEPS 100",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.2",
+        "name": "IREL 101",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.3",
+        "name": "MATH 104",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.3",
+        "name": "MATH 114",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.3",
+        "name": "MTH 171",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.3",
+        "name": "PHYS 103",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.3",
+        "name": "CHEM 100",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.3",
+        "name": "STAT 202",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "WRT 122",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "WRT 187",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "COMS 101",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "PHL 255",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "LNGS-J101",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "LNGS-J102",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "LNGS-J103",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "LNGS-K101",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "LNGS-K102",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "LNGS-K103",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "LNGS-C101",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "LNGS-C102",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "LNGS-C103",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "MUSI 110",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "MUSI 203",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "MUSI 204",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "MUSI 205",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "ART 101",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.5",
+        "name": "INFO 106",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.5",
+        "name": "INFO 101",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.5",
+        "name": "INFO 201",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.5",
+        "name": "DSCI 130",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.5",
+        "name": "DSCI 261",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.5",
+        "name": "ECE 160",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.6",
+        "name": "MGMT 291",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.6",
+        "name": "UNIV 226",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.6",
+        "name": "HLTH 130",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.6",
+        "name": "UNIV 101",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.6",
+        "name": "PSYC 110",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.6",
+        "name": "UNIV 111",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.6",
+        "name": "UNIV 112",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 2.2.2",
+        "name": "CSW 430",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 2.2.2",
+        "name": "CSW 431",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 2.2.2",
+        "name": "CSW 432",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 2.2.2",
+        "name": "CSW 433",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 2.2.2",
+        "name": "CSW 434",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 2.2.2",
+        "name": "CSW 435",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 2.2.2",
+        "name": "CSW 436",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 2.2.2",
+        "name": "CSW 310",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 2.2.2",
+        "name": "CSW 437",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 2.2.2",
+        "name": "CSW 438",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 2.2.2",
+        "name": "CSW 439",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 2.2.2",
+        "name": "CSW 440",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 2.2.2",
+        "name": "CSW 330",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 2.2.2",
+        "name": "CSW 331",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 2.2.2",
+        "name": "CSW 332",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 2.2.2",
+        "name": "CSW 333",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 2.2.2",
+        "name": "CSN 305",
+        "tooltip": ""
+      }
+    ]
+  },
+  "cndc18": {
+    "nodes": [
+      {
+        "year": 1.1,
+        "id": "POLS 130",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 1.2,
+        "id": "POLS 131",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 1.2,
+        "id": "POLS 132",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 1.3,
+        "id": "LAWS 121",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 1.3,
+        "id": "MATH 103",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 1.3,
+        "id": "CSE 101",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 2.1,
+        "id": "MATH 101",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 2.1,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 2
+      },
+      {
+        "year": 2.1,
+        "id": "CSE 106",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 2.1,
+        "id": "CSE 102",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 2.2,
+        "id": "MATH 102",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 2.2,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 2
+      },
+      {
+        "year": 2.2,
+        "id": "CSE 204",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 2.2,
+        "id": "CSE 203",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 2.3,
+        "id": "MATH 201",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 2.3,
+        "id": "CSE 205",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 2
+      },
+      {
+        "year": 2.3,
+        "id": "CSE 201",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 2.3,
+        "id": "CSE 206",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 3.1,
+        "id": "MATH 202",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 3.1,
+        "id": "PHYS 201",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 3.1,
+        "id": "CSE 301",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 3.1,
+        "id": "CSE 302",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 3.2,
+        "id": "MATH 203",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 3.2,
+        "id": "PHYS 202",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 3.2,
+        "id": "CSE 202",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 3.2,
+        "id": "CSE 307",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 3.3,
+        "id": "MATH 204",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 3.3,
+        "id": "PHYS 203",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 3.3,
+        "id": "CSE 303",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 3.3,
+        "id": "CSE 470",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 4.1,
+        "id": "MATH 301",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 4.1,
+        "id": "CSE 320",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 2
+      },
+      {
+        "year": 4.1,
+        "id": "",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 4.1,
+        "id": "CSE 476",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 4.1,
+        "id": "CSE 305",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 4.2,
+        "id": "EBS 405",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 4.2,
+        "id": "CSE 321",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 2
+      },
+      {
+        "year": 4.2,
+        "id": "CSE 462",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 4.2,
+        "id": "CSE 477",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 4.3,
+        "id": "EBS 401",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 4.3,
+        "id": "",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 4.3,
+        "id": "CSE 469",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 4.3,
+        "id": "CSE 306",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 4.4,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 1
+      },
+      {
+        "year": 4.4,
+        "id": "CSE 420",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 2
+      },
+      {
+        "year": 5.1,
+        "id": "EBS 415",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 5.1,
+        "id": "CSE 494",
+        "tooltip": "",
+        "group": "CAPSTONE",
+        "slot": 2
+      },
+      {
+        "year": 5.1,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 3
+      },
+      {
+        "year": 5.1,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 4
+      },
+      {
+        "year": 5.2,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 1
+      },
+      {
+        "year": 5.2,
+        "id": "CSE 495",
+        "tooltip": "",
+        "group": "CAPSTONE",
+        "slot": 2
+      },
+      {
+        "year": 5.2,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 3
+      },
+      {
+        "year": 5.3,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 1
+      },
+      {
+        "year": 5.3,
+        "id": "CSE 496",
+        "tooltip": "",
+        "group": "CAPSTONE",
+        "slot": 2
+      }
+    ],
+    "links": [
+      {
+        "source": "CSE 101",
+        "target": "CSE 102",
+        "direction": "down-1"
+      },
+      {
+        "source": "CSE 101",
+        "target": "CSE 204",
+        "direction": "down-0.2"
+      },
+      {
+        "source": "CSE 101",
+        "target": "CSE 206",
+        "direction": "down-1.2"
+      },
+      {
+        "source": "CSE 102",
+        "target": "CSE 203",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 102",
+        "target": "CSE 307",
+        "direction": "up-0.1"
+      },
+      {
+        "source": "CSE 102",
+        "target": "CSE 306",
+        "direction": "down-0.3"
+      },
+      {
+        "source": "CSE 102",
+        "target": "CSE 201",
+        "direction": "up-0.1"
+      },
+      {
+        "source": "CSE 204",
+        "target": "CSE 205",
+        "direction": "right-0.2, up-0.4"
+      },
+      {
+        "source": "CSE 204",
+        "target": "CSE 470",
+        "direction": "right-0.2, down-0.2"
+      },
+      {
+        "source": "CSE 204",
+        "target": "CSE 476",
+        "direction": "right-0.2, down-0.2"
+      },
+      {
+        "source": "CSE 204",
+        "target": "CSE 477",
+        "direction": "right-0.2, down-0.2"
+      },
+      {
+        "source": "CSE 204",
+        "target": "CSE 306",
+        "direction": "right-0.2, down-0.2"
+      },
+      {
+        "source": "CSE 204",
+        "target": "CSE 469",
+        "direction": "right-0.2, down-0.2"
+      },
+      {
+        "source": "CSE 203",
+        "target": "CSE 305",
+        "direction": "down-0.4"
+      },
+      {
+        "source": "CSE 206",
+        "target": "CSE 302",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 106",
+        "target": "CSE 301",
+        "direction": "up-0.1, right"
+      },
+      {
+        "source": "CSE 106",
+        "target": "CSE 202",
+        "direction": "up-0.1, right"
+      },
+      {
+        "source": "CSE 202",
+        "target": "CSE 303",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 201",
+        "target": "CSE 303",
+        "direction": "up-0.2,right"
+      },
+      {
+        "source": "CSE 205",
+        "target": "CSE 320",
+        "direction": "down-0.1  "
+      },
+      {
+        "source": "CSE 205",
+        "target": "CSE 462",
+        "direction": "down-0.1  "
+      },
+      {
+        "source": "CSE 302",
+        "target": "CSE 470",
+        "direction": "down-0.2"
+      },
+      {
+        "source": "CSE 302",
+        "target": "CSE 476",
+        "direction": "down-0.2"
+      },
+      {
+        "source": "CSE 302",
+        "target": "CSE 477",
+        "direction": "down-0.2"
+      },
+      {
+        "source": "CSE 320",
+        "target": "CSE 321",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 321",
+        "target": "CSE 420",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 321",
+        "target": "CSE 494",
+        "direction": "right-0.2, down-0.1"
+      },
+      {
+        "source": "CSE 420",
+        "target": "CSE 494",
+        "direction": "right"
+      },
+      {
+        "source": "MATH 101",
+        "target": "MATH 102",
+        "direction": "right"
+      },
+      {
+        "source": "MATH 102",
+        "target": "MATH 201",
+        "direction": "right"
+      },
+      {
+        "source": "MATH 103",
+        "target": "MATH 201",
+        "direction": "right-0.2, up-0.1, right"
+      },
+      {
+        "source": "MATH 102",
+        "target": "MATH 204",
+        "direction": "right-0.2, down-0.2, right-3, up-0.2"
+      },
+      {
+        "source": "MATH 103",
+        "target": "MATH 204",
+        "direction": "right-0.2, up-0.1, right"
+      },
+      {
+        "source": "MATH 103",
+        "target": "CSE 106",
+        "direction": "right-0.2, down-0.4"
+      },
+      {
+        "source": "MATH 201",
+        "target": "MATH 202",
+        "direction": "right"
+      },
+      {
+        "source": "MATH 202",
+        "target": "MATH 203",
+        "direction": "right"
+      },
+      {
+        "source": "MATH 301",
+        "target": "CSE 494",
+        "direction": "right-0.2,down-0.2"
+      },
+      {
+        "source": "EBS 405",
+        "target": "EBS 415",
+        "direction": "down-0.1"
+      },
+      {
+        "source": "EBS 401",
+        "target": "EBS 415",
+        "direction": "right"
+      },
+      {
+        "source": "MATH 202",
+        "target": "MATH 301",
+        "direction": "down-0.1"
+      },
+      {
+        "source": "PHYS 201",
+        "target": "PHYS 202",
+        "direction": "right"
+      },
+      {
+        "source": "PHYS 202",
+        "target": "PHYS 203",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 494",
+        "target": "CSE 495",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 495",
+        "target": "CSE 496",
+        "direction": "right"
+      }
+    ],
+    "ELEC": [
+      {
+        "id": "ELEC GEN",
+        "name": "EBS 405",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC GEN",
+        "name": "EBS 407",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC GEN",
+        "name": "EBS 410",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC GEN",
+        "name": "EBS 420",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 460",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 461",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 487",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 488",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 468",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 489",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 490",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 484",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 485",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 486",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 479",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 480",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 467",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 465",
+        "tooltip": ""
+      }
+    ]
+  },
+  "cndc21": {
+    "nodes": [
+      {
+        "year": 1.1,
+        "id": "POLS 133",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 1.1,
+        "id": "POLS 134",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 1.2,
+        "id": "POLS 135",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 1.2,
+        "id": "POLS 136",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 1.3,
+        "id": "POLS 132",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 1.3,
+        "id": "LAWS 121",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 1.3,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 3
+      },
+      {
+        "year": 1.3,
+        "id": "CSE 101",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 2.1,
+        "id": "MATH 101",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 2.1,
+        "id": "MATH 103",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 2.1,
+        "id": "CSE 102",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 2.1,
+        "id": "CSE 204",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 2.2,
+        "id": "MATH 102",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 2.2,
+        "id": "CSE 106",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 2
+      },
+      {
+        "year": 2.2,
+        "id": "CSE 203",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 2.3,
+        "id": "MATH 201",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 2.3,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 2
+      },
+      {
+        "year": 2.3,
+        "id": "CSE 201",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 2.3,
+        "id": "CSE 205",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 2.3,
+        "id": "CSE 206",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 3.1,
+        "id": "MATH 202",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 3.1,
+        "id": "PHYS 201",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 3.1,
+        "id": "CSE 301",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 3.1,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 4
+      },
+      {
+        "year": 3.1,
+        "id": "CSE 302",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 3.2,
+        "id": "MATH 203",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 3.2,
+        "id": "PHYS 202",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 3.2,
+        "id": "CSE 202",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 3.2,
+        "id": "CSE 307",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 3.3,
+        "id": "MATH 204",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 3.3,
+        "id": "PHYS 203",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 3.3,
+        "id": "CSE 303",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 3.3,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 4
+      },
+      {
+        "year": 3.3,
+        "id": "CSE 470",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 4.1,
+        "id": "MATH 301",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 4.1,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 2
+      },
+      {
+        "year": 4.1,
+        "id": "CSE 305",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 4.1,
+        "id": "CSE 320",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 4.1,
+        "id": "CSE 476",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 4.2,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 1
+      },
+      {
+        "year": 4.2,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 2
+      },
+      {
+        "year": 4.2,
+        "id": "CSE 321",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 4.2,
+        "id": "CSE 462",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 4.2,
+        "id": "CSE 477",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 4.3,
+        "id": "EBS 401",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 4.3,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 2
+      },
+      {
+        "year": 4.3,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 3
+      },
+      {
+        "year": 4.3,
+        "id": "CSE 306",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 4.3,
+        "id": "CSE 469",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 4.4,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 1
+      },
+      {
+        "year": 4.4,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 2
+      },
+      {
+        "year": 4.4,
+        "id": "CSE 420",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 5.1,
+        "id": "EBS 405",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 5.1,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 2
+      },
+      {
+        "year": 5.1,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 3
+      },
+      {
+        "year": 5.1,
+        "id": "CSE 494",
+        "tooltip": "",
+        "group": "CAPSTONE",
+        "slot": 4
+      },
+      {
+        "year": 5.2,
+        "id": "ELEC EBS",
+        "tooltip": "",
+        "group": "ELEC",
+        "slot": 1
+      },
+      {
+        "year": 5.2,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 2
+      },
+      {
+        "year": 5.2,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 3
+      },
+      {
+        "year": 5.2,
+        "id": "CSE 495",
+        "tooltip": "",
+        "group": "CAPSTONE",
+        "slot": 4
+      },
+      {
+        "year": 5.3,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 1
+      },
+      {
+        "year": 5.3,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 2
+      },
+      {
+        "year": 5.3,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 3
+      },
+      {
+        "year": 5.3,
+        "id": "CSE 496",
+        "tooltip": "",
+        "group": "CAPSTONE",
+        "slot": 4
+      }
+    ],
+    "links": [
+      {
+        "source": "CSE 101",
+        "target": "CSE 102",
+        "direction": "right-0.2, up-0.4"
+      },
+      {
+        "source": "CSE 101",
+        "target": "CSE 204",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 101",
+        "target": "CSE 206",
+        "direction": "right-0.2, down-0.4"
+      },
+      {
+        "source": "MATH 101",
+        "target": "MATH 102",
+        "direction": "right"
+      },
+      {
+        "source": "MATH 103",
+        "target": "CSE 106",
+        "direction": "right"
+      },
+      {
+        "source": "MATH 103",
+        "target": "MATH 201",
+        "direction": "right-0.2, up-0.2, right-1.3"
+      },
+      {
+        "source": "MATH 103",
+        "target": "MATH 204",
+        "direction": "right-0.2, up-0.2, right-4.3"
+      },
+      {
+        "source": "CSE 102",
+        "target": "CSE 203",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 102",
+        "target": "CSE 201",
+        "direction": "right-0.2, down-0.2, right-1.3"
+      },
+      {
+        "source": "CSE 102",
+        "target": "CSE 307",
+        "direction": "right-0.2, down-0.2, right-3.3"
+      },
+      {
+        "source": "CSE 102",
+        "target": "CSE 306",
+        "direction": "right-0.2, down-0.2, right-7.3"
+      },
+      {
+        "source": "CSE 204",
+        "target": "CSE 205",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 204",
+        "target": "CSE 470",
+        "direction": "right-0.2, down-0.2, right-4.3"
+      },
+      {
+        "source": "CSE 204",
+        "target": "CSE 476",
+        "direction": "right-0.2, down-0.2, right-5.3"
+      },
+      {
+        "source": "CSE 204",
+        "target": "CSE 477",
+        "direction": "right-0.2, down-0.2, right-6.3"
+      },
+      {
+        "source": "CSE 204",
+        "target": "CSE 469",
+        "direction": "right-0.2, down-0.2, right-7.3"
+      },
+      {
+        "source": "CSE 204",
+        "target": "CSE 306",
+        "direction": "right-0.2, down-0.2, right-7.3"
+      },
+      {
+        "source": "MATH 102",
+        "target": "MATH 201",
+        "direction": "right"
+      },
+      {
+        "source": "MATH 102",
+        "target": "MATH 204",
+        "direction": "right-0.2, down-0.1, right-3.0, up-0.1"
+      },
+      {
+        "source": "CSE 106",
+        "target": "CSE 301",
+        "direction": "right-1.2, down-0.3, right-0.2"
+      },
+      {
+        "source": "CSE 106",
+        "target": "CSE 202",
+        "direction": "right-1.2, down-0.3, right-1.2"
+      },
+      {
+        "source": "CSE 203",
+        "target": "CSE 305",
+        "direction": "right-0.2, down-0.1, right-4.2"
+      },
+      {
+        "source": "MATH 201",
+        "target": "MATH 202",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 201",
+        "target": "CSE 303",
+        "direction": "up-0.2, right-2.4"
+      },
+      {
+        "source": "CSE 205",
+        "target": "CSE 320",
+        "direction": "right-1.0, down-0.1, right-2.4"
+      },
+      {
+        "source": "CSE 205",
+        "target": "CSE 462",
+        "direction": "right-1.0, down-0.1, right-3.4"
+      },
+      {
+        "source": "CSE 206",
+        "target": "CSE 302",
+        "direction": "right"
+      },
+      {
+        "source": "MATH 202",
+        "target": "MATH 203",
+        "direction": "right"
+      },
+      {
+        "source": "MATH 202",
+        "target": "MATH 301",
+        "direction": "right-0.2, down-0.3, right-2.2"
+      },
+      {
+        "source": "PHYS 201",
+        "target": "PHYS 202",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 302",
+        "target": "CSE 470",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 302",
+        "target": "CSE 476",
+        "direction": "right-0.2, down-0.1, right-2.2"
+      },
+      {
+        "source": "CSE 302",
+        "target": "CSE 477",
+        "direction": "right-0.2, down-0.1, right-1.2"
+      },
+      {
+        "source": "PHYS 202",
+        "target": "PHYS 203",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 202",
+        "target": "CSE 303",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 320",
+        "target": "CSE 321",
+        "direction": "right-0.2, up-0.4"
+      },
+      {
+        "source": "CSE 321",
+        "target": "CSE 420",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 321",
+        "target": "CSE 494",
+        "direction": "right-1.2, down-0.4"
+      },
+      {
+        "source": "EBS 401",
+        "target": "ELEC EBS",
+        "direction": "down-0.2, right-2.4"
+      },
+      {
+        "source": "CSE 420",
+        "target": "CSE 494",
+        "direction": "down-0.2, right-0.4"
+      },
+      {
+        "source": "EBS 405",
+        "target": "ELEC EBS",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 494",
+        "target": "CSE 495",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 495",
+        "target": "CSE 496",
+        "direction": "right"
+      }
+    ],
+    "ELEC": [
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 449",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 460",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 461",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 465",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 468",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 479",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 480",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 484",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 485",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 486",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 487",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 489",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSE 490",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC EBS",
+        "name": "EBS 410",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC EBS",
+        "name": "EBS 415",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC EBS",
+        "name": "EBS 420",
+        "tooltip": ""
+      }
+    ]
+  },
+  "cndc23": {
+    "nodes": [
+      {
+        "year": 1.1,
+        "id": "POLS 133",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 1.1,
+        "id": "MATH 111",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 1.1,
+        "id": "LAW 122",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 3
+      },
+      {
+        "year": 1.1,
+        "id": "ELEC 1.2.1",
+        "tooltip": "",
+        "group": "ELEC",
+        "slot": 4
+      },
+      {
+        "year": 1.2,
+        "id": "POLS 134",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 1.2,
+        "id": "MATH 112",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 1.2,
+        "id": "MATH 103",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 3
+      },
+      {
+        "year": 1.2,
+        "id": "CSE 100",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 1.3,
+        "id": "POLS 135",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 1.3,
+        "id": "STAT 101",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 2
+      },
+      {
+        "year": 1.3,
+        "id": "CSE 106",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 1.3,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 4
+      },
+      {
+        "year": 1.3,
+        "id": "CSE 204",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 2.1,
+        "id": "POLS 132",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 2.1,
+        "id": "ELEC 1.4",
+        "tooltip": "",
+        "group": "ELEC",
+        "slot": 2
+      },
+      {
+        "year": 2.1,
+        "id": "ELEC 1.2.2",
+        "tooltip": "",
+        "group": "ELEC",
+        "slot": 3
+      },
+      {
+        "year": 2.1,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 4
+      },
+      {
+        "year": 2.1,
+        "id": "CSN 205",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 2.2,
+        "id": "POLS 136",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 2.2,
+        "id": "ELEC 1.5.2",
+        "tooltip": "",
+        "group": "ELEC",
+        "slot": 2
+      },
+      {
+        "year": 2.2,
+        "id": "COMS 101",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 3
+      },
+      {
+        "year": 2.2,
+        "id": "CSE 103",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 2.3,
+        "id": "PHYS 100",
+        "tooltip": "",
+        "group": "GENED",
+        "slot": 1
+      },
+      {
+        "year": 2.3,
+        "id": "ELEC 1.6",
+        "tooltip": "",
+        "group": "ELEC",
+        "slot": 2
+      },
+      {
+        "year": 2.3,
+        "id": "CSE 206",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 2.3,
+        "id": "CSE 104",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 3.1,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 1
+      },
+      {
+        "year": 3.1,
+        "id": "CSE 302",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 2
+      },
+      {
+        "year": 3.1,
+        "id": "CSE 201",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 3.1,
+        "id": "CSN 301",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 3.1,
+        "id": "CSN 302",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 3.2,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 1
+      },
+      {
+        "year": 3.2,
+        "id": "CSE 301",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 2
+      },
+      {
+        "year": 3.2,
+        "id": "CSE 203",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 3.2,
+        "id": "CSN 305",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 3.2,
+        "id": "CSN 303",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 3.3,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 1
+      },
+      {
+        "year": 3.3,
+        "id": "CSW 304",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 2
+      },
+      {
+        "year": 3.3,
+        "id": "CSN 306",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 3.3,
+        "id": "CSN 340",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 3.3,
+        "id": "CSN 304",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 3.4,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 1
+      },
+      {
+        "year": 3.4,
+        "id": "",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 2
+      },
+      {
+        "year": 3.4,
+        "id": "",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 3.4,
+        "id": "CSN 341",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 4
+      },
+      {
+        "year": 4.1,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 1
+      },
+      {
+        "year": 4.1,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 2
+      },
+      {
+        "year": 4.1,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 3
+      },
+      {
+        "year": 4.1,
+        "id": "CSN 494",
+        "tooltip": "",
+        "group": "CAPSTONE",
+        "slot": 4
+      },
+      {
+        "year": 4.1,
+        "id": "CSN 401",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 4.2,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 1
+      },
+      {
+        "year": 4.2,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 2
+      },
+      {
+        "year": 4.2,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 3
+      },
+      {
+        "year": 4.2,
+        "id": "CSN 495",
+        "tooltip": "",
+        "group": "CAPSTONE",
+        "slot": 4
+      },
+      {
+        "year": 4.2,
+        "id": "CSW 435",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 5
+      },
+      {
+        "year": 4.3,
+        "id": "",
+        "tooltip": "",
+        "group": "",
+        "slot": 1
+      },
+      {
+        "year": 4.3,
+        "id": "ELEC SPEC",
+        "tooltip": "",
+        "group": "SPEC_ELEC",
+        "slot": 2
+      },
+      {
+        "year": 4.3,
+        "id": "",
+        "tooltip": "",
+        "group": "SPEC",
+        "slot": 3
+      },
+      {
+        "year": 4.3,
+        "id": "CSN 496",
+        "tooltip": "",
+        "group": "CAPSTONE",
+        "slot": 4
+      }
+    ],
+    "links": [
+      {
+        "source": "MATH 111",
+        "target": "MATH 112",
+        "direction": "right"
+      },
+      {
+        "source": "MATH 103",
+        "target": "STAT 101",
+        "direction": "up-0.2,right"
+      },
+      {
+        "source": "MATH 103",
+        "target": "CSE 106",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 100",
+        "target": "CSE 206",
+        "direction": "right-0.2,up-0.3, right-3.2"
+      },
+      {
+        "source": "CSE 100",
+        "target": "CSE 103",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 100",
+        "target": "CSE 204",
+        "direction": "right-0.2, down-0.4"
+      },
+      {
+        "source": "CSE 204",
+        "target": "CSN 205",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 204",
+        "target": "CSN 302",
+        "direction": "down-0.1, right-3.4"
+      },
+      {
+        "source": "CSE 204",
+        "target": "CSN 303",
+        "direction": "down-0.1, right-4.3, up-0.1"
+      },
+      {
+        "source": "CSE 204",
+        "target": "CSN 305",
+        "direction": "down-0.1, right-4.3, up-1.1"
+      },
+      {
+        "source": "CSN 205",
+        "target": "CSN 301",
+        "direction": "right-1.2, up-1.2, right-2.2"
+      },
+      {
+        "source": "CSN 205",
+        "target": "CSN 306",
+        "direction": "right-1.2, up-1.2, right-3.2"
+      },
+      {
+        "source": "CSE 103",
+        "target": "CSE 104",
+        "direction": "down-0.2"
+      },
+      {
+        "source": "CSE 103",
+        "target": "CSN 302",
+        "direction": "down-0.2, right-1.4"
+      },
+      {
+        "source": "CSE 206",
+        "target": "CSE 302",
+        "direction": "right-0.1, up-0.4"
+      },
+      {
+        "source": "CSE 104",
+        "target": "CSE 201",
+        "direction": "right-0.2, up-0.4"
+      },
+      {
+        "source": "CSE 302",
+        "target": "CSN 306",
+        "direction": "down-0.2, right-1.4"
+      },
+      {
+        "source": "CSE 201",
+        "target": "CSE 203",
+        "direction": "right"
+      },
+      {
+        "source": "CSE 201",
+        "target": "CSE 301",
+        "direction": "right-0.2, up-0.4"
+      },
+      {
+        "source": "CSE 201",
+        "target": "CSW 304",
+        "direction": "right-0.2, up-0.3, right"
+      },
+      {
+        "source": "CSN 301",
+        "target": "CSN 340",
+        "direction": "right-0.1, up-0.1, right"
+      },
+      {
+        "source": "CSN 302",
+        "target": "CSN 340",
+        "direction": "right-0.1, up-0.2, right"
+      },
+      {
+        "source": "CSN 340",
+        "target": "CSN 341",
+        "direction": "right-0.1"
+      },
+      {
+        "source": "CSN 303",
+        "target": "CSN 304",
+        "direction": "down-0.1, right"
+      },
+      {
+        "source": "CSN 303",
+        "target": "CSN 401",
+        "direction": "down-0.1, right"
+      },
+      {
+        "source": "CSN 341",
+        "target": "CSN 494",
+        "direction": "right-0.1"
+      },
+      {
+        "source": "CSN 205",
+        "target": "CSN 404",
+        "direction": "down-0.1, right-5, up-2.1"
+      },
+      {
+        "source": "CSN 205",
+        "target": "CSN 405",
+        "direction": "down-0.5, right-5, up-0.5"
+      },
+      {
+        "source": "CSN 494",
+        "target": "CSN 495",
+        "direction": "right"
+      },
+      {
+        "source": "CSN 495",
+        "target": "CSN 496",
+        "direction": "right"
+      }
+    ],
+    "ELEC": [
+      {
+        "id": "ELEC 1.2.1",
+        "name": "ANT 110",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.2.1",
+        "name": "CIVI 101",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.2.1",
+        "name": "PSYC 154",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.2.1",
+        "name": "SOC 144",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.2.2",
+        "name": "BUS 101",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.2.2",
+        "name": "EBS 110",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.2.2",
+        "name": "ECO 110",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.2.2",
+        "name": "FIN 239",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.2.2",
+        "name": "IEPS 100",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.2.2",
+        "name": "IREL 101",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "WRT 122",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "WRT 187",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "PHL 255",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "LNGS-C101",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "LNGS-C102",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "LNGS-C103",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "LNGS-J101",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "LNGS-J102",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "LNGS-J103",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "LNGS-K101",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "LNGS-K102",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "LNGS-K103",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "MUSI 110",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "MUSI 203",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "MUSI 204",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "MUSI 205",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.4",
+        "name": "ART 101",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.5.2",
+        "name": "INFO 101",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.5.2",
+        "name": "INFO 106",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.5.2",
+        "name": "INFO 201",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.5.2",
+        "name": "DSCI 130",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.5.2",
+        "name": "ECE 160",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.6",
+        "name": "MGMT 291",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.6",
+        "name": "UNIV 111",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.6",
+        "name": "UNIV 112",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.6",
+        "name": "UNIV 226",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.6",
+        "name": "HLTH 130",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.6",
+        "name": "PSYC 110",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC 1.6",
+        "name": "UNIV 101",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSN 404",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSN 406",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSN 405",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSN 402",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSW 330",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSN 407",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSN 403",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSW 303",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSW 306",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSW 430",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSN 408",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSN 409",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSN 410",
+        "tooltip": ""
+      },
+      {
+        "id": "ELEC SPEC",
+        "name": "CSW 332",
+        "tooltip": ""
+      }
+    ]
+  }
+}

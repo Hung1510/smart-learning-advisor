@@ -1,0 +1,170 @@
+<link rel="stylesheet" href="/css/style.css">
+
+<!-- Header Section -->
+<div class="row mb-4">
+  <div class="col-12">
+    <div class="d-flex flex-wrap justify-content-between align-items-center">
+      <!-- Flowchart Section -->
+      <div class="flowchart mb-3">
+        <h2><i class="fas fa-diagram-project me-2"></i>Lộ trình học</h2>
+        <hr />
+        <p class="text-muted">Lộ trình học tập của <%= student.name %>
+        </p>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="d-flex flex-column flex-sm-row gap-2 mb-3">
+        <!-- Các nút luôn hiển thị -->
+        <button class="btn btn-outline-primary" data-value="<%= JSON.stringify(suggestedCourses || []) %>"
+          data-active="false" id="showCoures" onclick="handlePrintOption(event)">
+          Xem Đề Xuất Môn
+        </button>
+        <button class="btn btn-outline-primary d-md-block d-none" id="save1" data-bs-toggle="tooltip" title="Save">
+          <i class="fas fa-save me-1"></i>
+        </button>
+        <button class="btn btn-sm btn-outline-success d-md-block d-none" id="goToAdvisor1" data-bs-toggle="tooltip"
+          title="Ask AI">
+          <i class="fas fa-robot fa-1x"></i>
+        </button>
+        <button class="btn btn-outline-primary d-md-block d-none" data-bs-toggle="tooltip" title="Print"
+          onclick="printChart()">
+          <i class="fa fa-print"></i>
+        </button>
+        <button class="btn btn-info btn-sm d-md-block d-none" id="showFunctions1" data-bs-toggle="tooltip" title="Info">
+          <i class="fas fa-info-circle"></i>
+        </button>
+        <!-- Dropdown cho các nút bị ẩn trên màn hình nhỏ -->
+        <div class="dropdown d-md-none">
+          <button class="btn btn-outline-success" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Tính năng khác
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li>
+              <button class="dropdown-item btn btn-outline-primary" id="save2" data-bs-toggle="tooltip">
+                <i class="fas fa-save me-1"></i> Save
+              </button>
+            </li>
+            <li>
+              <button class="dropdown-item btn btn-sm btn-outline-success" id="goToAdvisor2" data-bs-toggle="tooltip">
+                <i class="fas fa-robot fa-1x"></i> Ask AI
+              </button>
+            </li>
+            <!-- <li>
+              <button class="dropdown-item btn btn-outline-primary" data-bs-toggle="tooltip"
+                onclick="printChart()">
+                <i class="fa fa-print"></i> Print
+              </button>
+            </li> -->
+            <li>
+              <button class="dropdown-item btn btn-info btn-sm" id="showFunctions2" data-bs-toggle="tooltip">
+                <i class="fas fa-info-circle"></i> Info
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Các nút ẩn trên màn hình nhỏ, hiển thị trên màn hình lớn -->
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Flowchart SVG -->
+<div class="card border-0 shadow-sm chart">
+  <svg id="mySvg"></svg>
+  <div id="tooltip" style="display: none" class="newtooltip"></div>
+</div>
+
+
+<!-- Table Popup (if any) -->
+<div id="popupOverlay" style="display: none">
+  <div id="popup">
+    <div id="popupContent">
+      <table id="popupTable">
+        <thead>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Review</th>
+          <th>Grade</th>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+      <p id="noDataMessage" style="display: none; color: red">No data available</p>
+    </div>
+    <button id="closePopup">Close</button>
+  </div>
+</div>
+
+<!--Function Info Modal -->
+<div class="modal fade" id="functionModal" tabindex="-1" aria-labelledby="functionModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="functionModalLabel">
+          <i class="fas fa-info-circle me-2 text-info"></i>Hướng dẫn chức năng
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <ul class="list-group">
+          <li class="list-group-item">
+            <i class="fas fa-lightbulb text-warning me-2"></i>
+            <strong>Xem đề xuất môn:</strong> Mở/tắt các môn được hệ thống đề xuất cho học kỳ tiếp theo dựa trên tiến độ
+            học.
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-save text-primary me-2"></i>
+            <strong>Lưu (Save):</strong> Sau khi chọn môn phù hợp, nhấn Save để lưu lại. Nếu muốn quay lại đề xuất của
+            hệ thống, hãy bỏ chọn hoặc tải lại trang và lưu lại.
+          </li>
+          <li class="list-group-item">
+            <i class="fas fa-robot text-secondary me-2"></i>
+            <strong>AI:</strong> Chuyển đến trang tư vấn AI để hỏi đáp và nhận khuyến nghị.
+          </li>
+          <li class="list-group-item">
+            <i class="fa fa-print text-success me-2"></i>
+            <strong>In (Print):</strong> In lộ trình học hiện tại.
+          </li>
+          <li class="list-group-item"><strong>✔ / ✖:</strong> Chọn hoặc bỏ chọn các môn được đề xuất.</li>
+          <li class="list-group-item"><strong>Môn tự chọn:</strong> Nhấn vào môn ELEC để chọn môn cụ thể tương ứng.</li>
+          <li class="list-group-item"><strong>Kéo/Thả/Cuộn:</strong> Di chuyển sơ đồ bằng chuột.</li>
+          <li class="list-group-item"><strong>Double click:</strong> Xem thông tin môn học.</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="courseModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Thông tin môn học</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <p><strong>Mã môn học:</strong> <span id="course-id"></span></p>
+        <p><strong>Tên môn học:</strong> <span id="course-name"></span></p>
+        <p><strong>Tên tiếng Anh:</strong> <span id="course-english"></span></p>
+        <hr>
+        <p><strong>Mục tiêu môn học:</strong> <span id="course-objective"></span></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Flowchart Data Container -->
+<div id="flowchart-container" 
+  data-drawdata="<%= JSON.stringify(drawData || {}) %>"
+  data-student="<%= JSON.stringify(student || {}) %>"
+  data-coursesdata="<%= JSON.stringify(coursesData || []) %>">
+</div>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>

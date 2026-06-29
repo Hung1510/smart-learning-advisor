@@ -1,0 +1,176 @@
+<!-- Page Header -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="text-center">
+            <div class="ai-icon-container mb-3">
+                <i class="fas fa-robot fa-4x text-primary"></i>
+            </div>
+            <h2>Tư vấn học tập cá nhân hóa bằng AI</h2>
+            <p class="text-muted">Nhận lời khuyên về lộ trình học tập dựa trên kết quả học tập của bạn</p>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <!-- Form Section -->
+    <div class="col-lg-6 mb-4">
+        <div class="card border-0 shadow-sm">
+            <div class="card-header bg-gradient-primary text-white">
+                <h5 class="mb-0">
+                    <i class="fas fa-comments me-2"></i>Chia sẻ thông tin với AI
+                </h5>
+            </div>
+            <div class="card-body">
+                <form id="advisorForm">
+                    <div class="mb-3">
+                        <label for="question" class="form-label">
+                            <i class="fas fa-question-circle me-1"></i>Câu hỏi hoặc vấn đề bạn muốn tư vấn:
+                        </label>
+                        <textarea class="form-control" id="question" name="question" rows="3"
+                            placeholder="Ví dụ: Tôi muốn cải thiện điểm số, làm thế nào để học hiệu quả hơn?"></textarea>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="goals" class="form-label">
+                            <i class="fas fa-target me-1"></i>Mục tiêu học tập của bạn:
+                        </label>
+                        <textarea class="form-control" id="goals" name="goals" rows="2"
+                            placeholder="Ví dụ: Muốn đạt GPA > 3.5, tìm thực tập, học thêm kỹ năng mới..."></textarea>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="difficulties" class="form-label">
+                            <i class="fas fa-exclamation-triangle me-1"></i>Khó khăn bạn đang gặp phải:
+                        </label>
+                        <textarea class="form-control" id="difficulties" name="difficulties" rows="2"
+                            placeholder="Ví dụ: Khó khăn trong môn Toán, quản lý thời gian, thiếu động lực..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100" id="submitBtn">
+                        <i class="fas fa-paper-plane me-2"></i>Nhận tư vấn từ AI
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Quick Tips -->
+        <div class="card border-0 shadow-sm mt-4">
+            <div class="card-header bg-info text-white">
+                <h6 class="mb-0">
+                    <i class="fas fa-lightbulb me-2"></i>Mẹo sử dụng hiệu quả
+                </h6>
+            </div>
+            <div class="card-body">
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-2">
+                        <i class="fas fa-check-circle text-success me-2"></i>
+                        Mô tả cụ thể tình huống của bạn
+                    </li>
+                    <li class="mb-2">
+                        <i class="fas fa-check-circle text-success me-2"></i>
+                        Chia sẻ mục tiêu ngắn hạn và dài hạn
+                    </li>
+                    <li class="mb-2">
+                        <i class="fas fa-check-circle text-success me-2"></i>
+                        Nêu rõ những khó khăn đang gặp phải
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle text-success me-2"></i>
+                        AI sẽ phân tích dựa trên kết quả học tập thực tế
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- AI Response Section -->
+    <div class="col-lg-6">
+        <div class="card border-0 shadow-sm">
+            <div class="card-header bg-gradient-success text-white">
+                <h5 class="mb-0">
+                    <i class="fas fa-magic me-2"></i>Lời khuyên từ AI
+                </h5>
+            </div>
+            <div class="card-body">
+                <div id="aiResponse" class="ai-response-area">
+                    <div class="text-center text-muted py-5">
+                        <i class="fas fa-robot fa-3x mb-3 opacity-50"></i>
+                        <p>Vui lòng điền thông tin bên trái để nhận tư vấn từ AI</p>
+                    </div>
+                </div>
+
+                <div id="loadingIndicator" class="text-center py-4" style="display: none;">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Đang xử lý...</span>
+                    </div>
+                    <p class="mt-2 text-muted">AI đang phân tích dữ liệu của bạn...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Sample Questions -->
+<div class="row mt-4">
+    <div class="col-12">
+        <div class="card border-0 shadow-sm">
+            <div class="card-header bg-warning text-dark">
+                <h6 class="mb-0">
+                    <i class="fas fa-question-circle me-2"></i>Câu hỏi mẫu
+                </h6>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6>Về học tập:</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <button class="btn btn-outline-secondary btn-sm sample-question"
+                                    data-question="Làm thế nào để cải thiện GPA của tôi?"
+                                    data-goals="Đạt GPA > 3.5 trong học kỳ tới"
+                                    data-difficulties="Điểm các môn toán và lập trình thấp">
+                                    "Làm thế nào để cải thiện GPA?"
+                                </button>
+                            </li>
+                            <li class="mb-2">
+                                <button class="btn btn-outline-secondary btn-sm sample-question"
+                                    data-question="Tôi nên tập trung vào môn nào để có hiệu quả cao nhất?"
+                                    data-goals="Tối ưu hóa thời gian học tập"
+                                    data-difficulties="Có quá nhiều môn học cùng lúc">
+                                    "Nên ưu tiên môn nào?"
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h6>Về tương lai:</h6>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <button class="btn btn-outline-secondary btn-sm sample-question"
+                                    data-question="Tôi nên chuẩn bị gì để tìm được công việc tốt sau khi tốt nghiệp?"
+                                    data-goals="Tìm được công việc trong lĩnh vực công nghệ"
+                                    data-difficulties="Chưa có kinh nghiệm thực tế">
+                                    "Chuẩn bị cho tương lai nghề nghiệp?"
+                                </button>
+                            </li>
+                            <li class="mb-2">
+                                <button class="btn btn-outline-secondary btn-sm sample-question"
+                                    data-question="Có nên tham gia thực tập trong thời gian học không?"
+                                    data-goals="Tích lũy kinh nghiệm thực tế"
+                                    data-difficulties="Lo lắng về ảnh hưởng đến học tập">
+                                    "Có nên đi thực tập?"
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="contain" data-drawdata='<%= JSON.stringify(drawData || {}) %>'
+    data-student='<%= JSON.stringify(student || {}) %>' 
+    data-value='<%= JSON.stringify(suggestedCourses || []) %>'
+    data-flowchart='<%= JSON.stringify(fromFlowchart || []) %>'
+    dataFlow = '<%= JSON.stringify(dataFlow || []) %>'>
+</div>

@@ -1,0 +1,388 @@
+<link rel="stylesheet" href="/css/style.css">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curriculum Flowchart Manager</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@300;400;500;600&display=swap');
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#F7F6F2;--bg2:#ECEAE3;--bg3:#E0DDD4;
+  --surface:#FFFFFF;--surface2:#F9F8F5;
+  --b0:rgba(0,0,0,.06);--b1:rgba(0,0,0,.11);--b2:rgba(0,0,0,.2);
+  --tx:#1C1B18;--tx2:#5C5A54;--tx3:#9C9A94;
+  --accent:#2D5BE3;--accent-bg:#EDF2FF;--accent-mid:#BAC9F7;
+  --danger:#C42B2B;--danger-bg:#FEF1F1;
+  --r:6px;--rl:10px;
+  --mono:'JetBrains Mono',monospace;
+  --sans:'Outfit',sans-serif;
+  --gened-fill:#EEF6FF;    --gened-stroke:#7BB3E8;  --gened-text:#1A4F8A;
+  --spec-fill:#EDFAF2;     --spec-stroke:#6DC98A;   --spec-text:#1A6B3A;
+  --spec-elec-fill:#FFF8EC;--spec-elec-stroke:#E8B84B;--spec-elec-text:#7A4E10;
+  --cap-fill:#F3F0FF;      --cap-stroke:#9E87E8;    --cap-text:#3D2A8A;
+  --elec-fill:#FFF0F0;     --elec-stroke:#E88080;   --elec-text:#8A1F1F;
+  --empty-fill:#F4F3EF;    --empty-stroke:#CCCAB8;  --empty-text:#888675;
+}
+body{background:var(--bg);color:var(--tx);overflow:hidden}
+.app{display:flex;height:100vh}
+
+/* ── LEFT SIDEBAR ── */
+.sidebar{width:238px;min-width:238px;background:var(--surface);border-right:1px solid var(--b1);display:flex;flex-direction:column}
+.sb-head{padding:14px 13px 11px;border-bottom:1px solid var(--b0);display:flex;align-items:center;gap:6px}
+.sb-logo{font-size:11px;font-weight:600;color:var(--tx2);letter-spacing:.08em;text-transform:uppercase;display:flex;align-items:center;gap:6px;flex:1}
+.sb-list{flex:1;overflow-y:auto;padding:7px}
+.fi{padding:9px 10px;border-radius:var(--r);cursor:pointer;margin-bottom:2px;border:1px solid transparent;transition:all .1s;display:flex;align-items:center;gap:8px}
+.fi:hover{background:var(--bg2)}
+.fi.active{background:var(--accent-bg);border-color:var(--accent-mid)}
+.fi-dot{width:24px;height:24px;border-radius:5px;font-size:9px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;letter-spacing:-.02em}
+.fi-dot.swe{background:#DBEAFE;color:#1D4ED8}
+.fi-dot.cndc{background:#D1FAE5;color:#065F46}
+.fi-body{flex:1;min-width:0}
+.fi-name{font-size:12px;font-weight:500;color:var(--tx);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fi.active .fi-name{color:var(--accent);font-weight:600}
+.fi-meta{font-size:10px;color:var(--tx3)}
+.fi-del{opacity:0;background:none;border:none;cursor:pointer;color:var(--danger);font-size:14px;line-height:1;padding:2px 4px;border-radius:3px;transition:opacity .1s;margin-left:auto}
+.fi:hover .fi-del{opacity:1}
+
+/* ── MAIN ── */
+.main{flex:1;display:flex;flex-direction:column;overflow:hidden;background:var(--bg)}
+
+/* ── TOOLBAR ── */
+.toolbar{height:44px;min-height:44px;background:var(--surface);border-bottom:1px solid var(--b1);display:flex;align-items:center;padding:0 12px;gap:6px}
+.tb-title{font-size:12px;font-weight:500;color:var(--tx);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.btn{display:inline-flex;align-items:center;gap:4px;padding:5px 10px;border-radius:var(--r);border:1px solid var(--b1);background:var(--surface);color:var(--tx);font-size:11px;cursor:pointer;transition:all .1s;white-space:nowrap;font-weight:500}
+.btn:hover{background:var(--bg2)}
+.btn-accent{background:var(--accent);color:#fff;border-color:var(--accent)}
+.btn-accent:hover{background:#2450C8}
+.btn-warn{background:var(--danger-bg);color:var(--danger);border-color:#F5B8B8}
+.btn-warn:hover{opacity:.85}
+.btn-ghost{border-color:transparent;background:transparent}
+.btn-ghost:hover{background:var(--bg2);border-color:var(--b0)}
+.tb-sep{width:1px;height:18px;background:var(--b1);margin:0 2px}
+.tb-badge{background:var(--bg2);border:1px solid var(--b1);border-radius:4px;padding:2px 7px;font-size:10px;color:var(--tx2)}
+
+/* ── EDITOR ── */
+.editor{flex:1;display:flex;overflow:hidden}
+
+/* ── CANVAS ── */
+.canvas-wrap{
+  flex:1;position:relative;overflow:hidden;
+  background-color:var(--bg3);
+  background-image:
+    linear-gradient(var(--b0) 1px,transparent 1px),
+    linear-gradient(90deg,var(--b0) 1px,transparent 1px);
+  background-size:24px 24px;
+  height: 80vh;
+}
+#mainSvg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+
+/* ── RIGHT PANEL ── */
+.rpanel{width:258px;min-width:258px;background:var(--surface);border-left:1px solid var(--b1);display:flex;flex-direction:column;overflow-y:auto;max-height:100vh}
+.rp-sec{padding:13px;border-bottom:1px solid var(--b0)}
+.rp-sec h3{font-size:10px;font-weight:600;color:var(--tx3);text-transform:uppercase;letter-spacing:.1em;margin-bottom:9px}
+.field{margin-bottom:8px}
+label{display:block;font-size:10px;color:var(--tx2);margin-bottom:3px;font-weight:500}
+input[type=text],select,textarea{width:100%;padding:5px 8px;border-radius:var(--r);border:1px solid var(--b1);background:var(--bg2);color:var(--tx);font-size:11px;outline:none;transition:border-color .1s}
+input[type=text]:focus,select:focus,textarea:focus{border-color:var(--accent);background:var(--surface)}
+textarea{resize:vertical;line-height:1.5}
+.help{font-size:10px;color:var(--tx3);margin-top:2px}
+.grp-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+.grp-btn{padding:5px 4px;border-radius:var(--r);border:1px solid var(--b0);background:var(--bg2);font-size:10px;cursor:pointer;text-align:center;transition:all .1s;color:var(--tx2);font-weight:500}
+.grp-btn:hover{background:var(--bg3)}
+.grp-btn.on.g-GENED   {background:var(--gened-fill);border-color:var(--gened-stroke);color:var(--gened-text)}
+.grp-btn.on.g-SPEC    {background:var(--spec-fill);border-color:var(--spec-stroke);color:var(--spec-text)}
+.grp-btn.on.g-SPEC_ELEC{background:var(--spec-elec-fill);border-color:var(--spec-elec-stroke);color:var(--spec-elec-text)}
+.grp-btn.on.g-CAPSTONE{background:var(--cap-fill);border-color:var(--cap-stroke);color:var(--cap-text)}
+.grp-btn.on.g-ELEC    {background:var(--elec-fill);border-color:var(--elec-stroke);color:var(--elec-text)}
+.grp-btn.on.g-EMPTY   {background:var(--empty-fill);border-color:var(--empty-stroke);color:var(--empty-text)}
+.elec-list{display:flex;flex-direction:column;gap:3px;margin-bottom:7px}
+.elec-item{display:flex;align-items:center;gap:5px;padding:4px 7px;background:var(--bg2);border-radius:var(--r);border:1px solid var(--b0);font-size:11px}
+.elec-item span{flex:1}
+.elec-item button{background:none;border:none;cursor:pointer;color:var(--danger);font-size:13px;line-height:1;padding:0 2px}
+.elec-add{display:flex;gap:5px}
+.elec-add input{flex:1}
+.rp-empty{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 20px;gap:8px;color:var(--tx3);font-size:12px;text-align:center}
+.rp-empty svg{opacity:.2}
+
+/* ── CANVAS OVERLAYS ── */
+.ov-hint{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);background:rgba(255,255,255,.9);border:1px solid var(--b1);border-radius:20px;padding:4px 14px;font-size:11px;color:var(--tx2);pointer-events:none;z-index:20;white-space:nowrap;backdrop-filter:blur(8px)}
+.ov-conn{position:absolute;top:12px;left:50%;transform:translateX(-50%);background:var(--accent);color:#fff;border-radius:20px;padding:5px 14px;font-size:11px;display:flex;align-items:center;gap:8px;z-index:20;box-shadow:0 4px 12px rgba(45,91,227,.3)}
+.ov-conn button{background:rgba(255,255,255,.2);border:none;color:#fff;font-size:11px;padding:2px 9px;border-radius:10px;cursor:pointer}
+.ov-del{position:absolute;top:12px;right:12px;background:var(--danger-bg);color:var(--danger);border:1px solid #F5B8B8;border-radius:var(--r);padding:4px 10px;font-size:11px;pointer-events:none}
+
+/* ── LEGEND ── */
+.legend-box{position:absolute;bottom:42px;right:12px;background:rgba(255,255,255,.9);border:1px solid var(--b1);border-radius:var(--r);padding:10px 12px;pointer-events:none;backdrop-filter:blur(8px)}
+.lg-item{display:flex;align-items:center;gap:7px;margin-bottom:4px;font-size:10px;color:var(--tx2)}
+.lg-item:last-child{margin-bottom:0}
+.lg-swatch{width:14px;height:11px;border-radius:2px;flex-shrink:0;border:1px solid}
+
+/* ── SVG elements ── */
+.link-path{stroke:#BCC5D8;stroke-width:1.5;fill:none;marker-end:url(#arr)}
+.link-path.sel{stroke:var(--accent);stroke-width:2;marker-end:url(#arr-sel)}
+.node-g{cursor:grab}
+.node-g:active{cursor:grabbing}
+.node-rect{transition:filter .08s}
+.node-g:hover .node-rect{filter:brightness(.92)}
+.conn-ring{stroke:var(--accent);stroke-width:1.5;fill:none;stroke-dasharray:5 4;animation:dash 2s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-36}}
+
+/* ── YEAR HEADER BANDS ── */
+.year-band{fill:rgba(0,0,0,.025);stroke:rgba(0,0,0,.07);stroke-width:1}
+.year-label{font-size:11px;font-weight:600;fill:var(--tx3);letter-spacing:.06em}
+.term-label{font-size:9px;fill:var(--tx3);letter-spacing:.05em}
+
+/* ── MODAL ── */
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.35);display:flex;align-items:center;justify-content:center;z-index:300;backdrop-filter:blur(4px)}
+.modal{background:var(--surface);border-radius:var(--rl);border:1px solid var(--b1);padding:22px;width:370px;max-width:96vw;box-shadow:0 24px 64px rgba(0,0,0,.15)}
+.modal h2{font-size:14px;font-weight:600;margin-bottom:14px;color:var(--tx)}
+.mf{display:flex;gap:7px;justify-content:flex-end;margin-top:16px}
+.pill-row{display:flex;gap:6px;flex-wrap:wrap}
+.pill{padding:4px 11px;border-radius:20px;font-size:11px;cursor:pointer;border:1px solid var(--b1);background:var(--bg2);color:var(--tx2);transition:all .1s;user-select:none;font-weight:500}
+.pill.on{background:var(--accent-bg);border-color:var(--accent-mid);color:var(--accent);font-weight:600}
+::-webkit-scrollbar{width:4px}
+::-webkit-scrollbar-thumb{background:var(--bg3);border-radius:2px}
+
+.snap-preview{fill:rgba(45,91,227,.08);stroke:#2D5BE3;stroke-width:1.5;stroke-dasharray:4 3}
+.edge-handle{fill:#fff;stroke:#2D5BE3;stroke-width:1.5}
+.edge-handle:hover{fill:#EDF2FF}
+.rpanel{transition:width .2s,min-width .2s;overflow:hidden}
+.rpanel.collapsed{width:32px;min-width:32px}
+.rpanel.collapsed > *:not(.rp-toggle){display:none}
+.rp-toggle{width:100%;height:32px;background:none;border:none;border-bottom:1px solid var(--b1);cursor:pointer;display:flex;align-items:center;justify-content:center;color:var(--tx2);flex-shrink:0;font-size:14px}
+.rpanel.collapsed .rp-toggle{height:100%;border-bottom:none;align-items:flex-start;padding-top:10px;writing-mode:vertical-rl}
+.fc-modal{background:var(--surface);border-radius:var(--rl);border:1px solid var(--b1);padding:22px;width:370px;max-width:96vw;box-shadow:0 24px 64px rgba(0,0,0,.15)}
+.fc-modal h2{font-size:14px;font-weight:600;margin-bottom:14px;color:var(--tx)}
+
+/* ══════════════════════════════════════
+   MOBILE RESPONSIVE
+═══════════════════════════════════════ */
+@media (max-width: 768px) {
+  body { overflow: hidden; }
+  .app { flex-direction: column; height: 100dvh; }
+  .main { overflow: hidden; flex: 1; display: flex; flex-direction: column; }
+  .editor { flex: 1; position: relative; overflow: hidden; display: block; }
+
+  /* Canvas full màn hình */
+  .canvas-wrap { position: absolute; inset: 0; min-height: unset; }
+
+  /* Sidebar: bottom sheet */
+  .sidebar {
+    position: fixed; bottom: 0; left: 0; right: 0;
+    width: 100% !important; min-width: unset !important;
+    border-right: none; border-top: 1px solid var(--b1);
+    border-radius: 12px 12px 0 0;
+    background: var(--surface);
+    z-index: 200; max-height: 0; overflow: hidden;
+    transition: max-height .28s cubic-bezier(.4,0,.2,1);
+    box-shadow: 0 -4px 24px rgba(0,0,0,.12);
+  }
+  .sidebar.open { max-height: 60dvh; overflow-y: auto; }
+
+  /* Toolbar compact */
+  .toolbar { height: 44px; min-height: 44px; padding: 0 8px; flex-wrap: nowrap; }
+  .tb-title { font-size: 11px; }
+  #tbActions { gap: 3px; }
+  .tb-sep { display: none; }
+  .tb-badge { display: none; }
+
+  /* Right panel: slide từ dưới lên, KHÔNG chiếm không gian */
+  .rpanel {
+    position: fixed !important;
+    bottom: 0; left: 0; right: 0;
+    width: 100% !important;
+    min-width: unset !important;
+    max-height: 55dvh;
+    border-left: none;
+    border-top: 1px solid var(--b1);
+    border-radius: 12px 12px 0 0;
+    background: var(--surface);
+    box-shadow: 0 -4px 24px rgba(0,0,0,.12);
+    z-index: 150;
+    transform: translateY(100%);
+    transition: transform .25s cubic-bezier(.4,0,.2,1);
+    overflow-y: auto;
+    /* Reset desktop collapsed styles */
+    display: flex !important;
+    flex-direction: column;
+  }
+  .rpanel.panel-open { transform: translateY(0); }
+
+  /* Khi collapsed trên mobile = ẩn hoàn toàn */
+  .rpanel.collapsed {
+    width: 100% !important;
+    min-width: unset !important;
+    transform: translateY(100%);
+  }
+  .rpanel.collapsed > *:not(.rp-toggle) { display: none; }
+
+  /* Toggle button thành handle bar */
+  .rp-toggle {
+    width: 100%; height: 40px;
+    writing-mode: horizontal-tb;
+    border-bottom: 1px solid var(--b0);
+    flex-shrink: 0;
+    font-size: 11px; font-weight: 600;
+    display: none;
+    justify-content: center; gap: 8px;
+  }
+  .rp-toggle::before {
+    content: '';
+    display: block; width: 32px; height: 3px;
+    background: var(--bg3); border-radius: 2px;
+  }
+
+  /* Backdrop */
+  body.sidebar-open::after, body.panel-open::after {
+    content: ''; position: fixed; inset: 0;
+    background: rgba(0,0,0,.25); z-index: 99;
+  }
+  body.sidebar-open::after { z-index: 199; }
+
+  .legend-box { bottom: auto; top: 52px; left: 8px; right: auto; font-size: 9px; display: none !important;}
+  .ov-hint { bottom: 10px; font-size: 10px; }
+  .ov-conn { top: 52px; }
+  .ov-del  { top: 52px; right: 10px; }
+
+  .overlay { align-items: flex-end; }
+  .modal, .fc-modal {
+    width: 100%; max-width: 100%;
+    border-radius: 12px 12px 0 0;
+    padding: 20px 16px 36px;
+  }
+
+  .fi-del { opacity: 1; }
+  #btnSidebar { display: inline-flex !important; }
+}
+#btnSidebar { display: none; }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <!-- LEFT SIDEBAR -->
+  <div class="sidebar" id="sidebar">
+    <div class="sb-head">
+      <span class="sb-logo">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="M17.5 14v7M14 17.5h7"/></svg>
+        Flowcharts
+      </span>
+      <button class="btn btn-accent" id="btnNew" style="padding:4px 8px;font-size:10px">+ New</button>
+    </div>
+    <div class="sb-list" id="sbList"></div>
+  </div>
+
+  <!-- MAIN -->
+  <div class="main">
+
+    <!-- TOOLBAR — nút hamburger nằm ở đây trên mobile -->
+    <div class="toolbar">
+  
+<button class="btn btn-ghost" id="btnSidebar"
+        title="Toggle sidebar"
+        style="padding:4px 8px;font-size:16px;line-height:1">
+        ☰
+    </button>
+
+    <span class="tb-title" id="tbTitle">
+        Chọn lộ trình cần chỉnh sửa
+    </span>
+      <div id="tbActions" style="display:none;align-items:center;gap:5px">
+        <span class="tb-badge" id="tbBadge"></span>
+        <div class="tb-sep"></div>
+        <button class="btn" id="btnAddNode">+ Node</button>
+        <button class="btn" id="btnConn">⟶ Connect</button>
+        <button class="btn btn-warn" id="btnDel" style="display:none">✕ Del</button>
+        <div class="tb-sep"></div>
+        <label class="btn btn-ghost" style="cursor:pointer">
+          ↑ Import
+          <input type="file" accept=".json" id="fileImport" style="display:none">
+        </label>
+        <button class="btn btn-accent" id="btnSave">Save Json</button>
+      </div>
+    </div>
+
+    <div class="editor">
+      <!-- CANVAS -->
+      <div class="canvas-wrap" id="cWrap">
+        <div id="emptyMsg" style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;pointer-events:none">
+          <svg width="48" height="48" fill="none" stroke="#CCCAB8" stroke-width="1.5" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="M17.5 14v7M14 17.5h7"/></svg>
+          <span style="font-size:13px;color:var(--tx3)">Select or create a flowchart</span>
+        </div>
+        <svg id="mainSvg" style="display:none">
+          <defs>
+            <marker id="arr" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto">
+              <path d="M0,0 L0,6 L7,3 z" fill="#9BB2D0"/>
+            </marker>
+            <marker id="arr-sel" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto">
+              <path d="M0,0 L0,6 L7,3 z" fill="#2D5BE3"/>
+            </marker>
+          </defs>
+          <g id="gBands"></g>
+          <g id="gPan">
+            <g id="gSnapPreview"></g>
+            <g id="gEdge"></g>
+            <g id="gEdgeHandles"></g>
+            <g id="gNode"></g>
+          </g>
+        </svg>
+        <div class="ov-hint" id="hint">Drag node · Alt+drag or scroll to pan · Click edge to select</div>
+        <div class="ov-conn" id="connBar" style="display:none">
+          ⟶ Click source node, then target node
+          <button id="btnExitConn">Cancel</button>
+        </div>
+        <div class="ov-del" id="delHint" style="display:none">Del / Backspace to remove</div>
+        <div class="legend-box" id="legendBox" style="display:none">
+          <div class="lg-item"><div class="lg-swatch" style="background:var(--gened-fill);border-color:var(--gened-stroke)"></div>GENED</div>
+          <div class="lg-item"><div class="lg-swatch" style="background:var(--spec-fill);border-color:var(--spec-stroke)"></div>SPEC</div>
+          <div class="lg-item"><div class="lg-swatch" style="background:var(--spec-elec-fill);border-color:var(--spec-elec-stroke)"></div>SPEC_ELEC</div>
+          <div class="lg-item"><div class="lg-swatch" style="background:var(--cap-fill);border-color:var(--cap-stroke)"></div>CAPSTONE</div>
+          <div class="lg-item"><div class="lg-swatch" style="background:var(--elec-fill);border-color:var(--elec-stroke)"></div>ELEC</div>
+          <div class="lg-item"><div class="lg-swatch" style="background:var(--empty-fill);border-color:var(--empty-stroke)"></div>(empty)</div>
+        </div>
+      </div>
+
+      <!-- RIGHT PANEL -->
+      <div class="rpanel" id="rpanel">
+        <button class="rp-toggle" id="rpToggle" title="Toggle panel">▶ Properties</button>
+        <div class="rp-empty">
+          <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5"/></svg>
+          <span>Click a node or edge<br>to edit its properties</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- New flowchart modal -->
+<div class="overlay" id="newModal" style="display:none">
+  <div class="fc-modal">
+    <h2>New flowchart</h2>
+    <div class="field">
+      <label>Program key</label>
+      <input type="text" id="nKey" placeholder="e.g. swe24, cndc25">
+      <div class="help">Lowercase · major code + 2-digit cohort year</div>
+    </div>
+    <div class="field" style="margin-top:10px">
+      <label style="margin-bottom:6px;display:block">Duration</label>
+      <div class="pill-row" id="nDur">
+        <span class="pill on" data-v="4">4 years</span>
+        <span class="pill" data-v="5">5 years</span>
+      </div>
+    </div>
+    <div class="mf">
+      <button class="btn" id="btnCancelNew">Cancel</button>
+      <button class="btn btn-accent" id="btnConfirmNew">Create</button>
+    </div>
+  </div>
+</div>
+
+<div id="flowchart-container"
+  data-drawdata="<%= JSON.stringify(drawData || {}) %>">
+</div>
+
+<script src="/js/flowchart-manager.js"></script>
+</body>
+</html>
