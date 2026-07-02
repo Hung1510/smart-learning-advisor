@@ -28,7 +28,7 @@ const redis = new Redis({
 // Cache TTL: 1 ngay (ms)
 const CACHE_TTL_MS = 24 * 60 * 60 * 1000;
 
-// ===================== MIDDLEWARE =====================
+//  MIDDLEWARE 
 // Security headers. CSP is whitelisted to the CDNs used in views/layout.ejs
 // (jsdelivr, cdnjs) plus d3js.org (flowchart pages). 'unsafe-inline'/'unsafe-eval'
 // are required because the app uses inline <script>/<style> and three.js.
@@ -92,7 +92,7 @@ app.use(
   }),
 );
 
-// ===================== PASSPORT GOOGLE =====================
+//  PASSPORT GOOGLE 
 passport.use(
   new GoogleStrategy(
     {
@@ -113,7 +113,7 @@ passport.deserializeUser((user, done) => done(null, user));
 app.use(passport.initialize());
 app.use(passport.session());
 
-// ===================== CACHE STORE =====================
+//  CACHE STORE 
 // const studentCache = {};
 
 // const studentsData = new Proxy(
@@ -172,7 +172,7 @@ async function clearCache(username) {
   await redis.del(`student:${username}`);
 }
 
-// ===================== RATE LIMIT (Upstash) =====================
+//  RATE LIMIT (Upstash) 
 function rateLimit({ windowSec, max, prefix }) {
   return async (req, res, next) => {
     try {
@@ -198,7 +198,7 @@ function rateLimit({ windowSec, max, prefix }) {
 
 const loginLimiter = rateLimit({ windowSec: 600, max: 20, prefix: "login" }); // 20 tries / 10 min / IP
 const advisorLimiter = rateLimit({ windowSec: 60, max: 15, prefix: "advisor" }); // 15 calls / min / IP
-// ===================== HELPERS =====================
+//  HELPERS 
 const gradeToGPA = {
   F: 0.0,
   "D-": 0.7,
@@ -215,7 +215,7 @@ const gradeToGPA = {
   P: "P",
 };
 
-// ===================== isCompleted — ĐỊNH NGHĨA TRƯỚC KHI DÙNG =====================
+//  isCompleted — ĐỊNH NGHĨA TRƯỚC KHI DÙNG 
 function isCompleted(c) {
   // Real EIU API data
   if (c.ket_qua !== undefined) {
@@ -226,7 +226,7 @@ function isCompleted(c) {
   return g !== "" && g !== "F";
 }
 
-// ===================== PRECOMPUTE CACHE =====================
+//  PRECOMPUTE CACHE 
 const precomputedCache = {};
 
 function precomputeStudentData(student) {
@@ -433,8 +433,8 @@ function mapEIUDataToStudent(id, password, raw) {
   };
 }
 
-// ===================== FEEDBACK STORE =====================
-// ===================== PERSISTENT STORAGE (Upstash Redis) =====================
+//  FEEDBACK STORE 
+//  PERSISTENT STORAGE (Upstash Redis) 
 // Feedback (advisor answers + chosen courses) now persists in Redis, so it
 // survives Vercel cold starts. Same merge behaviour as before: a "courses-only"
 // entry is replaced in place; any other entry is appended.
@@ -489,7 +489,7 @@ async function saveDrawData(newData) {
   } catch (e) {}
 }
 
-// ===================== FETCH STUDENT =====================
+//  FETCH STUDENT 
 
 // [DISABLED] Fetch từ EIU Python API bằng username/password
 // async function fetchStudentFromEIU(username, password) { ... }
@@ -584,7 +584,7 @@ async function fetchStudentByIdToken(idToken, email) {
   }
 }
 
-// ===================== FALLBACK ADVICE =====================
+//  FALLBACK ADVICE 
 function generatePersonalizedAdvice(student, question, goals, difficulties) {
   const courses = student.courses || [];
   const numeric = courses.filter((c) => c.score && !isNaN(parseFloat(c.score)));
@@ -623,7 +623,7 @@ function generatePersonalizedAdvice(student, question, goals, difficulties) {
   return advice;
 }
 
-// ===================== STATIC DATA =====================
+//  STATIC DATA 
 const advisorsData = {
   advisor1: { name: "Cố vấn A", password: "123" },
   advisor2: { name: "Cố vấn B", password: "123" },
@@ -647,7 +647,7 @@ try {
   console.error("[coursesData] Load failed:", e.message);
 }
 
-// ===================== AUTH MIDDLEWARE =====================
+//  AUTH MIDDLEWARE 
 const requireAuth = async (req, res, next) => {
   const token = req.cookies.token;
   const unauth = () =>
@@ -689,7 +689,7 @@ const requireAdvisorAuth = (req, res, next) => {
   }
 };
 
-// ===================== ROUTES =====================
+//  ROUTES 
 const LOGIN_3D_STYLES = '<link href="/css/login3d.css" rel="stylesheet">';
 const LOGIN_3D_SCRIPTS =
   '<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>' +
@@ -711,7 +711,7 @@ app.get("/", (req, res) => {
   res.render("landing", { siteUrl: SITE_URL });
 });
 
-// ===================== SEO: robots + sitemap =====================
+//  SEO: robots + sitemap 
 app.get("/robots.txt", (req, res) => {
   res.type("text/plain").send(
 `User-agent: *
@@ -744,7 +744,7 @@ app.get("/sitemap.xml", (req, res) => {
   );
 });
 
-// ===================== REACT SPA + /api ROUTES =====================
+//  REACT SPA + /api ROUTES 
 require("./api-routes")(app, {
   requireAuth,
   loginLimiter,
@@ -831,7 +831,7 @@ app.post("/login", loginLimiter, async (req, res) => {
   }
 });
 
-// ===================== GOOGLE OAUTH =====================
+//  GOOGLE OAUTH 
 app.get(
   "/auth/google",
   passport.authenticate("google", {
@@ -890,7 +890,7 @@ app.get(
   },
 );
 
-// ===================== AAO PASSWORD FALLBACK =====================
+//  AAO PASSWORD FALLBACK 
 app.get("/login-aao-password", (req, res) => {
   if (!req.session.pendingStudentId) return res.redirect("/login");
   renderWithLayout(res, "login-content", {
@@ -941,13 +941,13 @@ app.post("/login-aao-password", loginLimiter, async (req, res) => {
   }
 });
 
-// ===================== LOGOUT =====================
+//  LOGOUT 
 app.get("/logout", (req, res) => {
   res.clearCookie("token");
   res.redirect("/login");
 });
 
-// ===================== STUDENT PAGES =====================
+//  STUDENT PAGES 
 app.get("/dashboard", requireAuth, (req, res) => {
   const student = req.student;
   const { totalCourses, completedCourses, averageScore } =
@@ -1033,9 +1033,9 @@ app.get("/advisor", requireAuth, (req, res) => {
   });
 });
 
-// =====================================================================
+// ======
 // /advisor POST — SSE Streaming, Vercel-compatible
-// =====================================================================
+// ======
 app.post("/advisor", requireAuth, advisorLimiter, async (req, res) => {
   const {
     subject,
@@ -1297,7 +1297,7 @@ app.post("/flowchartManager/save", requireAuth, (req, res) => {
     res.status(500).json({ ok: false, error: err.message });
   }
 });
-// ===================== ADVISOR PAGES =====================
+//  ADVISOR PAGES 
 app.get("/advisor/dashboard", requireAdvisorAuth, (req, res) => {
   renderWithLayout(res, "advisors/dashboard-content", {
     advisor: req.advisor,
@@ -1341,7 +1341,7 @@ app.get("/chat", requireAuth, (req, res) => {
   });
 });
 
-// ===================== START =====================
+//  START 
 if (require.main === module) {
   app.listen(PORT, () =>
     console.log(`Smart Learning Advisor running on http://localhost:${PORT}`),

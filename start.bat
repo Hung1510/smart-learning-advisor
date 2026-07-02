@@ -1,7 +1,7 @@
 @echo off
-echo ====================================
+echo ===============
 echo  Smart Learning Advisor - EIU
-echo ====================================
+echo ===============
 echo.
 
 REM --- Check Node.js ---

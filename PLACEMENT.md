@@ -5,7 +5,7 @@ your project root is:  D:\Project_Programming\student_advisor\smart_learning_adv
 project at the path below).
 
 ⚠️ READ THESE 3 TRAPS FIRST
-─────────────────────────────────────────────
+──────────────────
 1. TWO package.json exist. The one you downloaded from me (~1 KB, React deps:
    react / react-dom / vite) is the CLIENT one → goes to `client/package.json`.
    It must NOT overwrite your existing backend package.json at the project root
@@ -17,7 +17,7 @@ project at the path below).
 3. flowchart.js / chat.js / flowchartMange.js you downloaded are my EDITED copies
    → they go in `client/public/js/`. They are NOT the same as the originals in
    your existing `public/js/` (leave those originals until the final delete step).
-─────────────────────────────────────────────
+──────────────────
 
 ## FRONTEND — the React app  (create the `client/` folder)
 

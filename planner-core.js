@@ -1,15 +1,3 @@
-// ═══════════════════════════════════════════════════════════════════════════
-// planner-core.js — the brain for Next-Semester Planner + Degree Audit.
-//
-// pure functions, zero express/redis. give it (student, drawData, coursesData)
-// and it hands back plain objects. easy to unit-test, easy to reuse from the
-// /api/planner and /api/audit routes (see api-routes snippet).
-//
-//   drawData      = the whole flowchart.json, keyed by program (swe18/swe21/...)
-//   coursesData   = courses.json, keyed by course code -> { credits, name, ... }
-//   student       = { id, cohort, major, courses:[{id,grade,score,semester,year}] }
-// ═══════════════════════════════════════════════════════════════════════════
-
 // EIU 4.0 scale. score field is unreliable for old cohorts (holds % like "90.0"),
 // so GPA is computed from the LETTER grade, not from score.
 const GRADE_POINTS = {
@@ -108,9 +96,9 @@ function realNodes(prog) {
   return (prog.nodes || []).filter((n) => n.id && !isElecPlaceholder(n.id));
 }
 
-// ─────────────────────────────────────────────────────────────────────────
+// ───────────────────
 // NEXT SEMESTER PLANNER
-// ─────────────────────────────────────────────────────────────────────────
+// ───────────────────
 function planNextSemester(student, drawData, coursesData, opts = {}) {
   const cap = opts.creditCap || DEFAULT_CREDIT_CAP;
   const target = opts.creditTarget || DEFAULT_CREDIT_TARGET;
@@ -212,9 +200,9 @@ function electiveStatus(prog, passed, coursesData) {
   return groups;
 }
 
-// ─────────────────────────────────────────────────────────────────────────
+// ───────────────────
 // DEGREE AUDIT
-// ─────────────────────────────────────────────────────────────────────────
+// ───────────────────
 function degreeAudit(student, drawData, coursesData, opts = {}) {
   const elecCr = opts.electiveCredits || DEFAULT_ELECTIVE_CREDITS;
   const program = programFor(student);

@@ -19,7 +19,7 @@ _executor = ThreadPoolExecutor(max_workers=4)
 
 # ==================== CONFIG ====================
 BASE_URL = "https://aao.eiu.edu.vn"
-# ================================================
+# ======
 
 app = FastAPI(title="EIU Student API", version="2.0.0")
 

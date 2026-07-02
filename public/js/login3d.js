@@ -1,20 +1,7 @@
-/**
- * login3d.js — Three.js animated background for the login page
- * 
- * Creates a dark 3D scene with:
- *  - Floating geometric shapes (icosahedrons, octahedrons, torus knots)
- *  - Wireframe + glass material aesthetic
- *  - Particle star field
- *  - Smooth orbit + bob animations
- *  - Mouse parallax on camera
- * 
- * Requires Three.js r128+ loaded via CDN before this script.
- */
-
 (function () {
     'use strict';
 
-    // ── CONFIG ──────────────────────────────────────────
+    // ── CONFIG ───────────────
     const SHAPE_COUNT   = 14;
     const PARTICLE_COUNT = 600;
     const COLORS = [
@@ -26,7 +13,7 @@
         0x55efc4, // mint
     ];
 
-    // ── STATE ───────────────────────────────────────────
+    // ── STATE ────────────────
     let scene, camera, renderer, clock;
     let shapes = [];
     let particles;
@@ -34,7 +21,7 @@
     let targetMouse = { x: 0, y: 0 };
     let animationId;
 
-    // ── INIT ────────────────────────────────────────────
+    // ── INIT ─────────────────
     function init() {
         const canvas = document.getElementById('login-3d-canvas');
         if (!canvas) return;
@@ -82,7 +69,7 @@
         animate();
     }
 
-    // ── SHAPES ──────────────────────────────────────────
+    // ── SHAPES ───────────────
     function createShapes() {
         const geometries = [
             () => new THREE.IcosahedronGeometry(1, 0),
@@ -151,7 +138,7 @@
         }
     }
 
-    // ── PARTICLES ───────────────────────────────────────
+    // ── PARTICLES ────────────
     function createParticles() {
         const positions = new Float32Array(PARTICLE_COUNT * 3);
         const sizes     = new Float32Array(PARTICLE_COUNT);
@@ -195,7 +182,7 @@
         scene.add(particles);
     }
 
-    // ── ANIMATION LOOP ──────────────────────────────────
+    // ── ANIMATION LOOP ───────
     function animate() {
         animationId = requestAnimationFrame(animate);
         const elapsed = clock.getElapsedTime();
@@ -234,7 +221,7 @@
         renderer.render(scene, camera);
     }
 
-    // ── EVENTS ──────────────────────────────────────────
+    // ── EVENTS ───────────────
     function bindEvents() {
         window.addEventListener('mousemove', function (e) {
             targetMouse.x = (e.clientX / window.innerWidth - 0.5) * 2;
@@ -263,7 +250,7 @@
         shapes = [];
     };
 
-    // ── START ───────────────────────────────────────────
+    // ── START ────────────────
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', init);
     } else {

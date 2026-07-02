@@ -1,24 +1,8 @@
-// ═══════════════════════════════════════════════════════════════════════════
-// api-routes.js — ALL the React-migration backend routes in one place.
-//
-// Wire it up with ONE line in app.js (see the 3 steps in api-routes.README.md):
-//     require("./api-routes")(app, {
-//       requireAuth, loginLimiter, advisorLimiter,
-//       advisorsData, coursesData, precomputedCache,
-//       fetchStudentFromEIU, getFeedback, saveFeedback, generatePersonalizedAdvice,
-//       loadDrawData, saveDrawData,   // Redis-backed curriculum persistence
-//     });
-//
-// Place that call AFTER those helpers/middleware are defined and AFTER your
-// landing/robots/sitemap routes, but BEFORE your old EJS page routes
-// (/dashboard, /grades, ...). The SPA fallback here then serves the React app
-// for those paths; your old EJS routes below become dead (delete later).
-// ═══════════════════════════════════════════════════════════════════════════
-
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
 const jwt = require("jsonwebtoken");
+const { planNextSemester, degreeAudit } = require("./planner-core");
 
 // course descriptions for the Grades modal (array of {id,name,english,objective})
 let courseDescriptions = [];
@@ -115,7 +99,7 @@ module.exports = function registerApiRoutes(app, ctx) {
     maxAge: 3600000,
   };
 
-  // ─────────────────────────── AUTH ───────────────────────────
+  //  AUTH 
   // POST /api/login  { studentId, password } -> { role, student?, redirect }
   app.post("/api/login", loginLimiter, async (req, res) => {
     const { studentId, password } = req.body;
@@ -151,7 +135,7 @@ module.exports = function registerApiRoutes(app, ctx) {
     res.json({ ok: true });
   });
 
-  // ─────────────────────────── DASHBOARD / GRADES ───────────────────────────
+  //  DASHBOARD / GRADES 
   app.get("/api/dashboard", requireAuth, (req, res) => {
     const { totalCourses, completedCourses, averageScore } = precomputedCache[req.student.id].dashboard;
     res.json({ totalCourses, completedCourses, averageScore });
@@ -169,7 +153,7 @@ module.exports = function registerApiRoutes(app, ctx) {
     res.json({ name: c.name || "", english: c.english || "", objective: c.objective || "" });
   });
 
-  // ─────────────────────────── ADVISOR (SSE) ───────────────────────────
+  //  ADVISOR (SSE) 
   app.get("/api/advisor/context", requireAuth, (req, res) => {
     let dataFlow = [];
     if (req.session && req.session.advisorToken) {
@@ -320,7 +304,7 @@ Tối đa 3 hành động. Mỗi hành động gắn với môn học hoặc ch�
     }
   });
 
-  // ─────────────────────────── FLOWCHART ───────────────────────────
+  //  FLOWCHART 
   app.get("/api/flowchart", requireAuth, async (req, res) => {
     const student = req.student;
     let { suggestedCourses } = precomputedCache[student.id].advisor;
@@ -338,6 +322,22 @@ Tối đa 3 hành động. Mỗi hành động gắn với môn học hoặc ch�
     res.json({ success: true });
   });
 
+  //  NEXT SEMESTER PLANNER 
+  // GET /api/planner -> { student, program, suggested, eligible, blocked, electives, ... }
+  app.get("/api/planner", requireAuth, async (req, res) => {
+    const drawData = await loadDrawData();
+    const plan = planNextSemester(req.student, drawData, coursesData);
+    res.json({ student: stripPw(req.student), ...plan });
+  });
+
+  //  DEGREE AUDIT 
+  // GET /api/audit -> { student, pctComplete, credits*, gpa, categories, ... }
+  app.get("/api/audit", requireAuth, async (req, res) => {
+    const drawData = await loadDrawData();
+    const audit = degreeAudit(req.student, drawData, coursesData);
+    res.json({ student: stripPw(req.student), ...audit });
+  });
+
   app.post("/api/advisor-token", requireAuth, (req, res) => {
     if (req.session) {
       req.session.advisorToken = true;
@@ -346,13 +346,13 @@ Tối đa 3 hành động. Mỗi hành động gắn với môn học hoặc ch�
     res.json({ ok: true });
   });
 
-  // ─────────────────────────── CHAT ───────────────────────────
+  //  CHAT 
   app.get("/api/chat", requireAuth, (req, res) => {
     const users = Object.entries(advisorsData).map(([id, a]) => ({ id, name: a.name }));
     res.json({ student: stripPw(req.student), users });
   });
 
-  // ─────────────────────────── MANAGE FLOW ───────────────────────────
+  //  MANAGE FLOW 
   app.get("/api/manageFlow", requireAuth, async (req, res) => {
     const freshDrawData = await loadDrawData();
     res.json({ drawData: freshDrawData });
@@ -368,14 +368,14 @@ Tối đa 3 hành động. Mỗi hành động gắn với môn học hoặc ch�
     }
   });
 
-  // ─────────────────────────── SPA SERVING ───────────────────────────
+  //  SPA SERVING 
   // serve the built React app. index:false so it does NOT hijack "/",
   // which stays your server-rendered landing page (SEO).
   app.use(express.static(path.join(__dirname, "client-dist"), { index: false }));
 
   // these paths return the React shell; React Router takes over client-side
   app.get(
-    ["/login", "/dashboard", "/grades", "/advisor", "/flowchart", "/chat", "/manageFlow"],
+    ["/login", "/dashboard", "/grades", "/advisor", "/flowchart", "/chat", "/manageFlow", "/planner", "/audit"],
     (req, res) => res.sendFile(path.join(__dirname, "client-dist", "index.html"))
   );
 };
