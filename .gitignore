@@ -1,33 +1,36 @@
-#secrets / env
+# secrets / env
 .env
 .env.*
 _env
 *.env
 
-#dependencies
+# dependencies
 node_modules/
 
-#vercel
+# react build output
+client-dist/
+
+# vercel
 .vercel
 
-#local runtime state
+# local runtime state
 aao_state.json
 student_data.json
 
-#saved student feedback
+# saved student feedback (now stored in Redis; keep local files out of git)
 Students/*.json
 
-#logs
+# logs
 *.log
 npm-debug.log*
 
-#OS / editor junk
+# OS / editor junk
 .DS_Store
 Thumbs.db
 .vscode/
 
-#python-service
+# python-service
 python-service/__pycache__/
 python-service/.venv/
 python-service/venv/
-*.pyc"client-dist/" 
+*.pyc
