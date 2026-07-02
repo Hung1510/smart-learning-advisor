@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon --ignore students.json --ignore student_data.json --ignore Students/ --ignore aao_state.json app.js"
+    "dev": "nodemon --ignore students.json --ignore student_data.json --ignore Students/ --ignore aao_state.json app.js",
+    "vercel-build": "cd client && npm install && npm run build"
   },
   "engines": {
     "node": "22.x"

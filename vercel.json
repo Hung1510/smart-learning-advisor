@@ -8,9 +8,10 @@
         "includeFiles": [
           "students.json",
           "flowchart.json",
+          "courses.json",
           "public/**",
           "views/**",
-          "Students/**",
+          "client-dist/**",
           "*.js",
           "*.json"
         ]

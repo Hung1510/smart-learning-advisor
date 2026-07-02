@@ -44,6 +44,7 @@ app.use(
           "https://cdn.jsdelivr.net",
           "https://cdnjs.cloudflare.com",
           "https://d3js.org",
+          "https://www.gstatic.com",
         ],
         styleSrc: [
           "'self'",
@@ -53,7 +54,13 @@ app.use(
         ],
         fontSrc: ["'self'", "https://cdnjs.cloudflare.com", "data:"],
         imgSrc: ["'self'", "data:", "https:"],
-        connectSrc: ["'self'"],
+        connectSrc: [
+          "'self'",
+          "https://www.gstatic.com",
+          "https://*.firebaseio.com",
+          "wss://*.firebaseio.com",
+          "https://*.googleapis.com",
+        ],
         frameAncestors: ["'none'"],
         objectSrc: ["'none'"],
         baseUri: ["'self'"],
@@ -615,8 +622,12 @@ try {
 // ===================== AUTH MIDDLEWARE =====================
 const requireAuth = async (req, res, next) => {
   const token = req.cookies.token;
-  if (!token) return res.redirect("/login");
+  const unauth = () =>
+    req.path.startsWith("/api")
+      ? res.status(401).json({ error: "unauthorized" })
+      : res.redirect("/login");
 
+  if (!token) return unauth();
   try {
     const decoded = jwt.verify(token, process.env.JWT_SECRET || "secret123");
     let student = await getCached(decoded.id);
@@ -626,13 +637,13 @@ const requireAuth = async (req, res, next) => {
       student = await fetchStudentFromEIU(decoded.id, decoded.password || null);
     }
 
-    if (!student) return res.redirect("/login");
+    if (!student) return unauth();
 
     precomputeStudentData(student);
     req.student = student;
     next();
   } catch (err) {
-    return res.redirect("/login");
+    return unauth();
   }
 };
 
@@ -703,6 +714,21 @@ app.get("/sitemap.xml", (req, res) => {
   </url>
 </urlset>`,
   );
+});
+
+// ===================== REACT SPA + /api ROUTES =====================
+require("./api-routes")(app, {
+  requireAuth,
+  loginLimiter,
+  advisorLimiter,
+  advisorsData,
+  coursesData,
+  precomputedCache,
+  fetchStudentFromEIU,
+  getFeedback,
+  saveFeedback,
+  generatePersonalizedAdvice,
+  setDrawData: (d) => { drawData = d; },
 });
 
 app.get("/login", (req, res) => {

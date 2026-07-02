@@ -1,0 +1,15 @@
+for express
+cd D:\Project_Programming\student_advisor\smart_learning_advisor\client
+npm run build
+
+cd ..
+node app.js
+
+for react 
+# terminal 1 — backend
+cd D:\Project_Programming\student_advisor\smart_learning_advisor
+node app.js
+
+# terminal 2 — frontend
+cd D:\Project_Programming\student_advisor\smart_learning_advisor\client
+npm run dev
