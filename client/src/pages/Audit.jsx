@@ -1,9 +1,9 @@
 // client/src/pages/Audit.jsx
-// degree audit / graduation progress. reads /api/audit, shows overall progress,
+// degree audit / graduation progress. reads /api/audit: overall progress,
 // per-category breakdown, GPA, projected terms left, and a live GPA-target calc.
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./Audit.css";
+import AppLayout from "../components/AppLayout";
 
 const GROUP_LABEL = {
   GENED: "Cơ sở ngành",
@@ -23,7 +23,7 @@ export default function Audit() {
     fetch("/api/audit", { credentials: "include" })
       .then((r) => {
         if (r.status === 401) { nav("/login"); return null; }
-        if (!r.ok) throw new Error("Không tải được dữ liệu");
+        if (!r.ok) throw new Error("Không tải được dữ liệu tiến độ.");
         return r.json();
       })
       .then((d) => d && setData(d))
@@ -31,7 +31,7 @@ export default function Audit() {
   }, [nav]);
 
   // GPA needed on remaining credits to hit the target:
-  //   requiredAvg = (target*(done+remaining) - qualityPoints) / remaining
+  //   need = (target*(gpaCredits+remaining) - qualityPoints) / remaining
   const calc = useMemo(() => {
     if (!data || !data.gpaCredits) return null;
     const remaining = data.creditsRemaining || 0;
@@ -41,97 +41,147 @@ export default function Audit() {
     return { need: +need.toFixed(2), feasible: need <= 4.0, remaining };
   }, [data, target]);
 
-  if (err) return <div className="au-wrap"><p className="au-error">{err}</p></div>;
-  if (!data) return <div className="au-wrap"><p className="au-muted">Đang kiểm tra tiến độ…</p></div>;
+  const breadcrumb = [{ name: "Tiến độ tốt nghiệp", icon: "fas fa-clipboard-check" }];
 
   return (
-    <div className="au-wrap">
-      <header className="au-head">
-        <h1>Tiến độ tốt nghiệp</h1>
-        <p className="au-muted">Lộ trình <code>{data.program}</code></p>
-      </header>
+    <AppLayout currentPage="audit" breadcrumb={breadcrumb}>
+      <div className="mb-3">
+        <h2 className="mb-1">
+          <i className="fas fa-clipboard-check text-primary me-2"></i>Tiến độ tốt nghiệp
+        </h2>
+        <p className="text-muted mb-0">Lộ trình {data && <code>{data.program}</code>}</p>
+      </div>
 
-      {/* top stats */}
-      <section className="au-stats">
-        <div className="au-ring" style={{ "--pct": data.pctComplete }}>
-          <span className="au-ring-num">{data.pctComplete}%</span>
-          <span className="au-ring-lbl">hoàn thành</span>
+      {err && <div className="alert alert-danger">{err}</div>}
+      {!data && !err && (
+        <div className="text-center text-muted py-5">
+          <div className="spinner-border text-primary mb-2" role="status" />
+          <div>Đang kiểm tra tiến độ…</div>
         </div>
-        <div className="au-kpis">
-          <Kpi label="Tín chỉ tích luỹ" value={`${data.creditsDone}/${data.creditsRequired}`} />
-          <Kpi label="Tín chỉ còn lại" value={data.creditsRemaining} />
-          <Kpi label="GPA hiện tại" value={data.gpa ?? "—"} accent />
-          <Kpi label="Học kỳ còn lại (ước tính)" value={data.termsLeft} />
-        </div>
-      </section>
+      )}
 
-      {/* per-category progress */}
-      <section className="au-card">
-        <h2>Tiến độ theo nhóm môn</h2>
-        {data.categories.map((c) => {
-          const pct = c.creditsRequired ? Math.round((c.creditsDone / c.creditsRequired) * 100) : 0;
-          return (
-            <div key={c.group} className="au-cat">
-              <div className="au-cat-top">
-                <span className="au-cat-name">{GROUP_LABEL[c.group] || c.group}</span>
-                <span className="au-cat-num">
-                  {c.coursesDone}/{c.coursesRequired} môn · {c.creditsDone}/{c.creditsRequired}tc
-                </span>
+      {data && (
+        <>
+          {/* overall progress */}
+          <div className="card shadow-sm mb-4">
+            <div className="card-body">
+              <div className="d-flex justify-content-between align-items-end mb-2">
+                <h5 className="mb-0">Hoàn thành chương trình</h5>
+                <span className="display-6 fw-bold text-primary">{data.pctComplete}%</span>
               </div>
-              <div className="au-bar"><div className="au-bar-fill" style={{ width: pct + "%" }} /></div>
+              <div className="progress" style={{ height: 14 }}>
+                <div
+                  className="progress-bar bg-success"
+                  role="progressbar"
+                  style={{ width: data.pctComplete + "%" }}
+                  aria-valuenow={data.pctComplete}
+                  aria-valuemin={0}
+                  aria-valuemax={100}
+                />
+              </div>
             </div>
-          );
-        })}
-      </section>
+          </div>
 
-      {/* GPA target calculator */}
-      <section className="au-card">
-        <h2>Máy tính GPA mục tiêu</h2>
-        <div className="au-calc">
-          <label>
-            GPA mục tiêu
-            <input
-              type="number" min="0" max="4" step="0.1" value={target}
-              onChange={(e) => setTarget(parseFloat(e.target.value) || 0)}
-            />
-          </label>
-          {calc?.done ? (
-            <p className="au-muted">Bạn đã hoàn thành toàn bộ tín chỉ.</p>
-          ) : calc ? (
-            <p className={`au-calc-out ${calc.feasible ? "" : "au-calc-bad"}`}>
-              Cần đạt trung bình <strong>{calc.need}</strong> trên {calc.remaining} tín chỉ còn lại
-              {calc.feasible ? "" : " — vượt quá 4.0, không khả thi."}
-            </p>
-          ) : (
-            <p className="au-muted">Chưa đủ dữ liệu điểm để tính.</p>
-          )}
-        </div>
-      </section>
+          {/* KPI cards */}
+          <div className="row g-3 mb-4">
+            <Kpi icon="fa-coins" label="Tín chỉ tích luỹ" value={`${data.creditsDone}/${data.creditsRequired}`} />
+            <Kpi icon="fa-hourglass-half" label="Tín chỉ còn lại" value={data.creditsRemaining} />
+            <Kpi icon="fa-star" label="GPA hiện tại" value={data.gpa ?? "—"} accent />
+            <Kpi icon="fa-calendar-days" label="Học kỳ còn lại (ước tính)" value={data.termsLeft} />
+          </div>
 
-      {/* remaining required courses */}
-      <section className="au-card">
-        <h2>Môn bắt buộc còn lại</h2>
-        <div className="au-remain">
-          {data.categories.flatMap((c) => c.remaining || []).length === 0 ? (
-            <p className="au-muted">Không còn môn bắt buộc nào.</p>
-          ) : (
-            data.categories.flatMap((c) => c.remaining || []).map((r) => (
-              <span key={r.id} className="au-chip" title={r.nameEg || r.name}>
-                {r.id}
-              </span>
-            ))
-          )}
-        </div>
-      </section>
-    </div>
+          {/* per-category progress */}
+          <div className="card shadow-sm mb-4">
+            <div className="card-header"><i className="fas fa-layer-group me-2"></i>Tiến độ theo nhóm môn</div>
+            <div className="card-body">
+              {data.categories.map((c) => {
+                const pct = c.creditsRequired ? Math.round((c.creditsDone / c.creditsRequired) * 100) : 0;
+                return (
+                  <div key={c.group} className="mb-3">
+                    <div className="d-flex justify-content-between small mb-1">
+                      <span className="fw-semibold">{GROUP_LABEL[c.group] || c.group}</span>
+                      <span className="text-muted">
+                        {c.coursesDone}/{c.coursesRequired} môn · {c.creditsDone}/{c.creditsRequired}tc
+                      </span>
+                    </div>
+                    <div className="progress" style={{ height: 8 }}>
+                      <div className="progress-bar bg-primary" style={{ width: pct + "%" }} />
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* GPA target calculator */}
+          <div className="card shadow-sm mb-4">
+            <div className="card-header"><i className="fas fa-calculator me-2"></i>Máy tính GPA mục tiêu</div>
+            <div className="card-body">
+              <div className="row align-items-center g-3">
+                <div className="col-auto">
+                  <label className="form-label small text-muted mb-1">GPA mục tiêu</label>
+                  <input
+                    type="number" min="0" max="4" step="0.1" value={target}
+                    className="form-control" style={{ width: 110 }}
+                    onChange={(e) => setTarget(parseFloat(e.target.value) || 0)}
+                  />
+                </div>
+                <div className="col">
+                  {calc?.done ? (
+                    <p className="mb-0 text-muted">Bạn đã hoàn thành toàn bộ tín chỉ.</p>
+                  ) : calc ? (
+                    <p className={`mb-0 ${calc.feasible ? "" : "text-danger"}`}>
+                      Cần đạt trung bình{" "}
+                      <strong className={calc.feasible ? "text-success" : "text-danger"}>{calc.need}</strong>{" "}
+                      trên {calc.remaining} tín chỉ còn lại
+                      {calc.feasible ? "." : " — vượt quá 4.0, không khả thi."}
+                    </p>
+                  ) : (
+                    <p className="mb-0 text-muted">Chưa đủ dữ liệu điểm để tính.</p>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* remaining required courses */}
+          <div className="card shadow-sm">
+            <div className="card-header"><i className="fas fa-list me-2"></i>Môn bắt buộc còn lại</div>
+            <div className="card-body d-flex flex-wrap gap-1">
+              {data.categories.flatMap((c) => c.remaining || []).length === 0 ? (
+                <span className="text-muted">Không còn môn bắt buộc nào.</span>
+              ) : (
+                data.categories
+                  .flatMap((c) => c.remaining || [])
+                  .map((r) => (
+                    <span
+                      key={r.id}
+                      className="badge bg-light text-dark border font-monospace"
+                      title={r.nameEg || r.name}
+                    >
+                      {r.id}
+                    </span>
+                  ))
+              )}
+            </div>
+          </div>
+        </>
+      )}
+    </AppLayout>
   );
 }
 
-function Kpi({ label, value, accent }) {
+function Kpi({ icon, label, value, accent }) {
   return (
-    <div className="au-kpi">
-      <span className={`au-kpi-val ${accent ? "au-kpi-accent" : ""}`}>{value}</span>
-      <span className="au-kpi-lbl">{label}</span>
+    <div className="col-6 col-lg-3">
+      <div className="card shadow-sm h-100">
+        <div className="card-body py-3">
+          <div className={`h4 mb-0 fw-bold ${accent ? "text-success" : ""}`}>
+            <i className={`fas ${icon} text-muted me-2 fs-6`}></i>{value}
+          </div>
+          <div className="small text-muted mt-1">{label}</div>
+        </div>
+      </div>
     </div>
   );
 }

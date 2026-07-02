@@ -4,6 +4,8 @@ import { useAuth } from "../context/AuthContext";
 const NAV = [
   { page: "dashboard", to: "/dashboard", icon: "fa-tachometer-alt", label: "Dashboard" },
   { page: "grades", to: "/grades", icon: "fa-chart-line", label: "Xem điểm" },
+  { page: "planner", to: "/planner", icon: "fa-calendar-check", label: "Kế hoạch kỳ tới" },
+  { page: "audit", to: "/audit", icon: "fa-clipboard-check", label: "Tiến độ tốt nghiệp" },
   { page: "flowchart", to: "/flowchart", icon: "fa-diagram-project", label: "Xem lộ trình" },
   { page: "advisor", to: "/advisor", icon: "fa-robot", label: "Tư vấn AI" },
   { page: "chat", to: "/chat", icon: "fa-comment", label: "Nhắn tin" },

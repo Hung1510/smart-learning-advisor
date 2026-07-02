@@ -8,6 +8,8 @@ import Advisor from "./pages/Advisor";
 import Flowchart from "./pages/Flowchart";
 import Chat from "./pages/Chat";
 import ManageFlow from "./pages/ManageFlow";
+import Planner from "./pages/Planner";
+import Audit from "./pages/Audit";
 
 export default function App() {
   return (
@@ -21,6 +23,8 @@ export default function App() {
           <Route path="/flowchart" element={<ProtectedRoute><Flowchart /></ProtectedRoute>} />
           <Route path="/chat" element={<ProtectedRoute><Chat /></ProtectedRoute>} />
           <Route path="/manageFlow" element={<ProtectedRoute><ManageFlow /></ProtectedRoute>} />
+          <Route path="/planner" element={<ProtectedRoute><Planner /></ProtectedRoute>} />
+          <Route path="/audit" element={<ProtectedRoute><Audit /></ProtectedRoute>} />
           <Route path="*" element={<Navigate to="/dashboard" replace />} />
         </Routes>
       </BrowserRouter>
