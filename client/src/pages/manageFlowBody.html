@@ -1,0 +1,123 @@
+<div class="app">
+
+  <!-- LEFT SIDEBAR -->
+  <div class="sidebar" id="sidebar">
+    <div class="sb-head">
+      <span class="sb-logo">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="M17.5 14v7M14 17.5h7"/></svg>
+        Flowcharts
+      </span>
+      <button class="btn btn-accent" id="btnNew" style="padding:4px 8px;font-size:10px">+ New</button>
+    </div>
+    <div class="sb-list" id="sbList"></div>
+  </div>
+
+  <!-- MAIN -->
+  <div class="main">
+
+    <!-- TOOLBAR — nút hamburger nằm ở đây trên mobile -->
+    <div class="toolbar">
+  
+<button class="btn btn-ghost" id="btnSidebar"
+        title="Toggle sidebar"
+        style="padding:4px 8px;font-size:16px;line-height:1">
+        ☰
+    </button>
+    <a href="/dashboard" class="btn btn-ghost" style="font-size:11px">← App</a>
+
+    <span class="tb-title" id="tbTitle">
+        Chọn lộ trình cần chỉnh sửa
+    </span>
+      <div id="tbActions" style="display:none;align-items:center;gap:5px">
+        <span class="tb-badge" id="tbBadge"></span>
+        <div class="tb-sep"></div>
+        <button class="btn" id="btnAddNode">+ Node</button>
+        <button class="btn" id="btnConn">⟶ Connect</button>
+        <button class="btn btn-warn" id="btnDel" style="display:none">✕ Del</button>
+        <div class="tb-sep"></div>
+        <label class="btn btn-ghost" style="cursor:pointer">
+          ↑ Import
+          <input type="file" accept=".json" id="fileImport" style="display:none">
+        </label>
+        <button class="btn btn-accent" id="btnSave">Save Json</button>
+      </div>
+    </div>
+
+    <div class="editor">
+      <!-- CANVAS -->
+      <div class="canvas-wrap" id="cWrap">
+        <div id="emptyMsg" style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;pointer-events:none">
+          <svg width="48" height="48" fill="none" stroke="#CCCAB8" stroke-width="1.5" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="M17.5 14v7M14 17.5h7"/></svg>
+          <span style="font-size:13px;color:var(--tx3)">Select or create a flowchart</span>
+        </div>
+        <svg id="mainSvg" style="display:none">
+          <defs>
+            <marker id="arr" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto">
+              <path d="M0,0 L0,6 L7,3 z" fill="#9BB2D0"/>
+            </marker>
+            <marker id="arr-sel" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto">
+              <path d="M0,0 L0,6 L7,3 z" fill="#2D5BE3"/>
+            </marker>
+          </defs>
+          <g id="gBands"></g>
+          <g id="gPan">
+            <g id="gSnapPreview"></g>
+            <g id="gEdge"></g>
+            <g id="gEdgeHandles"></g>
+            <g id="gNode"></g>
+          </g>
+        </svg>
+        <div class="ov-hint" id="hint">Drag node · Alt+drag or scroll to pan · Click edge to select</div>
+        <div class="ov-conn" id="connBar" style="display:none">
+          ⟶ Click source node, then target node
+          <button id="btnExitConn">Cancel</button>
+        </div>
+        <div class="ov-del" id="delHint" style="display:none">Del / Backspace to remove</div>
+        <div class="legend-box" id="legendBox" style="display:none">
+          <div class="lg-item"><div class="lg-swatch" style="background:var(--gened-fill);border-color:var(--gened-stroke)"></div>GENED</div>
+          <div class="lg-item"><div class="lg-swatch" style="background:var(--spec-fill);border-color:var(--spec-stroke)"></div>SPEC</div>
+          <div class="lg-item"><div class="lg-swatch" style="background:var(--spec-elec-fill);border-color:var(--spec-elec-stroke)"></div>SPEC_ELEC</div>
+          <div class="lg-item"><div class="lg-swatch" style="background:var(--cap-fill);border-color:var(--cap-stroke)"></div>CAPSTONE</div>
+          <div class="lg-item"><div class="lg-swatch" style="background:var(--elec-fill);border-color:var(--elec-stroke)"></div>ELEC</div>
+          <div class="lg-item"><div class="lg-swatch" style="background:var(--empty-fill);border-color:var(--empty-stroke)"></div>(empty)</div>
+        </div>
+      </div>
+
+      <!-- RIGHT PANEL -->
+      <div class="rpanel" id="rpanel">
+        <button class="rp-toggle" id="rpToggle" title="Toggle panel">▶ Properties</button>
+        <div class="rp-empty">
+          <svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5"/></svg>
+          <span>Click a node or edge<br>to edit its properties</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- New flowchart modal -->
+<div class="overlay" id="newModal" style="display:none">
+  <div class="fc-modal">
+    <h2>New flowchart</h2>
+    <div class="field">
+      <label>Program key</label>
+      <input type="text" id="nKey" placeholder="e.g. swe24, cndc25">
+      <div class="help">Lowercase · major code + 2-digit cohort year</div>
+    </div>
+    <div class="field" style="margin-top:10px">
+      <label style="margin-bottom:6px;display:block">Duration</label>
+      <div class="pill-row" id="nDur">
+        <span class="pill on" data-v="4">4 years</span>
+        <span class="pill" data-v="5">5 years</span>
+      </div>
+    </div>
+    <div class="mf">
+      <button class="btn" id="btnCancelNew">Cancel</button>
+      <button class="btn btn-accent" id="btnConfirmNew">Create</button>
+    </div>
+  </div>
+</div>
+
+<div id="flowchart-container"
+  data-drawdata="__DRAWDATA__">
+</div>
