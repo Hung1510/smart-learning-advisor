@@ -6,7 +6,7 @@
 //       requireAuth, loginLimiter, advisorLimiter,
 //       advisorsData, coursesData, precomputedCache,
 //       fetchStudentFromEIU, getFeedback, saveFeedback, generatePersonalizedAdvice,
-//       setDrawData: (d) => { drawData = d; },   // optional
+//       loadDrawData, saveDrawData,   // Redis-backed curriculum persistence
 //     });
 //
 // Place that call AFTER those helpers/middleware are defined and AFTER your
@@ -41,7 +41,7 @@ const stripPw = (s) => {
 };
 
 // ── build the advisor prompt context server-side (ported verbatim from advisor.js)
-function buildAdvisorContext(student, precomputedCache, getFeedback) {
+function buildAdvisorContext(student, precomputedCache, feedback, drawData) {
   const cohortNumber = parseInt(String(student.cohort).slice(-2));
   const formattedCourses = (student.courses || [])
     .map(
@@ -55,10 +55,6 @@ function buildAdvisorContext(student, precomputedCache, getFeedback) {
   else if (cohortNumber >= 21) program += "21";
   else program += "18";
 
-  let drawData = {};
-  try {
-    drawData = JSON.parse(fs.readFileSync(path.join(__dirname, "flowchart.json"), "utf8"));
-  } catch (e) {}
   const data = drawData[program] || { nodes: [], links: [], ELEC: [] };
 
   let LearningPath =
@@ -83,7 +79,6 @@ function buildAdvisorContext(student, precomputedCache, getFeedback) {
 
   const { suggestedCourses } = precomputedCache[student.id].advisor;
   let fromFlowchart = suggestedCourses;
-  const feedback = getFeedback(student.id);
   const lastValid = [...feedback]
     .reverse()
     .find((it) => Array.isArray(it.courses) && it.courses.length > 0);
@@ -109,7 +104,8 @@ module.exports = function registerApiRoutes(app, ctx) {
     getFeedback,
     saveFeedback,
     generatePersonalizedAdvice,
-    setDrawData,
+    loadDrawData,
+    saveDrawData,
   } = ctx;
 
   const cookieOpts = {
@@ -196,10 +192,13 @@ module.exports = function registerApiRoutes(app, ctx) {
     if (!question) return res.status(400).json({ error: true, fallback: "Bạn chưa nhập câu hỏi 🤔" });
 
     // built server-side now (browser used to send these)
+    const feedbackHistory = await getFeedback(student.id);
+    const drawData = await loadDrawData();
     const { subject, path: learningPath, suggested, choosen } = buildAdvisorContext(
       student,
       precomputedCache,
-      getFeedback
+      feedbackHistory,
+      drawData
     );
 
     const userPrompt = `Câu hỏi: ${question}
@@ -307,7 +306,7 @@ Tối đa 3 hành động. Mỗi hành động gắn với môn học hoặc ch�
 
       send({ done: true, fullText });
       res.end();
-      saveFeedback(student.id, {
+      await saveFeedback(student.id, {
         question,
         goals,
         difficulties,
@@ -322,23 +321,20 @@ Tối đa 3 hành động. Mỗi hành động gắn với môn học hoặc ch�
   });
 
   // ─────────────────────────── FLOWCHART ───────────────────────────
-  app.get("/api/flowchart", requireAuth, (req, res) => {
+  app.get("/api/flowchart", requireAuth, async (req, res) => {
     const student = req.student;
     let { suggestedCourses } = precomputedCache[student.id].advisor;
-    const feedback = getFeedback(student.id);
+    const feedback = await getFeedback(student.id);
     const lastValid = [...feedback].reverse().find((it) => Array.isArray(it.courses) && it.courses.length > 0);
     if (lastValid) suggestedCourses = lastValid.courses;
 
-    let freshDrawData = {};
-    try {
-      freshDrawData = JSON.parse(fs.readFileSync(path.join(__dirname, "flowchart.json"), "utf8"));
-    } catch (e) {}
+    const freshDrawData = await loadDrawData();
 
     res.json({ student: stripPw(student), suggestedCourses, drawData: freshDrawData, coursesData });
   });
 
-  app.post("/api/flowchart", requireAuth, (req, res) => {
-    saveFeedback(req.student.id, { courses: req.body.courses, timestamp: new Date().toISOString() });
+  app.post("/api/flowchart", requireAuth, async (req, res) => {
+    await saveFeedback(req.student.id, { courses: req.body.courses, timestamp: new Date().toISOString() });
     res.json({ success: true });
   });
 
@@ -357,19 +353,14 @@ Tối đa 3 hành động. Mỗi hành động gắn với môn học hoặc ch�
   });
 
   // ─────────────────────────── MANAGE FLOW ───────────────────────────
-  app.get("/api/manageFlow", requireAuth, (req, res) => {
-    let freshDrawData = {};
-    try {
-      freshDrawData = JSON.parse(fs.readFileSync(path.join(__dirname, "flowchart.json"), "utf8"));
-    } catch (e) {}
+  app.get("/api/manageFlow", requireAuth, async (req, res) => {
+    const freshDrawData = await loadDrawData();
     res.json({ drawData: freshDrawData });
   });
 
-  app.post("/api/flowchartManager/save", requireAuth, (req, res) => {
+  app.post("/api/flowchartManager/save", requireAuth, async (req, res) => {
     try {
-      const newData = req.body;
-      fs.writeFileSync(path.join(__dirname, "flowchart.json"), JSON.stringify(newData, null, 2), "utf8");
-      if (typeof setDrawData === "function") setDrawData(newData);
+      await saveDrawData(req.body);
       res.json({ ok: true });
     } catch (err) {
       console.error("Save error:", err);

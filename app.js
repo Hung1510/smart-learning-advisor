@@ -434,18 +434,21 @@ function mapEIUDataToStudent(id, password, raw) {
 }
 
 // ===================== FEEDBACK STORE =====================
-const feedbackStore = {};
-
-function getFeedback(studentId) {
-  return feedbackStore[studentId] || [];
+// ===================== PERSISTENT STORAGE (Upstash Redis) =====================
+// Feedback (advisor answers + chosen courses) now persists in Redis, so it
+// survives Vercel cold starts. Same merge behaviour as before: a "courses-only"
+// entry is replaced in place; any other entry is appended.
+async function getFeedback(studentId) {
+  const data = await redis.get(`feedback:${studentId}`);
+  return Array.isArray(data) ? data : [];
 }
 
-function saveFeedback(studentId, feedback) {
-  if (!feedbackStore[studentId]) feedbackStore[studentId] = [];
-  const data = feedbackStore[studentId];
+async function saveFeedback(studentId, feedback) {
+  const data = await getFeedback(studentId);
+  let next;
   if ("courses" in feedback && Array.isArray(feedback.courses)) {
     let updated = false;
-    feedbackStore[studentId] = data.map((entry) => {
+    next = data.map((entry) => {
       const onlyCourses = Object.keys(entry).every(
         (k) => k === "courses" || k === "timestamp",
       );
@@ -455,10 +458,35 @@ function saveFeedback(studentId, feedback) {
       }
       return entry;
     });
-    if (!updated) feedbackStore[studentId].push(feedback);
+    if (!updated) next.push(feedback);
   } else {
-    data.push(feedback);
+    next = [...data, feedback];
   }
+  await redis.set(`feedback:${studentId}`, next);
+}
+
+// Curriculum flowchart: Redis-first, with flowchart.json as the seed/fallback,
+// so edits made in the manage-flow editor persist in production.
+async function loadDrawData() {
+  try {
+    const fromRedis = await redis.get("flowchart:data");
+    if (fromRedis && typeof fromRedis === "object" && Object.keys(fromRedis).length) {
+      return fromRedis;
+    }
+  } catch (e) {}
+  try {
+    return JSON.parse(fs.readFileSync(path.join(__dirname, "flowchart.json"), "utf8"));
+  } catch (e) {
+    return {};
+  }
+}
+
+async function saveDrawData(newData) {
+  await redis.set("flowchart:data", newData);
+  drawData = newData; // keep the in-memory copy in sync
+  try {
+    fs.writeFileSync(path.join(__dirname, "flowchart.json"), JSON.stringify(newData, null, 2), "utf8");
+  } catch (e) {}
 }
 
 // ===================== FETCH STUDENT =====================
@@ -728,7 +756,8 @@ require("./api-routes")(app, {
   getFeedback,
   saveFeedback,
   generatePersonalizedAdvice,
-  setDrawData: (d) => { drawData = d; },
+  loadDrawData,
+  saveDrawData,
 });
 
 app.get("/login", (req, res) => {

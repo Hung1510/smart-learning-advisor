@@ -30,4 +30,4 @@ Thumbs.db
 python-service/__pycache__/
 python-service/.venv/
 python-service/venv/
-*.pyc
+*.pyc"client-dist/" 
