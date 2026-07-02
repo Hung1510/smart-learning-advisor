@@ -1,173 +1,117 @@
+<!-- Ngôn ngữ: **Tiếng Việt** · [English](README.en.md) -->
+
 # Smart Learning Advisor
 
-Hệ thống tư vấn học tập thông minh cho sinh viên EIU sử dụng Node.js và Express.js.
+Ứng dụng tư vấn học tập dùng AI cho sinh viên EIU: xem điểm, theo dõi GPA, xem lộ
+trình môn học và nhận lời khuyên học tập cá nhân hóa.
+
+Được xây dựng dưới dạng **ứng dụng React (Vite) một trang (SPA)** trên nền
+**Express JSON API**, kèm một trang giới thiệu render phía server để tối ưu SEO.
+Triển khai trên **Vercel**.
 
 ## Tính năng
 
-- **Đăng nhập/Đăng xuất**: Xác thực sinh viên bằng ID và mật khẩu
-- **Dashboard**: Hiển thị thông tin tổng quan về học tập
-- **Xem điểm**: Xem bảng điểm chi tiết theo năm học và học kỳ
-- **Tư vấn AI**: Nhận lời khuyên học tập cá nhân hóa dựa trên kết quả học tập
+- **Đăng nhập** — ID sinh viên + mật khẩu (qua dịch vụ EIU, hoặc `students.json` ở chế độ test), hoặc Google OAuth
+- **Dashboard** — tổng quan môn học, số tín chỉ đã hoàn thành, GPA
+- **Xem điểm** — bảng điểm theo năm/học kỳ, tính GPA, in được, có modal chi tiết từng môn
+- **Tư vấn AI** — lời khuyên cá nhân hóa dạng streaming, dựng từ bảng điểm + lộ trình (model của GitHub, SSE)
+- **Lộ trình môn học** — sơ đồ tiên quyết D3 tương tác, có gợi ý môn nên đăng ký
+- **Nhắn tin** — trò chuyện thời gian thực với cố vấn (Firebase Realtime DB)
+- **Sửa lộ trình** — trình chỉnh sửa D3 toàn màn hình để quản lý các sơ đồ
 
-## Cài đặt
+## Công nghệ
 
-1. **Cài đặt Node.js** (nếu chưa có): https://nodejs.org/
-
-2. **Cài đặt dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Chạy ứng dụng**:
-
-   **Sử dụng script Windows:**
-   ```cmd
-   start.bat
-   ```
-
-   **Hoặc sử dụng npm:**
-   ```bash
-   npm start
-   ```
-
-   **Hoặc chạy trực tiếp:**
-   ```bash
-   node app.js
-   ```
-
-4. **Truy cập ứng dụng**: Mở trình duyệt và truy cập `http://localhost:3000`
-
-## Cách sử dụng
-
-### Đăng nhập
-- Sử dụng ID sinh viên và mật khẩu từ file `students.json`
-- Ví dụ: ID: `1131fa2999d3`, Password: `9006`
-
-### Dashboard
-- Xem thông tin tổng quan: tổng số môn học, GPA trung bình
-- Thông tin cá nhân sinh viên
-
-### Xem điểm
-- Bảng điểm chi tiết theo năm học và học kỳ
-- Thống kê tổng quan về kết quả học tập
-- Tính năng in bảng điểm
-
-### Tư vấn AI
-- Điền thông tin về mục tiêu và khó khăn
-- Nhận lời khuyên cá nhân hóa từ AI
-- Sử dụng câu hỏi mẫu để bắt đầu nhanh
+- **Frontend**: React 18 + Vite, React Router, Bootstrap 5, Font Awesome
+- **Backend**: Node.js + Express (JSON API trong `api-routes.js`), xác thực bằng JWT cookie
+- **Trang giới thiệu**: EJS render phía server (`views/landing.ejs`) — giữ ở server để Google index được
+- **Dữ liệu / hạ tầng**: Upstash Redis (cache), Firebase Realtime DB (chat), model GitHub (AI), D3 (sơ đồ)
+- **Bảo mật**: Helmet (CSP, HSTS), giới hạn tần suất theo IP cho login + advisor
+- **Hosting**: Vercel (Express chạy dạng serverless function + bản build React)
 
 ## Cấu trúc dự án
 
 ```
-Smart_Learning_Advisor/
-├── app.js                      # File chính của ứng dụng với renderWithLayout
-├── package.json                # Dependencies và scripts
-├── students.json               # Dữ liệu sinh viên
-├── start.bat                   # Script khởi động Windows
-├── Students/                   # Lưu trữ phản hồi của sinh viên
-├── public/                     # Files tĩnh (CSS, JS)
-│   ├── css/
-│   │   └── style.css          # Styles cho tất cả components
-│   └── js/
-│       ├── advisor.js         # Logic tư vấn AI
-│       └── common.js          # Functions chung
-└── views/                      # Templates EJS modular
-    ├── layout.ejs             # Layout chính cho tất cả pages
-    ├── login-content.ejs      # Nội dung trang đăng nhập
-    ├── dashboard-content.ejs  # Nội dung dashboard
-    ├── grades-content.ejs     # Nội dung bảng điểm
-    ├── advisor-content.ejs    # Nội dung tư vấn AI
-    └── partials/              # Components tái sử dụng
-        ├── navigation.ejs     # Thanh điều hướng
-        ├── breadcrumb.ejs     # Đường dẫn trang
-        ├── footer.ejs         # Footer
-        └── page-header.ejs    # Header động
+smart_learning_advisor/
+├── app.js                  # Express: landing, robots/sitemap, auth, rồi require api-routes
+├── api-routes.js           # TẤT CẢ route /api/* + phục vụ SPA (backend cho React)
+├── vercel.json             # build + security headers
+├── package.json            # deps backend + "vercel-build" (build client)
+├── students.json  courses.json  flowchart.json  courseDescription.json   # dữ liệu
+├── client/                 # ứng dụng React
+│   ├── index.html  vite.config.js  package.json
+│   ├── public/             # style.css + js đã sửa (flowchart/chat/flowchartMange)
+│   └── src/
+│       ├── main.jsx  App.jsx
+│       ├── lib/            # api.js, formatAdvice.js
+│       ├── context/        # AuthContext.jsx
+│       ├── components/     # AppLayout.jsx, ProtectedRoute.jsx
+│       └── pages/          # Login, Dashboard, Grades, Advisor, Flowchart, Chat, ManageFlow
+├── views/landing.ejs       # trang giới thiệu công khai (render phía server, cho SEO)
+└── public/                 # static của Express: og-image, css, js, file xác minh Search Console
 ```
 
-## Tính năng kỹ thuật
+## Chạy trên máy
 
-- **Backend**: Node.js, Express.js với middleware xác thực
-- **Frontend**: EJS Templates với layout system modular, Bootstrap 5, Font Awesome
-- **Architecture**: Modular view system với layout.ejs và partials tái sử dụng
-- **Session Management**: Express-session với timeout 1 giờ
-- **Data Storage**: JSON files (không cần database)
-- **AI Advisor**: Logic phân tích dữ liệu học tập tích hợp
-- **Responsive Design**: Bootstrap 5 responsive components
-- **Navigation**: Dynamic breadcrumbs và active page highlighting
+Cần Node 22+. Có hai chế độ.
 
-## Kiến trúc ứng dụng
+### Phát triển (nhanh, tự động tải lại)
 
-### Modular Layout System
-Ứng dụng sử dụng hệ thống layout modular với:
+```bash
+# terminal 1 — backend API + landing
+node app.js                     # http://localhost:3010
 
-- **layout.ejs**: Template chính chứa cấu trúc HTML cơ bản
-- **Content templates**: Các file *-content.ejs chứa nội dung riêng của từng trang
-- **Partials**: Components tái sử dụng (navigation, breadcrumb, footer, page-header)
-- **renderWithLayout()**: Function helper render content trong layout
-
-### Route Architecture
-```javascript
-// Ví dụ route sử dụng renderWithLayout
-app.get('/dashboard', requireAuth, (req, res) => {
-    renderWithLayout(res, 'dashboard-content', {
-        student: req.session.student,
-        title: 'Dashboard',
-        currentPage: 'dashboard',
-        breadcrumb: [{ name: 'Dashboard', icon: 'fas fa-tachometer-alt' }]
-    });
-});
+# terminal 2 — React dev server
+cd client
+npm install
+npm run dev                     # http://localhost:5173  (proxy /api và /auth sang :3010)
 ```
+Mở **http://localhost:5173**. Chế độ này phục vụ trực tiếp ứng dụng React (không có
+trang giới thiệu — trang đó chỉ nằm ở phía Express).
 
-### Benefits
-- **DRY Principle**: Không lặp lại code layout
-- **Maintainability**: Dễ bảo trì và cập nhật
-- **Consistency**: Giao diện thống nhất
-- **Performance**: Tối ưu rendering
+### Xem thử giống production (giống hệt Vercel)
+
+```bash
+cd client && npm run build      # xuất ra ../client-dist
+cd ..
+node app.js
+```
+Mở **http://localhost:3010** — Express phục vụ trang giới thiệu tại `/` và bản
+build React cho các đường dẫn còn lại, giống hệt production.
+
+## Biến môi trường
+
+Tạo file `.env` ở thư mục gốc (và đặt cùng các key này trong Vercel → Settings →
+Environment Variables):
+
+```
+SITE_URL=https://ten-mien-cua-ban.vercel.app
+JWT_SECRET=<chuỗi ngẫu nhiên>
+SESSION_SECRET=<chuỗi ngẫu nhiên>
+GITHUB_TOKEN=<token cho model AI>
+GOOGLE_CLIENT_ID=<oauth client id>
+GOOGLE_CLIENT_SECRET=<oauth client secret>
+GOOGLE_CALLBACK_URL=https://ten-mien-cua-ban.vercel.app/auth/google/callback
+UPSTASH_REDIS_REST_URL=<...>
+UPSTASH_REDIS_REST_TOKEN=<...>
+PYTHON_API_URL=<dịch vụ dữ liệu EIU>
+```
+Tạo secret: `node -e "console.log(require('crypto').randomBytes(48).toString('hex'))"`.
+Tuyệt đối không commit `.env` — để nó trong `.gitignore`.
+
+## Triển khai
+
+Push lên nhánh `main`. Vercel chạy script `vercel-build`
+(`cd client && npm install && npm run build`), rồi phục vụ `app.js` dạng function
+cùng bản build React. Trang giới thiệu vẫn được Google index; các màn hình trong
+app đặt `noindex`.
+
+## Tài khoản demo
+
+Tài khoản chế độ test nằm trong `students.json` — ví dụ ID `1131fa2999d3`, mật khẩu `9006`.
 
 ## Lưu ý
 
-- Ứng dụng chạy trên port 3000 (có thể thay đổi bằng biến môi trường PORT)
-- Dữ liệu sinh viên được lưu trong file `students.json`
-- Phản hồi tư vấn được lưu trong thư mục `Students/`
-- Session timeout: 1 giờ
-
-## Demo
-
-### Tài khoản demo
-
-Có thể sử dụng bất kỳ tài khoản nào trong file `students.json`. Ví dụ:
-
-- ID: `1131fa2999d3`
-- Password: `9006`
-
-### Câu hỏi tư vấn mẫu
-
-- "Làm thế nào để cải thiện GPA của tôi?"
-- "Tôi nên tập trung vào môn nào?"
-- "Chuẩn bị gì cho tương lai nghề nghiệp?"
-
-## Hỗ trợ
-
-Nếu gặp vấn đề, vui lòng kiểm tra:
-
-1. Node.js đã được cài đặt
-2. Tất cả dependencies đã được cài đặt (`npm install`)
-3. Port 3000 không bị sử dụng bởi ứng dụng khác
-4. File `students.json` tồn tại và có định dạng JSON hợp lệ
-
-## Phiên bản hiện tại
-
-**Version 2.0** - Architecture Refactored (June 2025)
-
-### Changelog
-- ✅ **Modular Layout System**: Triển khai hệ thống layout modular với `renderWithLayout()`
-- ✅ **Reusable Partials**: Navigation, breadcrumb, footer, page-header components
-- ✅ **Content-Only Templates**: Tách biệt nội dung và layout
-- ✅ **Performance Optimization**: Giảm duplicate code và tối ưu rendering
-- ✅ **Enhanced Navigation**: Active page highlighting và dynamic breadcrumbs
-- ✅ **Bug Fixes**: Fixed breadcrumb null errors và session handling
-- ✅ **Windows Support**: Thêm start.bat script cho Windows users
-
-### Previous Versions
-- **Version 1.0**: Initial release với basic functionality
+- Lời khuyên AI và môn đã chọn được lưu trong bộ nhớ, **không bền vững trên Vercel**
+  (mất khi cold start). Chuyển sang Redis nếu cần lưu lâu dài.
+- Nút "Save" của trình sửa lộ trình ghi vào `flowchart.json` trên đĩa — cũng không
+  bền vững trên Vercel.
