@@ -4,8 +4,8 @@ import { useAuth } from "../context/AuthContext";
 const NAV = [
   { page: "dashboard", to: "/dashboard", icon: "fa-tachometer-alt", label: "Dashboard" },
   { page: "grades", to: "/grades", icon: "fa-chart-line", label: "Xem điểm" },
-  { page: "planner", to: "/planner", icon: "fa-calendar-check", label: "Kế hoạch kỳ tới" },
-  { page: "audit", to: "/audit", icon: "fa-clipboard-check", label: "Tiến độ tốt nghiệp" },
+  { page: "planner", to: "/planner", icon: "fa-calendar-check", label: "Kế hoạch" },
+  { page: "audit", to: "/audit", icon: "fa-clipboard-check", label: "Tốt nghiệp" },
   { page: "flowchart", to: "/flowchart", icon: "fa-diagram-project", label: "Xem lộ trình" },
   { page: "advisor", to: "/advisor", icon: "fa-robot", label: "Tư vấn AI" },
   { page: "chat", to: "/chat", icon: "fa-comment", label: "Nhắn tin" },
@@ -25,7 +25,7 @@ export default function AppLayout({ currentPage, breadcrumb = [], children }) {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+      <nav className="navbar navbar-expand-xxl navbar-dark bg-primary">
         <div className="container">
           <div className="d-flex align-items-center flex-nowrap">
             <button
@@ -46,7 +46,7 @@ export default function AppLayout({ currentPage, breadcrumb = [], children }) {
               {NAV.map((item) => (
                 <li className="nav-item" key={item.page}>
                   <Link
-                    className={`nav-link ${currentPage === item.page ? "active" : ""}`}
+                    className={`nav-link text-nowrap ${currentPage === item.page ? "active" : ""}`}
                     to={item.to}
                   >
                     <i className={`fas ${item.icon} me-1`}></i>
