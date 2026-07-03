@@ -972,8 +972,8 @@ canvas {
   display: block;
 }
 
-/* nếu bạn có text phía sau */
-h1 {
+/* nếu bạn có text phía sau (chỉ áp dụng cho trang login cũ) */
+.login-page h1 {
   position: absolute;
   width: 100%;
   text-align: center;
@@ -998,7 +998,3 @@ h1 {
   position: relative;
   z-index: 2;
 }
-
-
-
-

@@ -8,7 +8,6 @@ _env
 node_modules/
 
 # react build output
-client-dist/
 
 # vercel
 .vercel
