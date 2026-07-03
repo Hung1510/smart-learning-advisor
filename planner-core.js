@@ -76,13 +76,25 @@ function buildPrereqMap(links) {
   return map;
 }
 
+// coursesData can be either an object keyed by course code ({ "CSE 101": {...} })
+// or an array of course objects ([{ id: "CSE 101", ... }]). Handle both, so it
+// doesn't matter which source the caller passes in.
+function lookupCourse(id, coursesData) {
+  if (!coursesData) return null;
+  if (Array.isArray(coursesData)) {
+    const key = norm(id);
+    return coursesData.find((c) => c && (c.id === id || norm(c.id) === key)) || null;
+  }
+  return coursesData[id] || coursesData[norm(id)] || null;
+}
+
 function creditsOf(id, coursesData) {
-  const c = coursesData[id] || coursesData[norm(id)];
+  const c = lookupCourse(id, coursesData);
   return c && typeof c.credits === "number" ? c.credits : null;
 }
 
 function courseMeta(id, coursesData) {
-  const c = coursesData[id] || coursesData[norm(id)] || {};
+  const c = lookupCourse(id, coursesData) || {};
   return {
     id,
     name: c.name || "",
@@ -96,9 +108,9 @@ function realNodes(prog) {
   return (prog.nodes || []).filter((n) => n.id && !isElecPlaceholder(n.id));
 }
 
-// ───────────────────
+// ─────────────────────────────────────────────────────────────────────────
 // NEXT SEMESTER PLANNER
-// ───────────────────
+// ─────────────────────────────────────────────────────────────────────────
 function planNextSemester(student, drawData, coursesData, opts = {}) {
   const cap = opts.creditCap || DEFAULT_CREDIT_CAP;
   const target = opts.creditTarget || DEFAULT_CREDIT_TARGET;
@@ -200,9 +212,9 @@ function electiveStatus(prog, passed, coursesData) {
   return groups;
 }
 
-// ───────────────────
+// ─────────────────────────────────────────────────────────────────────────
 // DEGREE AUDIT
-// ───────────────────
+// ─────────────────────────────────────────────────────────────────────────
 function degreeAudit(student, drawData, coursesData, opts = {}) {
   const elecCr = opts.electiveCredits || DEFAULT_ELECTIVE_CREDITS;
   const program = programFor(student);
