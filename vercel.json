@@ -12,6 +12,7 @@
           "public/**",
           "views/**",
           "client-dist/**",
+          "client-dist/assets/**",
           "*.js",
           "*.json"
         ]

@@ -9,6 +9,18 @@ export default defineConfig({
   build: {
     outDir: "../client-dist",
     emptyOutDir: true,
+    // Stable output names (no content hash). This guarantees index.html always
+    // references /assets/index.js + /assets/index.css, so the committed HTML and
+    // the committed bundle can never point at different hashes. Vercel serves the
+    // committed client-dist as-is (no rebuild), so hashing bought us nothing but
+    // cache-busting we don't need for this deploy model.
+    rollupOptions: {
+      output: {
+        entryFileNames: "assets/[name].js",
+        chunkFileNames: "assets/[name].js",
+        assetFileNames: "assets/[name].[ext]",
+      },
+    },
   },
   server: {
     port: 5173,
